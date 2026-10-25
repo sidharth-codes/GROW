@@ -1,0 +1,5 @@
+# TEMPLATE NOTICE: This is an upload template for GROW. Do not treat as historical data.
+date,district,market,crop,variety,min_price,max_price,modal_price,price_unit,source
+2023-01-05,Palakkad,Palakkad,Rice,Jyothi,2050.00,2200.00,2150.00,INR/quintal,AGMARKNET_SAMPLE
+2023-01-05,Kollam,Kollam,Coconut,Cleaned,2800.00,3100.00,3000.00,INR/quintal,AGMARKNET_SAMPLE
+2023-01-05,Wayanad,Kalpetta,Black pepper,Garbled,48000.00,51000.00,49500.00,INR/quintal,AGMARKNET_SAMPLE

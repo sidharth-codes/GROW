@@ -204,9 +204,12 @@ DATASET_SCHEMAS: Dict[str, Dict[str, Any]] = {
             ColumnDef("district", "string", required=True, description="District name", allowed_values=KERALA_DISTRICTS),
             ColumnDef("date", "date", required=True, description="Date in YYYY-MM-DD format"),
             ColumnDef("rainfall_mm", "float", required=True, min_value=0.0, max_value=1000.0, unit="mm"),
-            ColumnDef("temperature_min_c", "float", required=True, min_value=5.0, max_value=45.0, unit="celsius"),
+            ColumnDef("temperature_min_c", "float", required=True, min_value=0.0, max_value=45.0, unit="celsius"),
             ColumnDef("temperature_max_c", "float", required=True, min_value=10.0, max_value=55.0, unit="celsius"),
             ColumnDef("humidity_percent", "float", required=True, min_value=0.0, max_value=100.0, unit="percent"),
+            ColumnDef("latitude", "float", required=True, min_value=8.0, max_value=13.0, unit="degrees_north"),
+            ColumnDef("longitude", "float", required=True, min_value=74.0, max_value=78.0, unit="degrees_east"),
+            ColumnDef("source", "string", required=False, description="Data source indicator"),
         ],
         "source_info": DatasetSourceInfo(
             organization="NASA Prediction Of Worldwide Energy Resources (POWER)",

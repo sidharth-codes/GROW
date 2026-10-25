@@ -508,7 +508,7 @@
     "name": "Historical Crop Yield and Production Statistics",
     "category": "Crop yield and production",
     "description": "Historical crop area, production, and productivity across Kerala districts.",
-    "status": "awaiting_upload",
+    "status": "ready_for_analysis",
     "source_info": {
       "organization": "Department of Economics and Statistics (DES), Govt. of Kerala",
       "source_url": "https://ecostat.kerala.gov.in/",
@@ -520,10 +520,10 @@
       "expected_format": "CSV",
       "license_or_terms": "Open Government Data (OGD) India / Public Educational"
     },
-    "geographic_coverage": "Kerala, India",
-    "geographic_resolution": "District",
-    "observation_period": "Not recorded",
-    "record_count": 0,
+    "geographic_coverage": "Kerala, India (14 districts)",
+    "geographic_resolution": "District-level census",
+    "observation_period": "2001-02 to 2023-24",
+    "record_count": 6422,
     "column_count": 8,
     "columns": [
       {
@@ -606,16 +606,39 @@
       "season"
     ],
     "missing_value_count": 0,
-    "missing_values_by_column": {},
-    "last_updated": "2026-10-25T12:47:31.617503",
-    "raw_path": null,
-    "processed_path": null,
-    "validation_status": "empty_file",
-    "validation_summary": null,
+    "missing_values_by_column": {
+      "year": 0,
+      "district": 0,
+      "crop": 0,
+      "season": 0,
+      "area_hectares": 0,
+      "production_tonnes": 0,
+      "yield_kg_per_hectare": 0,
+      "source": 0
+    },
+    "last_updated": "2026-10-25T13:01:54.152981",
+    "raw_path": "data/raw/crop_yield/des_kerala_agriculture_statistics.csv",
+    "processed_path": "data/processed/crop_yield.csv",
+    "validation_status": "passed",
+    "validation_summary": {
+      "is_valid": true,
+      "record_count": 6422,
+      "column_count": 8,
+      "missing_value_count": 0,
+      "duplicate_record_count": 0,
+      "distinct_crops": 22,
+      "distinct_districts": 14
+    },
     "data_quality_limitations": [
       "Yield figures represent district aggregated averages and may not reflect specific parcel yield variations."
     ],
-    "processing_steps": []
+    "processing_steps": [
+      "Ingested from DES Kerala portal (ecostat.kerala.gov.in/dataset/28) on 2026-10-25 13:01:54",
+      "Raw copy preserved in data/raw/crop_yield/des_kerala_agriculture_statistics.csv",
+      "Normalized crop nomenclature (e.g. Paddy -> Rice, Pepper -> Black pepper)",
+      "Normalized area to hectares, production to MT, and derived yield kg/ha where missing",
+      "Retained 6,422 standardized observations (2001-02 to 2023-24)"
+    ]
   },
   "market_prices": {
     "dataset_id": "market_prices",
@@ -739,15 +762,23 @@
     ],
     "missing_value_count": 0,
     "missing_values_by_column": {},
-    "last_updated": "2026-10-25T12:47:31.620764",
+    "last_updated": "2026-10-25T13:03:17.209827",
     "raw_path": null,
     "processed_path": null,
-    "validation_status": "empty_file",
-    "validation_summary": null,
+    "validation_status": "awaiting_user_upload",
+    "validation_summary": {
+      "is_valid": false,
+      "record_count": 0,
+      "reason": "Automated download requires user API key or manual export from Agmarknet.",
+      "template_path": "data\\raw\\market_prices\\market_prices_template.csv"
+    },
     "data_quality_limitations": [
       "Wholesale APMC terminal market prices; farm-gate prices received by smallholders may be discounted by intermediary margins."
     ],
-    "processing_steps": []
+    "processing_steps": [
+      "Created CSV template at data/raw/market_prices/market_prices_template.csv",
+      "Awaiting user-supplied official export from Agmarknet or Data.gov.in"
+    ]
   },
   "cultivation_cost": {
     "dataset_id": "cultivation_cost",

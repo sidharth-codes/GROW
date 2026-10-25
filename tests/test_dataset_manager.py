@@ -71,7 +71,10 @@ class TestDatasetManager(unittest.TestCase):
 
     def test_validate_empty_file(self):
         """Empty files should fail validation with explicit error."""
-        res = self.validator.validate_file("data/crop_yield.csv", "crop_yield")
+        empty_csv = os.path.join(self.temp_dir, "empty_file.csv")
+        with open(empty_csv, "w", encoding="utf-8") as f:
+            pass  # 0 bytes
+        res = self.validator.validate_file(empty_csv, "crop_yield")
         self.assertFalse(res.is_valid)
         self.assertEqual(res.record_count, 0)
         self.assertTrue(any("empty" in e.lower() for e in res.errors))
