@@ -1,0 +1,52 @@
+{
+  "publisher": "Kerala Department of Economics & Statistics",
+  "retrieved_at": "2026-10-25T12:54:54+00:00",
+  "summary_source_transcription": "data/raw/cultivation_cost/kerala_cost_of_cultivation_summary_2022_23_2023_24.csv",
+  "canonical_record_count": 70,
+  "periods": {
+    "2022-23": {
+      "source_pdf": "data/raw/cultivation_cost/kerala_des_cost_of_cultivation_2022_23_report.pdf",
+      "pdf_pages": [
+        7,
+        8
+      ],
+      "matched_numeric_rows": 34,
+      "mismatches": 0,
+      "unreported_rows": 1
+    },
+    "2023-24": {
+      "source_pdf": "data/raw/cultivation_cost/kerala_des_cost_of_cultivation_2023_24_report.pdf",
+      "pdf_pages": [
+        9,
+        10
+      ],
+      "matched_numeric_rows": 35,
+      "mismatches": 0,
+      "unreported_rows": 0
+    }
+  },
+  "numeric_rows_verified": 69,
+  "mismatches": 0,
+  "missing_numeric_cells": 2,
+  "missing_record": "2022-23 Beans / Summer (input cost and value of output unreported; retained blank)",
+  "geographic_coverage": "Kerala statewide",
+  "units": "report-defined rupees per hectare",
+  "limitations": [
+    "Input cost is retained under the source definition and is not assumed to be Cost A, full cost, Cost C, profit, or ROI.",
+    "This dataset is not district-specific and is not used for district profitability."
+  ],
+  "source_pdf_details": {
+    "2022-23": {
+      "url": "https://ecostat.kerala.gov.in/publication-detail/report-on-cost-of-cultivation-of-important-crops-in-kerala-2022-23",
+      "path": "data/raw/cultivation_cost/kerala_des_cost_of_cultivation_2022_23_report.pdf",
+      "bytes": 10444322,
+      "sha256": "88514bcd21e6f0bc347ea3200101214ecc70e6cfc9dcd58d37940675bb674e62"
+    },
+    "2023-24": {
+      "url": "https://ecostat.kerala.gov.in/publication-detail/report-on-cost-of-cultivation-of-important-crops-in-kerala-2023-24",
+      "path": "data/raw/cultivation_cost/kerala_des_cost_of_cultivation_2023_24_report.pdf",
+      "bytes": 10375752,
+      "sha256": "e27af963d7f78ba717e1cbad5416db84b56f8ece46d1c042cdb8fb8084df3a87"
+    }
+  }
+}

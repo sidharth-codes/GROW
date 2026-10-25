@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f5f7f1">
+    <title>GROW | Agricultural intelligence</title>
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar" id="sidebar">
+        <a class="brand" href="#" data-page="dashboard" aria-label="GROW dashboard">
+          <span class="brand-mark">G</span>
+          <span><strong>GROW</strong><small>Kerala agriculture</small></span>
+        </a>
+        <div class="nav-label">WORKSPACE</div>
+        <nav id="navigation" aria-label="Main navigation">
+          <button class="nav-item active" data-page="dashboard"><span>▦</span>Overview</button>
+          <button class="nav-item" data-page="recommendations"><span>✳</span>Crop recommendations</button>
+          <button class="nav-item" data-page="soil"><span>◈</span>Soil analysis</button>
+          <button class="nav-item" data-page="weather"><span>☼</span>Weather history</button>
+          <button class="nav-item" data-page="yield"><span>↗</span>Yield</button>
+          <button class="nav-item" data-page="market"><span>₹</span>Market prices</button>
+          <button class="nav-item" data-page="profitability"><span>◌</span>Profitability</button>
+          <button class="nav-item" data-page="datasets"><span>▤</span>Datasets</button>
+          <button class="nav-item" data-page="models"><span>⌘</span>Model performance</button>
+        </nav>
+        <div class="sidebar-bottom">
+          <div class="source-chip"><span class="live-dot"></span><span id="connection-label">Connecting to data</span></div>
+          <small>Decision support, not a substitute for local agronomic advice.</small>
+        </div>
+      </aside>
+      <main class="main-area">
+        <header class="topbar">
+          <button class="mobile-menu" id="mobile-menu" aria-label="Open navigation">☰</button>
+          <div class="breadcrumb"><span>GROW</span><b>/</b><strong id="page-name">Overview</strong></div>
+          <div class="topbar-right"><span class="location-mark">⌖</span> Kerala, India <span class="topbar-date" id="today"></span></div>
+        </header>
+        <section class="page-content" id="page-content" aria-live="polite">
+          <div class="loading-state"><span class="spinner"></span>Connecting to GROW services…</div>
+        </section>
+      </main>
+    </div>
+    <script src="/app.js" defer></script>
+  </body>
+</html>

@@ -1,0 +1,19 @@
+{
+  "source_landing_page": "https://ecostat.kerala.gov.in/publication-detail/report-on-cost-of-cultivation-of-important-crops-in-kerala-2023-24",
+  "source_pdf_url": "https://ecostat.kerala.gov.in/storage/publications/1905.pdf",
+  "source_pdf_path": "data/raw/cultivation_cost/kerala_des_cost_of_cultivation_2023_24_report.pdf",
+  "retrieved_at": "2026-10-25T12:30:34+00:00",
+  "content_type": "application/pdf",
+  "bytes": 10375752,
+  "sha256": "e27af963d7f78ba717e1cbad5416db84b56f8ece46d1c042cdb8fb8084df3a87",
+  "table": "A5.1 Cropwise timeseries data, printed pages 264-266",
+  "verification": {
+    "method": "Extract table values from official PDF and compare normalized crop-season/year/value tuples to supplied reference CSV.",
+    "reference_records": 350,
+    "report_table_rows": 35,
+    "matched_records": 350,
+    "mismatches": 0,
+    "missing_records": 0,
+    "zero_values_preserved": 108
+  }
+}

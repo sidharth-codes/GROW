@@ -1,19 +1,36 @@
 # Data Quality Report: Historical Agricultural Market Prices
 
 - **Dataset Identifier:** `market_prices`
-- **Generated At:** 2026-10-25 13:03:17
-- **Status:** AWAITING USER UPLOAD
+- **Target File:** `data\processed\market_prices.csv`
+- **Generated At:** 2026-10-25 19:20:12
+- **Overall Status:** PASS (Valid)
 
-## Collection Status and Diagnostics
+## Summary Metrics
 
-Automated ingestion from Data.gov.in requires a registered API key (`api-key`), and the official Agmarknet portal (agmarknet.gov.in) uses dynamic session state and CAPTCHAs which restrict headless unauthenticated bulk extraction.
+| Metric | Value |
+| :--- | :--- |
+| Total Records | 97 |
+| Total Columns | 10 |
+| Total Missing Values | 0 |
+| Duplicate Records | 0 |
+| Schema Compliance | 100% |
 
-To maintain scientific integrity without fabricating synthetic prices, GROW requires an authentic export from Agmarknet or an API key.
+## Missing Values by Column
 
-### Instructions to Provide Data:
+| Column | Missing Count | % Missing |
+| :--- | :--- | :--- |
+| `date` | 0 | 0.0% |
+| `district` | 0 | 0.0% |
+| `market` | 0 | 0.0% |
+| `crop` | 0 | 0.0% |
+| `variety` | 0 | 0.0% |
+| `min_price` | 0 | 0.0% |
+| `max_price` | 0 | 0.0% |
+| `modal_price` | 0 | 0.0% |
+| `price_unit` | 0 | 0.0% |
+| `source` | 0 | 0.0% |
 
-1. Open [Agmarknet](https://agmarknet.gov.in/PriceTrends/SA_Pri_Month.aspx)
-2. Filter: State = 'Kerala', select target crops, select date range
-3. Export to CSV
-4. Place the file in `data\raw\market_prices/` or upload via the GROW UI.
-5. An official CSV template is available at: `data\raw\market_prices\market_prices_template.csv`
+## Known Agricultural Data Limitations
+
+- Wholesale APMC terminal market prices; farm-gate prices received by smallholders may be discounted by intermediary margins.
+- The Data.gov.in current-price resource does not provide a unit in its record fields or metadata; those raw price values are retained unchanged and must not be interpreted as INR/quintal.

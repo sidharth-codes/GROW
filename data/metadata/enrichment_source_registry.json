@@ -1,0 +1,74 @@
+[
+  {
+    "dataset": "Historical area, production, productivity",
+    "publisher": "Department of Economics & Statistics, Government of Kerala",
+    "url": "https://ecostat.kerala.gov.in/dataset/28",
+    "coverage": "1952-53 to 2023-24 shown by dataset title; district/crop/season granularity varies",
+    "access": "Open dataset page; export/download from official portal",
+    "notes": "Use this as primary source for Kerala crop yield history; preserve units and missing values."
+  },
+  {
+    "dataset": "Cost of cultivation historical series",
+    "publisher": "Department of Economics & Statistics, Government of Kerala",
+    "url": "https://www.ecostat.kerala.gov.in/dataset/66",
+    "coverage": "1980-81 to 2022-23",
+    "access": "Open dataset page; export/download from official portal",
+    "notes": "Cost A in Rs/ha. Do not treat as full Cost C or profit without checking methodology."
+  },
+  {
+    "dataset": "Cost of cultivation 2023-24 report",
+    "publisher": "Department of Economics & Statistics, Government of Kerala",
+    "url": "https://ecostat.kerala.gov.in/publication-detail/report-on-cost-of-cultivation-of-important-crops-in-kerala-2023-24",
+    "coverage": "2023-24; report transcript includes state-level crop input cost and value of output per ha, plus detailed crop chapters",
+    "access": "Official report/download and transcript",
+    "notes": "The original PDF is preserved under data/raw/cultivation_cost/. All 35 report-defined input-cost/output-value rows were cross-checked in table order against the at-a-glance summary (PDF pages 9-10); 0 mismatches."
+  },
+  {
+    "dataset": "Cost of cultivation 2022-23 report",
+    "publisher": "Department of Economics & Statistics, Government of Kerala",
+    "url": "https://www.ecostat.kerala.gov.in/publication-detail/report-on-cost-of-cultivation-of-important-crops-in-kerala-2022-23",
+    "coverage": "2022-23",
+    "access": "Official report/download and transcript",
+    "notes": "The original PDF is preserved under data/raw/cultivation_cost/. All 34 reported numeric input-cost/output-value rows were cross-checked in table order against the at-a-glance summary (PDF pages 7-8); Beans/Summer was not reported and remains blank."
+  },
+  {
+    "dataset": "Daily mandi prices and arrivals",
+    "publisher": "Directorate of Marketing & Inspection / AGMARKNET via data.gov.in",
+    "url": "https://data.gov.in/resource/variety-wise-daily-market-prices-data-commodity",
+    "coverage": "Daily; available commodity/market/date coverage depends on source",
+    "access": "Official Data.gov.in page is reachable; API request requires a user key",
+    "notes": "No DATA_GOV_IN_API_KEY is present in process/user/machine environments. The configured price resource returned HTTP 400 Authorization field missing on the prior unauthenticated probe; no authenticated schema, units, or date coverage verified. No price or arrival records imported. India.gov links its official Prices & Arrival Reports entry to https://agmarknet.gov.in/pricearrivalreportlist, but that portal route and candidate arrival pages return only a JavaScript shell without records/schema. A separate arrivals API/resource remains unidentified."
+  },
+  {
+    "dataset": "NASA POWER daily meteorology",
+    "publisher": "NASA POWER",
+    "url": "https://power.larc.nasa.gov/docs/services/api/temporal/daily/",
+    "coverage": "Daily historical and near-real-time meteorology; parameters/availability vary",
+    "access": "Public API",
+    "notes": "Fourteen districts returned 293 dates each for 2026-01-01 through 2026-10-20. Of 4,102 parsed rows, 4,077 passed schema bounds and were merged into the validated 60,329-row dataset; 25 rainfall anomalies remain verbatim in quarantine. Full-period/single-day rechecks differed by a factor of 24 for two pairs, so no conversion was applied. Raw responses are preserved; values are gridded estimates, not station observations."
+  },
+  {
+    "dataset": "Crop package of practices",
+    "publisher": "Kerala Agricultural University",
+    "url": "https://kau.in/book/package-practices-recommendations-crops",
+    "coverage": "Agronomic practices and crop guidance; edition-specific",
+    "access": "Official KAU page is HTTP 200 and links chapter-organized Package of Practices material",
+    "notes": "The linked publication is not a machine-readable crop calendar/requirements table. Edition-specific crop/date/unit coverage and permissions for extracting structured records remain unresolved; no records imported."
+  },
+  {
+    "dataset": "Kerala Soil Health Information System",
+    "publisher": "Government of Kerala",
+    "url": "https://www.keralasoilfertility.net/",
+    "coverage": "State/district soil fertility status, panchayat maps and nutrient management information as portal exposes",
+    "access": "Interactive official portal; export/API access must be confirmed",
+    "notes": "Do not invent lab values or scrape restricted endpoints. Obtain authorized exports or cite source-level qualitative attributes."
+  },
+  {
+    "dataset": "Kerala Soil Survey MISSK",
+    "publisher": "Directorate of Soil Survey & Soil Conservation, Kerala",
+    "url": "https://www.keralasoils.gov.in/index.php/en/node/320",
+    "coverage": "Soil series, texture, depth, erosion, land use, fertility, pH, NPK and crop suitability layers as available",
+    "access": "Official soil survey page is HTTP 200 and links district map PDFs",
+    "notes": "The official soil-association map page links PDFs covering all 14 Kerala districts, but no tabular lab-measurement schema, units, sampling/date coverage, or reuse permission was established. No measurements imported."
+  }
+]

@@ -35,62 +35,76 @@ class DatasetRegistry:
         if self.registry_file.exists():
             try:
                 with open(self.registry_file, "r", encoding="utf-8") as f:
-                    self.datasets = json.load(f)
-                    return
+                    loaded = json.load(f)
             except Exception:
                 pass  # Fall back to initialization if corrupt
+            else:
+                if isinstance(loaded, dict):
+                    self.datasets = loaded
+                    added_schema = False
+                    for ds_id, schema in DATASET_SCHEMAS.items():
+                        if ds_id not in self.datasets:
+                            self.datasets[ds_id] = self._record_from_schema(ds_id, schema)
+                            added_schema = True
+                    if added_schema:
+                        self.save()
+                    return
 
         # Initialize from DATASET_SCHEMAS
         self.datasets = {}
         for ds_id, schema in DATASET_SCHEMAS.items():
-            source = schema["source_info"]
-            columns_meta = []
-            for col in schema["columns"]:
-                columns_meta.append({
-                    "name": col.name,
-                    "dtype": col.dtype,
-                    "required": col.required,
-                    "description": col.description,
-                    "unit": col.unit,
-                    "min_value": col.min_value,
-                    "max_value": col.max_value,
-                })
-
-            self.datasets[ds_id] = {
-                "dataset_id": ds_id,
-                "name": schema["name"],
-                "category": schema["category"],
-                "description": schema["description"],
-                "status": "not_collected",
-                "source_info": {
-                    "organization": source.organization,
-                    "source_url": source.source_url,
-                    "download_method": source.download_method,
-                    "api_endpoint": source.api_endpoint,
-                    "manual_page_url": source.manual_page_url,
-                    "manual_export_instructions": source.manual_export_instructions,
-                    "expected_filename": source.expected_filename,
-                    "expected_format": source.expected_format,
-                    "license_or_terms": source.license_or_terms,
-                },
-                "geographic_coverage": "Kerala, India",
-                "geographic_resolution": "District",
-                "observation_period": "Not recorded",
-                "record_count": 0,
-                "column_count": len(columns_meta),
-                "columns": columns_meta,
-                "primary_key": schema.get("primary_key", []),
-                "missing_value_count": 0,
-                "missing_values_by_column": {},
-                "last_updated": None,
-                "raw_path": None,
-                "processed_path": None,
-                "validation_status": "unvalidated",
-                "validation_summary": None,
-                "data_quality_limitations": schema.get("limitations", []),
-                "processing_steps": [],
-            }
+            self.datasets[ds_id] = self._record_from_schema(ds_id, schema)
         self.save()
+
+    @staticmethod
+    def _record_from_schema(ds_id: str, schema: Dict[str, Any]) -> Dict[str, Any]:
+        source = schema["source_info"]
+        columns_meta = [
+            {
+                "name": col.name,
+                "dtype": col.dtype,
+                "required": col.required,
+                "description": col.description,
+                "unit": col.unit,
+                "min_value": col.min_value,
+                "max_value": col.max_value,
+            }
+            for col in schema["columns"]
+        ]
+        return {
+            "dataset_id": ds_id,
+            "name": schema["name"],
+            "category": schema["category"],
+            "description": schema["description"],
+            "status": "not_collected",
+            "source_info": {
+                "organization": source.organization,
+                "source_url": source.source_url,
+                "download_method": source.download_method,
+                "api_endpoint": source.api_endpoint,
+                "manual_page_url": source.manual_page_url,
+                "manual_export_instructions": source.manual_export_instructions,
+                "expected_filename": source.expected_filename,
+                "expected_format": source.expected_format,
+                "license_or_terms": source.license_or_terms,
+            },
+            "geographic_coverage": schema.get("geographic_coverage", "Kerala, India"),
+            "geographic_resolution": schema.get("geographic_resolution", "District"),
+            "observation_period": schema.get("observation_period", "Not recorded"),
+            "record_count": 0,
+            "column_count": len(columns_meta),
+            "columns": columns_meta,
+            "primary_key": schema.get("primary_key", []),
+            "missing_value_count": 0,
+            "missing_values_by_column": {},
+            "last_updated": None,
+            "raw_path": None,
+            "processed_path": None,
+            "validation_status": "unvalidated",
+            "validation_summary": None,
+            "data_quality_limitations": schema.get("limitations", []),
+            "processing_steps": [],
+        }
 
     def save(self) -> None:
         """Persist current registry state to JSON."""
@@ -133,8 +147,13 @@ class DatasetRegistry:
                 status = "ready_for_analysis" if val_result.is_valid else "validation_failed"
 
                 # Check if it has qualitative limitations
-                if val_result.is_valid and ds_id in ["soil", "soil_crop_suitability_v2"]:
-                    status = "partially_available"  # Valid heuristic/qualitative, not full lab measurements
+                if val_result.is_valid and ds_id in [
+                    "soil",
+                    "soil_crop_suitability_v2",
+                    "cultivation_cost_summary",
+                    "cultivation_cost_a",
+                ]:
+                    status = "partially_available"
 
                 self.update_record(ds_id, {
                     "status": status,

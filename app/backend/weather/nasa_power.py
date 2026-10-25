@@ -8,6 +8,7 @@ coordinates and dates.
 import json
 import logging
 import os
+import tempfile
 import time
 from datetime import datetime
 from pathlib import Path
@@ -69,6 +70,8 @@ class NasaPowerClient:
                 with open(cache_path, "r", encoding="utf-8") as f:
                     raw_data = json.load(f)
                 records, meta = self._parse_nasa_response(raw_data, district, latitude, longitude)
+                if not records:
+                    raise ValueError("Cached NASA POWER response contains no usable daily records")
                 meta["source_type"] = "local_raw_cache"
                 meta["cache_path"] = str(cache_path)
                 return True, records, meta
@@ -96,12 +99,23 @@ class NasaPowerClient:
                 )
                 if response.status_code == 200:
                     raw_json = response.json()
-
-                    # Save verbatim raw response
-                    with open(cache_path, "w", encoding="utf-8") as f:
-                        json.dump(raw_json, f, indent=2)
-
                     records, meta = self._parse_nasa_response(raw_json, district, latitude, longitude)
+                    if not records:
+                        raise ValueError("NASA POWER response contains no usable daily records")
+
+                    descriptor, temporary_name = tempfile.mkstemp(
+                        dir=cache_path.parent,
+                        prefix=f".{cache_path.name}.",
+                        suffix=".tmp",
+                    )
+                    try:
+                        with os.fdopen(descriptor, "w", encoding="utf-8") as stream:
+                            json.dump(raw_json, stream, indent=2)
+                        os.replace(temporary_name, cache_path)
+                    finally:
+                        if os.path.exists(temporary_name):
+                            os.unlink(temporary_name)
+
                     meta["source_type"] = "nasa_power_api"
                     meta["cache_path"] = str(cache_path)
                     return True, records, meta
@@ -181,7 +195,7 @@ class NasaPowerClient:
                 missing_precip += 1
                 r_val = None
             else:
-                r_val = max(0.0, float(r_val))  # Precipitation cannot be negative
+                r_val = float(r_val)
 
             if tmin_val == MISSING_VALUE_SENTINEL or tmin_val is None:
                 missing_tmin += 1
@@ -199,7 +213,7 @@ class NasaPowerClient:
                 missing_rh += 1
                 rh_val = None
             else:
-                rh_val = min(100.0, max(0.0, float(rh_val)))
+                rh_val = float(rh_val)
 
             # Only append record if values are present (no fabricated data)
             if all(v is not None for v in [r_val, tmin_val, tmax_val, rh_val]):
@@ -226,5 +240,8 @@ class NasaPowerClient:
             "missing_tmin_days": missing_tmin,
             "missing_tmax_days": missing_tmax,
             "missing_rh_days": missing_rh,
+            "time_standard": raw_json.get("header", {}).get("time_standard"),
+            "provider_api_version": raw_json.get("header", {}).get("api", {}).get("version"),
+            "parameter_metadata": raw_json.get("parameters", {}),
         }
         return records, meta

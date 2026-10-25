@@ -1,0 +1,55 @@
+{
+  "pack_version": "1.0",
+  "created_date": "2026-10-25",
+  "purpose": "Missing-data templates and source integration helpers for GROW. Not a substitute for source verification.",
+  "sources": [
+    {
+      "category": "market_prices",
+      "name": "AGMARKNET / data.gov.in",
+      "url": "https://data.gov.in/resource/variety-wise-daily-market-prices-data-commodity",
+      "status": "requires API key or verified downloadable data; no live records bundled"
+    },
+    {
+      "category": "cultivation_cost",
+      "name": "Kerala DES Cost of Cultivation Report 2023-24",
+      "url": "https://ecostat.kerala.gov.in/publication-detail/report-on-cost-of-cultivation-of-important-crops-in-kerala-2023-24",
+      "status": "official report downloaded to data/raw/cultivation_cost/kerala_des_cost_of_cultivation_2023_24_report.pdf; all 350 Cost A values in table A5.1 were verified against the reference CSV"
+    },
+    {
+      "category": "cultivation_cost",
+      "name": "Kerala DES dataset listing",
+      "url": "https://ecostat.kerala.gov.in/dataset/66",
+      "status": "official source listing; retrieve source files and verify units"
+    },
+    {
+      "category": "crop_calendar",
+      "name": "Kerala Agricultural University Package of Practices",
+      "url": "https://kau.in/book/package-practices-recommendations-crops",
+      "status": "reference; crop/calendar entries need source-specific extraction"
+    },
+    {
+      "category": "weather",
+      "name": "NASA POWER Daily API documentation",
+      "url": "https://power.larc.nasa.gov/docs/services/api/temporal/daily/",
+      "status": "download script provided; current forecasts are not included"
+    },
+    {
+      "category": "soil",
+      "name": "Kerala Soil Fertility Information System",
+      "url": "https://www.keralasoilfertility.net/",
+      "status": "reference resource; no lab measurements bundled"
+    },
+    {
+      "category": "crop_statistics",
+      "name": "Kerala DES District-wise Crop Statistics",
+      "url": "https://ecostat.kerala.gov.in/dataset/28",
+      "status": "source for crop area/production/yield; retrieve and reconcile with existing GROW data"
+    },
+    {
+      "category": "market_arrivals",
+      "name": "AGMARKNET / data.gov.in",
+      "url": "https://data.gov.in/",
+      "status": "requires source-specific endpoint/API access; no authentic arrivals bundled"
+    }
+  ]
+}

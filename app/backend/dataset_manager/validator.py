@@ -6,6 +6,7 @@ external C-extension libraries.
 """
 
 import csv
+import math
 import os
 import re
 from datetime import datetime
@@ -58,7 +59,7 @@ class DatasetValidator:
                 missing_value_count=0,
                 missing_values_by_column={},
                 duplicate_record_count=0,
-                errors=[f"Unknown dataset_id: {dataset_id}"],
+                errors=[f"File '{path}', unknown dataset_id: {dataset_id}"],
                 warnings=[],
             )
 
@@ -87,7 +88,7 @@ class DatasetValidator:
                         missing_value_count=0,
                         missing_values_by_column={},
                         duplicate_record_count=0,
-                        errors=["File contains no rows (empty header)."],
+                        errors=[f"File '{path}' contains no rows (empty header)."],
                         warnings=[],
                     )
 
@@ -99,11 +100,15 @@ class DatasetValidator:
                 # Validate headers
                 missing_required = [c for c in required_cols if c not in headers]
                 if missing_required:
-                    errors.append(f"Missing required columns: {', '.join(missing_required)}")
+                    errors.append(
+                        f"File '{path}', Missing required columns: {', '.join(missing_required)}"
+                    )
 
                 unexpected = [h for h in headers if h not in col_defs]
                 if unexpected:
-                    warnings.append(f"Unrecognized columns (ignored): {', '.join(unexpected)}")
+                    warnings.append(
+                        f"File '{path}', unrecognized columns (ignored): {', '.join(unexpected)}"
+                    )
 
                 header_indices = {h: idx for idx, h in enumerate(headers)}
                 total_missing = 0
@@ -117,31 +122,50 @@ class DatasetValidator:
                     record_count += 1
 
                     # Check row column length
-                    if len(row) != len(headers):
-                        issues.append(ValidationIssue(
-                            level="ERROR",
-                            row=row_idx,
-                            column=None,
-                            message=f"Row has {len(row)} values, expected {len(headers)} columns",
-                        ))
-                        continue
-
-                    # Check primary key uniqueness
-                    if primary_key_cols and all(pk in header_indices for pk in primary_key_cols):
-                        key_vals = tuple(row[header_indices[pk]].strip() for pk in primary_key_cols)
-                        if any(v == "" for v in key_vals):
+                    if len(row) < len(headers):
+                        for col_name in headers[len(row):]:
+                            missing_by_col[col_name] = missing_by_col.get(col_name, 0) + 1
+                            total_missing += 1
                             issues.append(ValidationIssue(
                                 level="ERROR",
                                 row=row_idx,
-                                column="primary_key",
-                                message=f"Primary key contains blank value: {key_vals}",
+                                column=col_name,
+                                message=(
+                                    f"Row has {len(row)} values, expected {len(headers)}; "
+                                    "value is missing"
+                                ),
                             ))
+                    elif len(row) > len(headers):
+                        issues.append(ValidationIssue(
+                            level="ERROR",
+                            row=row_idx,
+                            column="extra_fields",
+                            message=f"Row has {len(row)} values, expected {len(headers)} columns",
+                        ))
+
+                    # Check primary key uniqueness
+                    if primary_key_cols and all(
+                        pk in header_indices and header_indices[pk] < len(row)
+                        for pk in primary_key_cols
+                    ):
+                        key_vals = tuple(row[header_indices[pk]].strip() for pk in primary_key_cols)
+                        blank_keys = [
+                            pk for pk, value in zip(primary_key_cols, key_vals) if value == ""
+                        ]
+                        if blank_keys:
+                            for pk in blank_keys:
+                                issues.append(ValidationIssue(
+                                    level="ERROR",
+                                    row=row_idx,
+                                    column=pk,
+                                    message=f"Primary key column '{pk}' contains a blank value",
+                                ))
                         elif key_vals in seen_keys:
                             duplicate_count += 1
                             issues.append(ValidationIssue(
-                                level="WARNING",
+                                level="ERROR",
                                 row=row_idx,
-                                column="primary_key",
+                                column=", ".join(primary_key_cols),
                                 message=f"Duplicate primary key record: {key_vals}",
                             ))
                         else:
@@ -152,7 +176,9 @@ class DatasetValidator:
                         if col_name not in header_indices:
                             continue
                         col_idx = header_indices[col_name]
-                        val_str = row[col_idx].strip() if col_idx < len(row) else ""
+                        if col_idx >= len(row):
+                            continue
+                        val_str = row[col_idx].strip()
 
                         # Check blank
                         if val_str == "":
@@ -180,24 +206,28 @@ class DatasetValidator:
                 missing_value_count=0,
                 missing_values_by_column={},
                 duplicate_record_count=0,
-                errors=[f"Failed to read CSV file: {str(e)}"],
+                errors=[f"File '{path}' could not be read as CSV: {str(e)}"],
                 warnings=[],
             )
 
         if record_count == 0:
-            errors.append("Dataset has headers but 0 data records.")
+            errors.append(f"File '{path}' has headers but 0 data records.")
 
         # Summarize issues
         err_issues = [i for i in issues if i.level == "ERROR"]
         warn_issues = [i for i in issues if i.level == "WARNING"]
 
         for i in err_issues[:15]:
-            errors.append(f"Row {i.row}, col '{i.column}': {i.message}")
+            errors.append(
+                f"File '{path}', row {i.row}, column '{i.column}': {i.message}"
+            )
         if len(err_issues) > 15:
             errors.append(f"... and {len(err_issues) - 15} additional row validation errors.")
 
         for i in warn_issues[:10]:
-            warnings.append(f"Row {i.row}, col '{i.column}': {i.message}")
+            warnings.append(
+                f"File '{path}', row {i.row}, column '{i.column}': {i.message}"
+            )
         if len(warn_issues) > 10:
             warnings.append(f"... and {len(warn_issues) - 10} additional row warnings.")
 
@@ -244,6 +274,13 @@ class DatasetValidator:
         if dtype == "float":
             try:
                 num = float(val)
+                if not math.isfinite(num):
+                    return ValidationIssue(
+                        level="ERROR",
+                        row=row_idx,
+                        column=col.name,
+                        message=f"Value '{val}' must be a finite number",
+                    )
                 if col.min_value is not None and num < col.min_value:
                     return ValidationIssue(
                         level="ERROR",
@@ -268,7 +305,22 @@ class DatasetValidator:
 
         elif dtype == "integer":
             try:
-                num = int(float(val))
+                parsed_num = float(val)
+                if not math.isfinite(parsed_num):
+                    return ValidationIssue(
+                        level="ERROR",
+                        row=row_idx,
+                        column=col.name,
+                        message=f"Value '{val}' must be a finite integer",
+                    )
+                if not parsed_num.is_integer():
+                    return ValidationIssue(
+                        level="ERROR",
+                        row=row_idx,
+                        column=col.name,
+                        message=f"Value '{val}' is fractional; expected an integer",
+                    )
+                num = int(parsed_num)
                 if col.min_value is not None and num < col.min_value:
                     return ValidationIssue(
                         level="ERROR",
@@ -310,6 +362,13 @@ class DatasetValidator:
                 try:
                     low = float(parts[0])
                     high = float(parts[1])
+                    if not math.isfinite(low) or not math.isfinite(high):
+                        return ValidationIssue(
+                            level="ERROR",
+                            row=row_idx,
+                            column=col.name,
+                            message=f"Range '{val}' must contain finite numeric bounds",
+                        )
                     if low > high:
                         return ValidationIssue(
                             level="ERROR",
@@ -326,7 +385,7 @@ class DatasetValidator:
                     )
             else:
                 return ValidationIssue(
-                    level="WARNING",
+                    level="ERROR",
                     row=row_idx,
                     column=col.name,
                     message=f"Expected numeric range formatted as 'min-max', found '{val}'",

@@ -1,0 +1,26 @@
+district,date,rainfall_mm,unit,source,reason,raw_response_path
+Thiruvananthapuram,2026-07-31,1154.4,mm/day,NASA_POWER_AG_0.5DEG,Rainfall exceeds schema maximum 1000.0 mm.,data\raw\weather\nasa_power_thiruvananthapuram_20260101_20261020.json
+Thiruvananthapuram,2026-08-07,1431.6,mm/day,NASA_POWER_AG_0.5DEG,Rainfall exceeds schema maximum 1000.0 mm.,data\raw\weather\nasa_power_thiruvananthapuram_20260101_20261020.json
+Kollam,2026-07-31,1066.08,mm/day,NASA_POWER_AG_0.5DEG,Rainfall exceeds schema maximum 1000.0 mm.,data\raw\weather\nasa_power_kollam_20260101_20261020.json
+Alappuzha,2026-07-31,1269.36,mm/day,NASA_POWER_AG_0.5DEG,Rainfall exceeds schema maximum 1000.0 mm.,data\raw\weather\nasa_power_alappuzha_20260101_20261020.json
+Alappuzha,2026-08-01,1418.64,mm/day,NASA_POWER_AG_0.5DEG,Rainfall exceeds schema maximum 1000.0 mm.,data\raw\weather\nasa_power_alappuzha_20260101_20261020.json
+Alappuzha,2026-08-03,1517.52,mm/day,NASA_POWER_AG_0.5DEG,Rainfall exceeds schema maximum 1000.0 mm.,data\raw\weather\nasa_power_alappuzha_20260101_20261020.json
+Kottayam,2026-07-31,1269.36,mm/day,NASA_POWER_AG_0.5DEG,Rainfall exceeds schema maximum 1000.0 mm.,data\raw\weather\nasa_power_kottayam_20260101_20261020.json
+Kottayam,2026-08-01,1418.64,mm/day,NASA_POWER_AG_0.5DEG,Rainfall exceeds schema maximum 1000.0 mm.,data\raw\weather\nasa_power_kottayam_20260101_20261020.json
+Kottayam,2026-08-03,1517.52,mm/day,NASA_POWER_AG_0.5DEG,Rainfall exceeds schema maximum 1000.0 mm.,data\raw\weather\nasa_power_kottayam_20260101_20261020.json
+Ernakulam,2026-07-31,1196.16,mm/day,NASA_POWER_AG_0.5DEG,Rainfall exceeds schema maximum 1000.0 mm.,data\raw\weather\nasa_power_ernakulam_20260101_20261020.json
+Ernakulam,2026-08-01,1475.76,mm/day,NASA_POWER_AG_0.5DEG,Rainfall exceeds schema maximum 1000.0 mm.,data\raw\weather\nasa_power_ernakulam_20260101_20261020.json
+Ernakulam,2026-08-03,1164.96,mm/day,NASA_POWER_AG_0.5DEG,Rainfall exceeds schema maximum 1000.0 mm.,data\raw\weather\nasa_power_ernakulam_20260101_20261020.json
+Thrissur,2026-08-01,1275.36,mm/day,NASA_POWER_AG_0.5DEG,Rainfall exceeds schema maximum 1000.0 mm.,data\raw\weather\nasa_power_thrissur_20260101_20261020.json
+Malappuram,2026-10-16,1167.36,mm/day,NASA_POWER_AG_0.5DEG,Rainfall exceeds schema maximum 1000.0 mm.,data\raw\weather\nasa_power_malappuram_20260101_20261020.json
+Kozhikode,2026-08-01,1140.24,mm/day,NASA_POWER_AG_0.5DEG,Rainfall exceeds schema maximum 1000.0 mm.,data\raw\weather\nasa_power_kozhikode_20260101_20261020.json
+Kozhikode,2026-10-16,1101.84,mm/day,NASA_POWER_AG_0.5DEG,Rainfall exceeds schema maximum 1000.0 mm.,data\raw\weather\nasa_power_kozhikode_20260101_20261020.json
+Wayanad,2026-10-15,1150.56,mm/day,NASA_POWER_AG_0.5DEG,Rainfall exceeds schema maximum 1000.0 mm.,data\raw\weather\nasa_power_wayanad_20260101_20261020.json
+Wayanad,2026-10-16,1923.84,mm/day,NASA_POWER_AG_0.5DEG,Rainfall exceeds schema maximum 1000.0 mm.,data\raw\weather\nasa_power_wayanad_20260101_20261020.json
+Kannur,2026-08-01,1159.92,mm/day,NASA_POWER_AG_0.5DEG,Rainfall exceeds schema maximum 1000.0 mm.,data\raw\weather\nasa_power_kannur_20260101_20261020.json
+Kannur,2026-10-16,1236.96,mm/day,NASA_POWER_AG_0.5DEG,Rainfall exceeds schema maximum 1000.0 mm.,data\raw\weather\nasa_power_kannur_20260101_20261020.json
+Kasaragod,2026-05-23,1101.12,mm/day,NASA_POWER_AG_0.5DEG,Rainfall exceeds schema maximum 1000.0 mm.,data\raw\weather\nasa_power_kasaragod_20260101_20261020.json
+Kasaragod,2026-06-30,1417.68,mm/day,NASA_POWER_AG_0.5DEG,Rainfall exceeds schema maximum 1000.0 mm.,data\raw\weather\nasa_power_kasaragod_20260101_20261020.json
+Kasaragod,2026-07-19,1047.12,mm/day,NASA_POWER_AG_0.5DEG,Rainfall exceeds schema maximum 1000.0 mm.,data\raw\weather\nasa_power_kasaragod_20260101_20261020.json
+Kasaragod,2026-07-20,1319.76,mm/day,NASA_POWER_AG_0.5DEG,Rainfall exceeds schema maximum 1000.0 mm.,data\raw\weather\nasa_power_kasaragod_20260101_20261020.json
+Kasaragod,2026-08-01,1376.16,mm/day,NASA_POWER_AG_0.5DEG,Rainfall exceeds schema maximum 1000.0 mm.,data\raw\weather\nasa_power_kasaragod_20260101_20261020.json

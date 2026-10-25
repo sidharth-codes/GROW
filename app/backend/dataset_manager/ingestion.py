@@ -181,8 +181,13 @@ class DatasetIngestionService:
             f.write(report_md)
 
         # 5. Update registry
+        registry_status = (
+            "partially_available"
+            if dataset_id in {"cultivation_cost_summary", "cultivation_cost_a"}
+            else "ready_for_analysis"
+        )
         self.registry.update_record(dataset_id, {
-            "status": "ready_for_analysis",
+            "status": registry_status,
             "record_count": val_result.record_count,
             "raw_path": str(raw_target_path).replace("\\", "/"),
             "processed_path": str(processed_target_path).replace("\\", "/"),
