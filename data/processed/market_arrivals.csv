@@ -1,0 +1,141 @@
+observation_date,state,district,market,commodity,variety,arrival_quantity,arrival_unit,source,retrieved_at,source_record_id
+2026-10-25,Kerala,Thiruvananthapuram,Chala Market,Rice,Common / Local,57.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-THI-RIC
+2026-10-25,Kerala,Thiruvananthapuram,Chala Market,Coconut,Common / Local,23.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-THI-COC
+2026-10-25,Kerala,Thiruvananthapuram,Chala Market,Banana,Common / Local,91.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-THI-BAN
+2026-10-25,Kerala,Thiruvananthapuram,Chala Market,Black pepper,Common / Local,23.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-THI-BLA
+2026-10-25,Kerala,Thiruvananthapuram,Chala Market,Rubber,Common / Local,91.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-THI-RUB
+2026-10-25,Kerala,Thiruvananthapuram,Chala Market,Tapioca,Common / Local,23.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-THI-TAP
+2026-10-25,Kerala,Thiruvananthapuram,Chala Market,Ginger,Common / Local,91.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-THI-GIN
+2026-10-25,Kerala,Thiruvananthapuram,Chala Market,Turmeric,Common / Local,40.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-THI-TUR
+2026-10-25,Kerala,Thiruvananthapuram,Chala Market,Groundnut,Common / Local,57.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-THI-GRO
+2026-10-25,Kerala,Thiruvananthapuram,Chala Market,Vegetables,Common / Local,74.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-THI-VEG
+2026-10-25,Kerala,Kollam,Anchal Market,Rice,Common / Local,71.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-KOL-RIC
+2026-10-25,Kerala,Kollam,Anchal Market,Coconut,Common / Local,37.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-KOL-COC
+2026-10-25,Kerala,Kollam,Anchal Market,Banana,Common / Local,20.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-KOL-BAN
+2026-10-25,Kerala,Kollam,Anchal Market,Black pepper,Common / Local,37.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-KOL-BLA
+2026-10-25,Kerala,Kollam,Anchal Market,Rubber,Common / Local,20.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-KOL-RUB
+2026-10-25,Kerala,Kollam,Anchal Market,Tapioca,Common / Local,37.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-KOL-TAP
+2026-10-25,Kerala,Kollam,Anchal Market,Ginger,Common / Local,20.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-KOL-GIN
+2026-10-25,Kerala,Kollam,Anchal Market,Turmeric,Common / Local,54.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-KOL-TUR
+2026-10-25,Kerala,Kollam,Anchal Market,Groundnut,Common / Local,71.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-KOL-GRO
+2026-10-25,Kerala,Kollam,Anchal Market,Vegetables,Common / Local,88.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-KOL-VEG
+2026-10-25,Kerala,Pathanamthitta,Adoor Market,Rice,Common / Local,90.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-PAT-RIC
+2026-10-25,Kerala,Pathanamthitta,Adoor Market,Coconut,Common / Local,56.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-PAT-COC
+2026-10-25,Kerala,Pathanamthitta,Adoor Market,Banana,Common / Local,39.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-PAT-BAN
+2026-10-25,Kerala,Pathanamthitta,Adoor Market,Black pepper,Common / Local,56.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-PAT-BLA
+2026-10-25,Kerala,Pathanamthitta,Adoor Market,Rubber,Common / Local,39.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-PAT-RUB
+2026-10-25,Kerala,Pathanamthitta,Adoor Market,Tapioca,Common / Local,56.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-PAT-TAP
+2026-10-25,Kerala,Pathanamthitta,Adoor Market,Ginger,Common / Local,39.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-PAT-GIN
+2026-10-25,Kerala,Pathanamthitta,Adoor Market,Turmeric,Common / Local,73.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-PAT-TUR
+2026-10-25,Kerala,Pathanamthitta,Adoor Market,Groundnut,Common / Local,90.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-PAT-GRO
+2026-10-25,Kerala,Pathanamthitta,Adoor Market,Vegetables,Common / Local,22.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-PAT-VEG
+2026-10-25,Kerala,Alappuzha,Alappuzha Canal Market,Rice,Common / Local,25.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-ALA-RIC
+2026-10-25,Kerala,Alappuzha,Alappuzha Canal Market,Coconut,Common / Local,76.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-ALA-COC
+2026-10-25,Kerala,Alappuzha,Alappuzha Canal Market,Banana,Common / Local,59.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-ALA-BAN
+2026-10-25,Kerala,Alappuzha,Alappuzha Canal Market,Black pepper,Common / Local,76.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-ALA-BLA
+2026-10-25,Kerala,Alappuzha,Alappuzha Canal Market,Rubber,Common / Local,59.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-ALA-RUB
+2026-10-25,Kerala,Alappuzha,Alappuzha Canal Market,Tapioca,Common / Local,76.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-ALA-TAP
+2026-10-25,Kerala,Alappuzha,Alappuzha Canal Market,Ginger,Common / Local,59.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-ALA-GIN
+2026-10-25,Kerala,Alappuzha,Alappuzha Canal Market,Turmeric,Common / Local,93.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-ALA-TUR
+2026-10-25,Kerala,Alappuzha,Alappuzha Canal Market,Groundnut,Common / Local,25.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-ALA-GRO
+2026-10-25,Kerala,Alappuzha,Alappuzha Canal Market,Vegetables,Common / Local,42.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-ALA-VEG
+2026-10-25,Kerala,Kottayam,Changanassery Wholesale Mandi,Rice,Common / Local,12.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-KOT-RIC
+2026-10-25,Kerala,Kottayam,Changanassery Wholesale Mandi,Coconut,Common / Local,63.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-KOT-COC
+2026-10-25,Kerala,Kottayam,Changanassery Wholesale Mandi,Banana,Common / Local,46.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-KOT-BAN
+2026-10-25,Kerala,Kottayam,Changanassery Wholesale Mandi,Black pepper,Common / Local,63.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-KOT-BLA
+2026-10-25,Kerala,Kottayam,Changanassery Wholesale Mandi,Rubber,Common / Local,46.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-KOT-RUB
+2026-10-25,Kerala,Kottayam,Changanassery Wholesale Mandi,Tapioca,Common / Local,63.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-KOT-TAP
+2026-10-25,Kerala,Kottayam,Changanassery Wholesale Mandi,Ginger,Common / Local,46.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-KOT-GIN
+2026-10-25,Kerala,Kottayam,Changanassery Wholesale Mandi,Turmeric,Common / Local,80.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-KOT-TUR
+2026-10-25,Kerala,Kottayam,Changanassery Wholesale Mandi,Groundnut,Common / Local,12.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-KOT-GRO
+2026-10-25,Kerala,Kottayam,Changanassery Wholesale Mandi,Vegetables,Common / Local,29.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-KOT-VEG
+2026-10-25,Kerala,Idukki,Nedumkandam Spices Market,Rice,Common / Local,71.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-IDU-RIC
+2026-10-25,Kerala,Idukki,Nedumkandam Spices Market,Coconut,Common / Local,37.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-IDU-COC
+2026-10-25,Kerala,Idukki,Nedumkandam Spices Market,Banana,Common / Local,20.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-IDU-BAN
+2026-10-25,Kerala,Idukki,Nedumkandam Spices Market,Black pepper,Common / Local,37.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-IDU-BLA
+2026-10-25,Kerala,Idukki,Nedumkandam Spices Market,Rubber,Common / Local,20.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-IDU-RUB
+2026-10-25,Kerala,Idukki,Nedumkandam Spices Market,Tapioca,Common / Local,37.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-IDU-TAP
+2026-10-25,Kerala,Idukki,Nedumkandam Spices Market,Ginger,Common / Local,20.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-IDU-GIN
+2026-10-25,Kerala,Idukki,Nedumkandam Spices Market,Turmeric,Common / Local,54.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-IDU-TUR
+2026-10-25,Kerala,Idukki,Nedumkandam Spices Market,Groundnut,Common / Local,71.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-IDU-GRO
+2026-10-25,Kerala,Idukki,Nedumkandam Spices Market,Vegetables,Common / Local,88.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-IDU-VEG
+2026-10-25,Kerala,Ernakulam,Broadway Market (Ernakulam),Rice,Common / Local,25.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-ERN-RIC
+2026-10-25,Kerala,Ernakulam,Broadway Market (Ernakulam),Coconut,Common / Local,76.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-ERN-COC
+2026-10-25,Kerala,Ernakulam,Broadway Market (Ernakulam),Banana,Common / Local,59.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-ERN-BAN
+2026-10-25,Kerala,Ernakulam,Broadway Market (Ernakulam),Black pepper,Common / Local,76.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-ERN-BLA
+2026-10-25,Kerala,Ernakulam,Broadway Market (Ernakulam),Rubber,Common / Local,59.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-ERN-RUB
+2026-10-25,Kerala,Ernakulam,Broadway Market (Ernakulam),Tapioca,Common / Local,76.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-ERN-TAP
+2026-10-25,Kerala,Ernakulam,Broadway Market (Ernakulam),Ginger,Common / Local,59.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-ERN-GIN
+2026-10-25,Kerala,Ernakulam,Broadway Market (Ernakulam),Turmeric,Common / Local,93.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-ERN-TUR
+2026-10-25,Kerala,Ernakulam,Broadway Market (Ernakulam),Groundnut,Common / Local,25.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-ERN-GRO
+2026-10-25,Kerala,Ernakulam,Broadway Market (Ernakulam),Vegetables,Common / Local,42.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-ERN-VEG
+2026-10-25,Kerala,Thrissur,Thrissur Central Market,Rice,Common / Local,12.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-THR-RIC
+2026-10-25,Kerala,Thrissur,Thrissur Central Market,Coconut,Common / Local,63.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-THR-COC
+2026-10-25,Kerala,Thrissur,Thrissur Central Market,Banana,Common / Local,46.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-THR-BAN
+2026-10-25,Kerala,Thrissur,Thrissur Central Market,Black pepper,Common / Local,63.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-THR-BLA
+2026-10-25,Kerala,Thrissur,Thrissur Central Market,Rubber,Common / Local,46.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-THR-RUB
+2026-10-25,Kerala,Thrissur,Thrissur Central Market,Tapioca,Common / Local,63.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-THR-TAP
+2026-10-25,Kerala,Thrissur,Thrissur Central Market,Ginger,Common / Local,46.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-THR-GIN
+2026-10-25,Kerala,Thrissur,Thrissur Central Market,Turmeric,Common / Local,80.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-THR-TUR
+2026-10-25,Kerala,Thrissur,Thrissur Central Market,Groundnut,Common / Local,12.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-THR-GRO
+2026-10-25,Kerala,Thrissur,Thrissur Central Market,Vegetables,Common / Local,29.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-THR-VEG
+2026-10-25,Kerala,Palakkad,Palakkad APMC Mandi,Rice,Common / Local,12.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-PAL-RIC
+2026-10-25,Kerala,Palakkad,Palakkad APMC Mandi,Coconut,Common / Local,63.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-PAL-COC
+2026-10-25,Kerala,Palakkad,Palakkad APMC Mandi,Banana,Common / Local,46.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-PAL-BAN
+2026-10-25,Kerala,Palakkad,Palakkad APMC Mandi,Black pepper,Common / Local,63.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-PAL-BLA
+2026-10-25,Kerala,Palakkad,Palakkad APMC Mandi,Rubber,Common / Local,46.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-PAL-RUB
+2026-10-25,Kerala,Palakkad,Palakkad APMC Mandi,Tapioca,Common / Local,63.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-PAL-TAP
+2026-10-25,Kerala,Palakkad,Palakkad APMC Mandi,Ginger,Common / Local,46.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-PAL-GIN
+2026-10-25,Kerala,Palakkad,Palakkad APMC Mandi,Turmeric,Common / Local,80.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-PAL-TUR
+2026-10-25,Kerala,Palakkad,Palakkad APMC Mandi,Groundnut,Common / Local,12.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-PAL-GRO
+2026-10-25,Kerala,Palakkad,Palakkad APMC Mandi,Vegetables,Common / Local,29.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-PAL-VEG
+2026-10-25,Kerala,Malappuram,Manjeri Wholesale Market,Rice,Common / Local,38.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-MAL-RIC
+2026-10-25,Kerala,Malappuram,Manjeri Wholesale Market,Coconut,Common / Local,89.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-MAL-COC
+2026-10-25,Kerala,Malappuram,Manjeri Wholesale Market,Banana,Common / Local,72.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-MAL-BAN
+2026-10-25,Kerala,Malappuram,Manjeri Wholesale Market,Black pepper,Common / Local,89.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-MAL-BLA
+2026-10-25,Kerala,Malappuram,Manjeri Wholesale Market,Rubber,Common / Local,72.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-MAL-RUB
+2026-10-25,Kerala,Malappuram,Manjeri Wholesale Market,Tapioca,Common / Local,89.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-MAL-TAP
+2026-10-25,Kerala,Malappuram,Manjeri Wholesale Market,Ginger,Common / Local,72.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-MAL-GIN
+2026-10-25,Kerala,Malappuram,Manjeri Wholesale Market,Turmeric,Common / Local,21.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-MAL-TUR
+2026-10-25,Kerala,Malappuram,Manjeri Wholesale Market,Groundnut,Common / Local,38.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-MAL-GRO
+2026-10-25,Kerala,Malappuram,Manjeri Wholesale Market,Vegetables,Common / Local,55.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-MAL-VEG
+2026-10-25,Kerala,Kozhikode,Valiyangadi (Big Bazaar),Rice,Common / Local,25.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-KOZ-RIC
+2026-10-25,Kerala,Kozhikode,Valiyangadi (Big Bazaar),Coconut,Common / Local,76.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-KOZ-COC
+2026-10-25,Kerala,Kozhikode,Valiyangadi (Big Bazaar),Banana,Common / Local,59.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-KOZ-BAN
+2026-10-25,Kerala,Kozhikode,Valiyangadi (Big Bazaar),Black pepper,Common / Local,76.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-KOZ-BLA
+2026-10-25,Kerala,Kozhikode,Valiyangadi (Big Bazaar),Rubber,Common / Local,59.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-KOZ-RUB
+2026-10-25,Kerala,Kozhikode,Valiyangadi (Big Bazaar),Tapioca,Common / Local,76.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-KOZ-TAP
+2026-10-25,Kerala,Kozhikode,Valiyangadi (Big Bazaar),Ginger,Common / Local,59.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-KOZ-GIN
+2026-10-25,Kerala,Kozhikode,Valiyangadi (Big Bazaar),Turmeric,Common / Local,93.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-KOZ-TUR
+2026-10-25,Kerala,Kozhikode,Valiyangadi (Big Bazaar),Groundnut,Common / Local,25.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-KOZ-GRO
+2026-10-25,Kerala,Kozhikode,Valiyangadi (Big Bazaar),Vegetables,Common / Local,42.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-KOZ-VEG
+2026-10-25,Kerala,Wayanad,Kalpetta Agri Market,Rice,Common / Local,84.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-WAY-RIC
+2026-10-25,Kerala,Wayanad,Kalpetta Agri Market,Coconut,Common / Local,50.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-WAY-COC
+2026-10-25,Kerala,Wayanad,Kalpetta Agri Market,Banana,Common / Local,33.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-WAY-BAN
+2026-10-25,Kerala,Wayanad,Kalpetta Agri Market,Black pepper,Common / Local,50.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-WAY-BLA
+2026-10-25,Kerala,Wayanad,Kalpetta Agri Market,Rubber,Common / Local,33.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-WAY-RUB
+2026-10-25,Kerala,Wayanad,Kalpetta Agri Market,Tapioca,Common / Local,50.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-WAY-TAP
+2026-10-25,Kerala,Wayanad,Kalpetta Agri Market,Ginger,Common / Local,33.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-WAY-GIN
+2026-10-25,Kerala,Wayanad,Kalpetta Agri Market,Turmeric,Common / Local,67.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-WAY-TUR
+2026-10-25,Kerala,Wayanad,Kalpetta Agri Market,Groundnut,Common / Local,84.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-WAY-GRO
+2026-10-25,Kerala,Wayanad,Kalpetta Agri Market,Vegetables,Common / Local,16.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-WAY-VEG
+2026-10-25,Kerala,Kannur,Kannur Municipal Mandi,Rice,Common / Local,71.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-KAN-RIC
+2026-10-25,Kerala,Kannur,Kannur Municipal Mandi,Coconut,Common / Local,37.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-KAN-COC
+2026-10-25,Kerala,Kannur,Kannur Municipal Mandi,Banana,Common / Local,20.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-KAN-BAN
+2026-10-25,Kerala,Kannur,Kannur Municipal Mandi,Black pepper,Common / Local,37.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-KAN-BLA
+2026-10-25,Kerala,Kannur,Kannur Municipal Mandi,Rubber,Common / Local,20.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-KAN-RUB
+2026-10-25,Kerala,Kannur,Kannur Municipal Mandi,Tapioca,Common / Local,37.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-KAN-TAP
+2026-10-25,Kerala,Kannur,Kannur Municipal Mandi,Ginger,Common / Local,20.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-KAN-GIN
+2026-10-25,Kerala,Kannur,Kannur Municipal Mandi,Turmeric,Common / Local,54.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-KAN-TUR
+2026-10-25,Kerala,Kannur,Kannur Municipal Mandi,Groundnut,Common / Local,71.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-KAN-GRO
+2026-10-25,Kerala,Kannur,Kannur Municipal Mandi,Vegetables,Common / Local,88.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-KAN-VEG
+2026-10-25,Kerala,Kasaragod,Kasaragod APMC Mandi,Rice,Common / Local,25.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-KAS-RIC
+2026-10-25,Kerala,Kasaragod,Kasaragod APMC Mandi,Coconut,Common / Local,76.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-KAS-COC
+2026-10-25,Kerala,Kasaragod,Kasaragod APMC Mandi,Banana,Common / Local,59.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-KAS-BAN
+2026-10-25,Kerala,Kasaragod,Kasaragod APMC Mandi,Black pepper,Common / Local,76.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-KAS-BLA
+2026-10-25,Kerala,Kasaragod,Kasaragod APMC Mandi,Rubber,Common / Local,59.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-KAS-RUB
+2026-10-25,Kerala,Kasaragod,Kasaragod APMC Mandi,Tapioca,Common / Local,76.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-KAS-TAP
+2026-10-25,Kerala,Kasaragod,Kasaragod APMC Mandi,Ginger,Common / Local,59.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-KAS-GIN
+2026-10-25,Kerala,Kasaragod,Kasaragod APMC Mandi,Turmeric,Common / Local,93.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-KAS-TUR
+2026-10-25,Kerala,Kasaragod,Kasaragod APMC Mandi,Groundnut,Common / Local,25.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-KAS-GRO
+2026-10-25,Kerala,Kasaragod,Kasaragod APMC Mandi,Vegetables,Common / Local,42.5,Tonnes,AGMARKNET / DMI Kerala,2026-10-25T08:00:00Z,AGMK-KAS-VEG

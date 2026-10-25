@@ -1,0 +1,1779 @@
+export const DATASET_REGISTRY = {
+  "crops": {
+    "dataset_id": "crops",
+    "name": "Crop Agronomic Requirements",
+    "category": "Crop requirements",
+    "description": "Baseline agronomic requirements for 10 prominent Kerala crops.",
+    "status": "ready_for_analysis",
+    "source_info": {
+      "organization": "Kerala Agricultural University (KAU)",
+      "source_url": "https://kau.in/",
+      "download_method": "manual_upload",
+      "api_endpoint": null,
+      "manual_page_url": "https://celkau.in/tech_agri/package_of_practices.aspx",
+      "manual_export_instructions": "Refer to KAU Package of Practices for Crops. Verify crops, textures, drainage, and pH bounds.",
+      "expected_filename": "crops.csv",
+      "expected_format": "CSV",
+      "license_or_terms": "Open Government Data (OGD) India / Public Educational"
+    },
+    "geographic_coverage": "Kerala, India",
+    "geographic_resolution": "District",
+    "observation_period": "Not recorded",
+    "record_count": 10,
+    "column_count": 6,
+    "columns": [
+      {
+        "name": "crop",
+        "dtype": "string",
+        "required": true,
+        "description": "Crop name",
+        "unit": null,
+        "min_value": null,
+        "max_value": null
+      },
+      {
+        "name": "preferred_soil_texture",
+        "dtype": "string",
+        "required": true,
+        "description": "Optimal soil texture classes",
+        "unit": null,
+        "min_value": null,
+        "max_value": null
+      },
+      {
+        "name": "preferred_drainage",
+        "dtype": "string",
+        "required": true,
+        "description": "Required drainage condition",
+        "unit": null,
+        "min_value": null,
+        "max_value": null
+      },
+      {
+        "name": "preferred_ph_range",
+        "dtype": "range",
+        "required": true,
+        "description": "Optimal pH range min-max",
+        "unit": null,
+        "min_value": null,
+        "max_value": null
+      },
+      {
+        "name": "water_requirement",
+        "dtype": "string",
+        "required": true,
+        "description": "Water requirement intensity",
+        "unit": null,
+        "min_value": null,
+        "max_value": null
+      },
+      {
+        "name": "growing_season",
+        "dtype": "string",
+        "required": true,
+        "description": "Primary cultivation season in Kerala",
+        "unit": null,
+        "min_value": null,
+        "max_value": null
+      }
+    ],
+    "primary_key": [
+      "crop"
+    ],
+    "missing_value_count": 0,
+    "missing_values_by_column": {
+      "crop": 0,
+      "preferred_soil_texture": 0,
+      "preferred_drainage": 0,
+      "preferred_ph_range": 0,
+      "water_requirement": 0,
+      "growing_season": 0
+    },
+    "last_updated": "2026-10-25T12:47:31.599954",
+    "raw_path": null,
+    "processed_path": "data/processed/crops.csv",
+    "validation_status": "passed",
+    "validation_summary": {
+      "is_valid": true,
+      "record_count": 10,
+      "column_count": 6,
+      "missing_value_count": 0,
+      "duplicate_record_count": 0,
+      "error_count": 0,
+      "warning_count": 0,
+      "errors": [],
+      "warnings": []
+    },
+    "data_quality_limitations": [
+      "Covers 10 major crops; micro-climatic variety variations within crops are not yet disaggregated.",
+      "pH ranges represent general agronomic guidelines rather than crop-variety-specific tolerances."
+    ],
+    "processing_steps": []
+  },
+  "soil": {
+    "dataset_id": "soil",
+    "name": "Kerala District Soil Profile",
+    "category": "Soil characteristics",
+    "description": "Representative soil orders, textures, and qualitative fertility classes across Kerala districts.",
+    "status": "partially_available",
+    "source_info": {
+      "organization": "Department of Soil Survey & Soil Conservation, Govt. of Kerala",
+      "source_url": "https://www.keralasoils.gov.in/",
+      "download_method": "manual_upload",
+      "api_endpoint": null,
+      "manual_page_url": "https://www.keralasoilfertility.net/",
+      "manual_export_instructions": "Visit Kerala Soil Fertility portal or Kerala Soil Survey report, export soil series/district profiles.",
+      "expected_filename": "soil.csv",
+      "expected_format": "CSV",
+      "license_or_terms": "Open Government Data (OGD) India / Public Educational"
+    },
+    "geographic_coverage": "Kerala, India",
+    "geographic_resolution": "District",
+    "observation_period": "Not recorded",
+    "record_count": 23,
+    "column_count": 8,
+    "columns": [
+      {
+        "name": "district",
+        "dtype": "string",
+        "required": true,
+        "description": "Kerala district name",
+        "unit": null,
+        "min_value": null,
+        "max_value": null
+      },
+      {
+        "name": "soil_type",
+        "dtype": "string",
+        "required": true,
+        "description": "Soil classification / local type",
+        "unit": null,
+        "min_value": null,
+        "max_value": null
+      },
+      {
+        "name": "soil_texture",
+        "dtype": "string",
+        "required": true,
+        "description": "Soil texture category",
+        "unit": null,
+        "min_value": null,
+        "max_value": null
+      },
+      {
+        "name": "drainage",
+        "dtype": "string",
+        "required": true,
+        "description": "Drainage profile",
+        "unit": null,
+        "min_value": null,
+        "max_value": null
+      },
+      {
+        "name": "soil_depth",
+        "dtype": "string",
+        "required": true,
+        "description": "Effective soil depth class",
+        "unit": null,
+        "min_value": null,
+        "max_value": null
+      },
+      {
+        "name": "ph_category",
+        "dtype": "string",
+        "required": true,
+        "description": "Qualitative pH status (e.g. Strongly acidic, Near neutral)",
+        "unit": null,
+        "min_value": null,
+        "max_value": null
+      },
+      {
+        "name": "organic_matter_category",
+        "dtype": "string",
+        "required": true,
+        "description": "Qualitative organic matter class",
+        "unit": null,
+        "min_value": null,
+        "max_value": null
+      },
+      {
+        "name": "fertility_category",
+        "dtype": "string",
+        "required": true,
+        "description": "Qualitative natural fertility status",
+        "unit": null,
+        "min_value": null,
+        "max_value": null
+      }
+    ],
+    "primary_key": [
+      "district",
+      "soil_type"
+    ],
+    "missing_value_count": 0,
+    "missing_values_by_column": {
+      "district": 0,
+      "soil_type": 0,
+      "soil_texture": 0,
+      "drainage": 0,
+      "soil_depth": 0,
+      "ph_category": 0,
+      "organic_matter_category": 0,
+      "fertility_category": 0
+    },
+    "last_updated": "2026-10-25T12:47:31.604421",
+    "raw_path": null,
+    "processed_path": "data/processed/soil.csv",
+    "validation_status": "passed",
+    "validation_summary": {
+      "is_valid": true,
+      "record_count": 23,
+      "column_count": 8,
+      "missing_value_count": 0,
+      "duplicate_record_count": 0,
+      "error_count": 0,
+      "warning_count": 0,
+      "errors": [],
+      "warnings": []
+    },
+    "data_quality_limitations": [
+      "Contains qualitative pH and fertility categories rather than quantitative laboratory test figures.",
+      "District coverage currently has 13 of 14 districts (Pathanamthitta district is absent in initial dataset).",
+      "Values reflect regional soil series benchmarks, not farm-specific spot soil samples."
+    ],
+    "processing_steps": []
+  },
+  "soil_crop_suitability_v2": {
+    "dataset_id": "soil_crop_suitability_v2",
+    "name": "Soil-Crop Compatibility Matrix (Heuristic v2)",
+    "category": "Crop risk and suitability constraints",
+    "description": "Rule-based compatibility scoring combining soil texture, drainage, and estimated pH compatibility.",
+    "status": "partially_available",
+    "source_info": {
+      "organization": "GROW Internal Agronomic Heuristics",
+      "source_url": "internal://heuristic_v2",
+      "download_method": "manual_upload",
+      "api_endpoint": null,
+      "manual_page_url": null,
+      "manual_export_instructions": null,
+      "expected_filename": "soil_crop_suitability_v2.csv",
+      "expected_format": "CSV",
+      "license_or_terms": "Open Government Data (OGD) India / Public Educational"
+    },
+    "geographic_coverage": "Kerala, India",
+    "geographic_resolution": "District",
+    "observation_period": "Not recorded",
+    "record_count": 230,
+    "column_count": 9,
+    "columns": [
+      {
+        "name": "district",
+        "dtype": "string",
+        "required": true,
+        "description": "Kerala district",
+        "unit": null,
+        "min_value": null,
+        "max_value": null
+      },
+      {
+        "name": "soil_type",
+        "dtype": "string",
+        "required": true,
+        "description": "Soil type name",
+        "unit": null,
+        "min_value": null,
+        "max_value": null
+      },
+      {
+        "name": "crop",
+        "dtype": "string",
+        "required": true,
+        "description": "Target crop",
+        "unit": null,
+        "min_value": null,
+        "max_value": null
+      },
+      {
+        "name": "texture_score",
+        "dtype": "float",
+        "required": true,
+        "description": "",
+        "unit": "score",
+        "min_value": 0,
+        "max_value": 100
+      },
+      {
+        "name": "drainage_score",
+        "dtype": "float",
+        "required": true,
+        "description": "",
+        "unit": "score",
+        "min_value": 0,
+        "max_value": 100
+      },
+      {
+        "name": "estimated_ph_score",
+        "dtype": "float",
+        "required": true,
+        "description": "",
+        "unit": "score",
+        "min_value": 0,
+        "max_value": 100
+      },
+      {
+        "name": "suitability_score",
+        "dtype": "float",
+        "required": true,
+        "description": "",
+        "unit": "score",
+        "min_value": 0,
+        "max_value": 100
+      },
+      {
+        "name": "ph_status",
+        "dtype": "string",
+        "required": true,
+        "description": "Explanation of qualitative pH estimation",
+        "unit": null,
+        "min_value": null,
+        "max_value": null
+      },
+      {
+        "name": "score_method",
+        "dtype": "string",
+        "required": true,
+        "description": "Heuristic algorithm description",
+        "unit": null,
+        "min_value": null,
+        "max_value": null
+      }
+    ],
+    "primary_key": [
+      "district",
+      "soil_type",
+      "crop"
+    ],
+    "missing_value_count": 50,
+    "missing_values_by_column": {
+      "district": 0,
+      "soil_type": 0,
+      "crop": 0,
+      "texture_score": 0,
+      "drainage_score": 0,
+      "estimated_ph_score": 50,
+      "suitability_score": 0,
+      "ph_status": 0,
+      "score_method": 0
+    },
+    "last_updated": "2026-10-25T12:47:31.610570",
+    "raw_path": null,
+    "processed_path": "data/processed/soil_crop_suitability_v2.csv",
+    "validation_status": "passed",
+    "validation_summary": {
+      "is_valid": true,
+      "record_count": 230,
+      "column_count": 9,
+      "missing_value_count": 50,
+      "duplicate_record_count": 0,
+      "error_count": 0,
+      "warning_count": 0,
+      "errors": [],
+      "warnings": []
+    },
+    "data_quality_limitations": [
+      "Scores are derived from rule-based heuristic formulas, NOT statistically trained or field-calibrated ML models.",
+      "Estimated pH scores rely on midpoint mappings of qualitative descriptions."
+    ],
+    "processing_steps": []
+  },
+  "weather": {
+    "dataset_id": "weather",
+    "name": "Historical Meteorological Observations",
+    "category": "Historical weather",
+    "description": "Daily rainfall, temperature min/max, and relative humidity for Kerala districts.",
+    "status": "ready_for_analysis",
+    "source_info": {
+      "organization": "NASA Prediction Of Worldwide Energy Resources (POWER)",
+      "source_url": "https://power.larc.nasa.gov/",
+      "download_method": "api",
+      "api_endpoint": "https://power.larc.nasa.gov/api/temporal/daily/point",
+      "manual_page_url": "https://power.larc.nasa.gov/data-access-viewer/",
+      "manual_export_instructions": "Open NASA POWER Data Access Viewer, choose Meteorology/Agroclimatology, select representative Kerala district coordinates and the required date range, then export PRECTOTCORR, T2M_MIN, T2M_MAX, and RH2M as CSV.",
+      "expected_filename": "weather.csv",
+      "expected_format": "CSV",
+      "license_or_terms": "Open Government Data (OGD) India / Public Educational"
+    },
+    "geographic_coverage": "Kerala, India (14 districts)",
+    "geographic_resolution": "0.5 x 0.5 degree gridded point reanalysis",
+    "observation_period": "2015-01-01 to 2026-10-20",
+    "record_count": 60329,
+    "column_count": 6,
+    "columns": [
+      {
+        "name": "district",
+        "dtype": "string",
+        "required": true,
+        "description": "District name",
+        "unit": null,
+        "min_value": null,
+        "max_value": null
+      },
+      {
+        "name": "date",
+        "dtype": "date",
+        "required": true,
+        "description": "Date in YYYY-MM-DD format",
+        "unit": null,
+        "min_value": null,
+        "max_value": null
+      },
+      {
+        "name": "rainfall_mm",
+        "dtype": "float",
+        "required": true,
+        "description": "",
+        "unit": "mm",
+        "min_value": 0,
+        "max_value": 1000
+      },
+      {
+        "name": "temperature_min_c",
+        "dtype": "float",
+        "required": true,
+        "description": "",
+        "unit": "celsius",
+        "min_value": 5,
+        "max_value": 45
+      },
+      {
+        "name": "temperature_max_c",
+        "dtype": "float",
+        "required": true,
+        "description": "",
+        "unit": "celsius",
+        "min_value": 10,
+        "max_value": 55
+      },
+      {
+        "name": "humidity_percent",
+        "dtype": "float",
+        "required": true,
+        "description": "",
+        "unit": "percent",
+        "min_value": 0,
+        "max_value": 100
+      }
+    ],
+    "primary_key": [
+      "district",
+      "date"
+    ],
+    "missing_value_count": 0,
+    "missing_values_by_column": {
+      "district": 0,
+      "date": 0,
+      "rainfall_mm": 0,
+      "temperature_min_c": 0,
+      "temperature_max_c": 0,
+      "humidity_percent": 0,
+      "latitude": 0,
+      "longitude": 0,
+      "source": 0
+    },
+    "last_updated": "2026-10-25T18:26:24.599782",
+    "raw_path": null,
+    "processed_path": "data/processed/weather.csv",
+    "validation_status": "passed",
+    "validation_summary": {
+      "is_valid": true,
+      "record_count": 60329,
+      "column_count": 9,
+      "missing_value_count": 0,
+      "duplicate_record_count": 0,
+      "districts_collected": 14,
+      "districts_failed": 0,
+      "new_source_records": 4102,
+      "accepted_source_records": 4077,
+      "quarantined_rainfall_records": 25
+    },
+    "data_quality_limitations": [
+      "Gridded satellite-reanalysis estimates (~0.5 deg resolution); not direct ground weather-station observations."
+    ],
+    "processing_steps": [
+      "Retrieved 4,102 source records from NASA POWER daily point API (AG community) for 2026-01-01 to 2026-10-20.",
+      "Preserved the 14 original full-period provider JSON responses and independent response-window rechecks under data/raw/weather/.",
+      "Quarantined 25 rainfall records outside the schema bounds verbatim; details are in data/metadata/weather_validation_anomalies_20260101_20261020_20261025182620.csv.",
+      "Merged 4,077 schema-valid new daily observations with the existing records; final canonical dataset validates with 60,329 records through 2026-10-20.",
+      "Provider metadata confirms PRECTOTCORR mm/day, T2M_MIN/T2M_MAX C, RH2M percent, NASA POWER API v2.10.1, and LST."
+    ]
+  },
+  "crop_yield": {
+    "dataset_id": "crop_yield",
+    "name": "Historical Crop Yield and Production Statistics",
+    "category": "Crop yield and production",
+    "description": "Historical crop area, production, and productivity across Kerala districts.",
+    "status": "ready_for_analysis",
+    "source_info": {
+      "organization": "Department of Economics and Statistics (DES), Govt. of Kerala",
+      "source_url": "https://ecostat.kerala.gov.in/",
+      "download_method": "manual_upload",
+      "api_endpoint": null,
+      "manual_page_url": "https://ecostat.kerala.gov.in/dataset/28",
+      "manual_export_instructions": "Visit DES Kerala Agricultural Statistics or data.desagri.gov.in, navigate to District-wise Crop Area & Production Reports, export CSV.",
+      "expected_filename": "crop_yield.csv",
+      "expected_format": "CSV",
+      "license_or_terms": "Open Government Data (OGD) India / Public Educational"
+    },
+    "geographic_coverage": "Kerala, India (14 districts)",
+    "geographic_resolution": "District-level census",
+    "observation_period": "2001-02 to 2023-24",
+    "record_count": 6422,
+    "column_count": 8,
+    "columns": [
+      {
+        "name": "year",
+        "dtype": "string",
+        "required": true,
+        "description": "Agricultural year (e.g. 2018-19 or 2018)",
+        "unit": null,
+        "min_value": null,
+        "max_value": null
+      },
+      {
+        "name": "district",
+        "dtype": "string",
+        "required": true,
+        "description": "District name",
+        "unit": null,
+        "min_value": null,
+        "max_value": null
+      },
+      {
+        "name": "crop",
+        "dtype": "string",
+        "required": true,
+        "description": "Crop name",
+        "unit": null,
+        "min_value": null,
+        "max_value": null
+      },
+      {
+        "name": "season",
+        "dtype": "string",
+        "required": true,
+        "description": "Cultivation season (Autumn/Kharif, Winter/Rabi, Summer, Annual)",
+        "unit": null,
+        "min_value": null,
+        "max_value": null
+      },
+      {
+        "name": "area_hectares",
+        "dtype": "float",
+        "required": true,
+        "description": "",
+        "unit": "hectares",
+        "min_value": 0,
+        "max_value": null
+      },
+      {
+        "name": "production_tonnes",
+        "dtype": "float",
+        "required": true,
+        "description": "",
+        "unit": "tonnes",
+        "min_value": 0,
+        "max_value": null
+      },
+      {
+        "name": "yield_kg_per_hectare",
+        "dtype": "float",
+        "required": true,
+        "description": "",
+        "unit": "kg/ha",
+        "min_value": 0,
+        "max_value": null
+      },
+      {
+        "name": "source",
+        "dtype": "string",
+        "required": false,
+        "description": "Source publication or portal",
+        "unit": null,
+        "min_value": null,
+        "max_value": null
+      }
+    ],
+    "primary_key": [
+      "year",
+      "district",
+      "crop",
+      "season"
+    ],
+    "missing_value_count": 0,
+    "missing_values_by_column": {
+      "year": 0,
+      "district": 0,
+      "crop": 0,
+      "season": 0,
+      "area_hectares": 0,
+      "production_tonnes": 0,
+      "yield_kg_per_hectare": 0,
+      "source": 0
+    },
+    "last_updated": "2026-10-25T13:01:54.152981",
+    "raw_path": "data/raw/crop_yield/des_kerala_agriculture_statistics.csv",
+    "processed_path": "data/processed/crop_yield.csv",
+    "validation_status": "passed",
+    "validation_summary": {
+      "is_valid": true,
+      "record_count": 6422,
+      "column_count": 8,
+      "missing_value_count": 0,
+      "duplicate_record_count": 0,
+      "distinct_crops": 22,
+      "distinct_districts": 14
+    },
+    "data_quality_limitations": [
+      "Yield figures represent district aggregated averages and may not reflect specific parcel yield variations."
+    ],
+    "processing_steps": [
+      "Ingested from DES Kerala portal (ecostat.kerala.gov.in/dataset/28) on 2026-10-25 13:01:54",
+      "Raw copy preserved in data/raw/crop_yield/des_kerala_agriculture_statistics.csv",
+      "Normalized crop nomenclature (e.g. Paddy -> Rice, Pepper -> Black pepper)",
+      "Normalized area to hectares, production to MT, and derived yield kg/ha where missing",
+      "Retained 6,422 standardized observations (2001-02 to 2023-24)"
+    ]
+  },
+  "market_prices": {
+    "dataset_id": "market_prices",
+    "name": "Historical Agricultural Market Prices",
+    "category": "Historical market prices",
+    "description": "Daily or monthly minimum, maximum, and modal wholesale prices in APMC/regulated markets in Kerala.",
+    "status": "ready_for_analysis",
+    "source_info": {
+      "organization": "Directorate of Marketing & Inspection (DMI) / Agmarknet / OGD India",
+      "source_url": "https://agmarknet.gov.in/",
+      "download_method": "manual_upload",
+      "api_endpoint": null,
+      "manual_page_url": "https://www.data.gov.in/resource/current-daily-price-various-commodities-various-markets-mandi",
+      "manual_export_instructions": "Visit Agmarknet or data.gov.in, filter State='Kerala', select target crops, select historical range, export CSV.",
+      "expected_filename": "market_prices.csv",
+      "expected_format": "CSV",
+      "license_or_terms": "Open Government Data (OGD) India / Public Educational"
+    },
+    "geographic_coverage": "Kerala, India",
+    "geographic_resolution": "District",
+    "observation_period": "Not recorded",
+    "record_count": 97,
+    "column_count": 10,
+    "columns": [
+      {
+        "name": "date",
+        "dtype": "date",
+        "required": true,
+        "description": "Trading date (YYYY-MM-DD)",
+        "unit": null,
+        "min_value": null,
+        "max_value": null
+      },
+      {
+        "name": "district",
+        "dtype": "string",
+        "required": true,
+        "description": "District name",
+        "unit": null,
+        "min_value": null,
+        "max_value": null
+      },
+      {
+        "name": "market",
+        "dtype": "string",
+        "required": true,
+        "description": "Market center name",
+        "unit": null,
+        "min_value": null,
+        "max_value": null
+      },
+      {
+        "name": "crop",
+        "dtype": "string",
+        "required": true,
+        "description": "Commodity name",
+        "unit": null,
+        "min_value": null,
+        "max_value": null
+      },
+      {
+        "name": "variety",
+        "dtype": "string",
+        "required": false,
+        "description": "Commodity variety",
+        "unit": null,
+        "min_value": null,
+        "max_value": null
+      },
+      {
+        "name": "min_price",
+        "dtype": "float",
+        "required": true,
+        "description": "",
+        "unit": null,
+        "min_value": 0,
+        "max_value": null
+      },
+      {
+        "name": "max_price",
+        "dtype": "float",
+        "required": true,
+        "description": "",
+        "unit": null,
+        "min_value": 0,
+        "max_value": null
+      },
+      {
+        "name": "modal_price",
+        "dtype": "float",
+        "required": true,
+        "description": "",
+        "unit": null,
+        "min_value": 0,
+        "max_value": null
+      },
+      {
+        "name": "price_unit",
+        "dtype": "string",
+        "required": true,
+        "description": "Currency and weight basis, e.g. INR/quintal",
+        "unit": null,
+        "min_value": null,
+        "max_value": null
+      },
+      {
+        "name": "source",
+        "dtype": "string",
+        "required": false,
+        "description": "Reporting agency / portal",
+        "unit": null,
+        "min_value": null,
+        "max_value": null
+      }
+    ],
+    "primary_key": [
+      "date",
+      "district",
+      "market",
+      "crop"
+    ],
+    "missing_value_count": 0,
+    "missing_values_by_column": {
+      "date": 0,
+      "district": 0,
+      "market": 0,
+      "crop": 0,
+      "variety": 0,
+      "min_price": 0,
+      "max_price": 0,
+      "modal_price": 0,
+      "price_unit": 0,
+      "source": 0
+    },
+    "last_updated": "2026-10-25T19:20:12.274334",
+    "raw_path": "data/raw/market_prices/data_gov_in_kerala_prices.json",
+    "processed_path": "data/processed/market_prices.csv",
+    "validation_status": "passed",
+    "validation_summary": {
+      "is_valid": true,
+      "record_count": 97,
+      "column_count": 10,
+      "missing_value_count": 0,
+      "missing_values_by_column": {
+        "date": 0,
+        "district": 0,
+        "market": 0,
+        "crop": 0,
+        "variety": 0,
+        "min_price": 0,
+        "max_price": 0,
+        "modal_price": 0,
+        "price_unit": 0,
+        "source": 0
+      },
+      "duplicate_record_count": 0,
+      "errors": [],
+      "warnings": [],
+      "details": []
+    },
+    "data_quality_limitations": [
+      "Wholesale APMC terminal market prices; farm-gate prices received by smallholders may be discounted by intermediary margins."
+    ],
+    "processing_steps": [
+      "Created CSV template at data/raw/market_prices/market_prices_template.csv",
+      "Awaiting user-supplied official export from Agmarknet or Data.gov.in"
+    ],
+    "source_provenance": {
+      "retrieved_count": 123,
+      "resource_metadata": {
+        "fields": [
+          {
+            "name": "State",
+            "id": "state",
+            "type": "keyword"
+          },
+          {
+            "name": "District",
+            "id": "district",
+            "type": "keyword"
+          },
+          {
+            "name": "Market",
+            "id": "market",
+            "type": "keyword"
+          },
+          {
+            "name": "Commodity",
+            "id": "commodity",
+            "type": "keyword"
+          },
+          {
+            "name": "Variety",
+            "id": "variety",
+            "type": "keyword"
+          },
+          {
+            "name": "Grade",
+            "id": "grade",
+            "type": "keyword"
+          },
+          {
+            "name": "Arrival_Date",
+            "id": "arrival_date",
+            "type": "date"
+          },
+          {
+            "name": "Min_x0020_Price",
+            "id": "min_price",
+            "type": "double"
+          },
+          {
+            "name": "Max_x0020_Price",
+            "id": "max_price",
+            "type": "double"
+          },
+          {
+            "name": "Modal_x0020_Price",
+            "id": "modal_price",
+            "type": "double"
+          }
+        ],
+        "description": "Current Daily Price of Various Commodities from Various Markets (Mandi)",
+        "organization": [
+          "Ministry of Agriculture and Farmers Welfare",
+          "Department of Agriculture and Farmers Welfare"
+        ],
+        "source": "data.gov.in",
+        "updated_date": "2026-10-25T13:00:48Z",
+        "title": "Current Daily Price of Various Commodities from Various Markets (Mandi)"
+      },
+      "page_count": 2,
+      "resource_id": "9ef84268-d588-465a-a308-a864a43d0070",
+      "query": {
+        "format": "json",
+        "limit": 100,
+        "filters[state]": "Keralam"
+      },
+      "reported_total": 123,
+      "retrieved_at": "2026-10-25T13:35:12.0880096Z",
+      "price_unit_basis": "No price unit is reported in the API fields or resource metadata; raw numeric values are preserved without conversion and must not be interpreted as INR/quintal.",
+      "endpoint": "https://api.data.gov.in/resource/9ef84268-d588-465a-a308-a864a43d0070",
+      "normalized_price_unit": null,
+      "source_price_unit": "UNVERIFIED",
+      "price_unit_status": "unverified",
+      "price_unit_field": null
+    }
+  },
+  "cultivation_cost": {
+    "dataset_id": "cultivation_cost",
+    "name": "Crop Cultivation Cost Structure",
+    "category": "Cultivation costs",
+    "description": "Itemized input and operational expenditures per hectare for Kerala crops.",
+    "status": "awaiting_upload",
+    "source_info": {
+      "organization": "Farm Management Studies / DES Kerala / CACP",
+      "source_url": "https://ecostat.kerala.gov.in/",
+      "download_method": "manual_upload",
+      "api_endpoint": null,
+      "manual_page_url": "https://cacp.da.gov.in/",
+      "manual_export_instructions": "Consult DES Kerala 'Report on Cost of Cultivation of Important Crops in Kerala' or CACP State Tables. Extract cost components per hectare.",
+      "expected_filename": "cultivation_cost.csv",
+      "expected_format": "CSV",
+      "license_or_terms": "Open Government Data (OGD) India / Public Educational"
+    },
+    "geographic_coverage": "Kerala, India",
+    "geographic_resolution": "District",
+    "observation_period": "Not recorded",
+    "record_count": 0,
+    "column_count": 14,
+    "columns": [
+      {
+        "name": "district",
+        "dtype": "string",
+        "required": true,
+        "description": "District name",
+        "unit": null,
+        "min_value": null,
+        "max_value": null
+      },
+      {
+        "name": "crop",
+        "dtype": "string",
+        "required": true,
+        "description": "Crop name",
+        "unit": null,
+        "min_value": null,
+        "max_value": null
+      },
+      {
+        "name": "year",
+        "dtype": "string",
+        "required": true,
+        "description": "Reference financial/crop year",
+        "unit": null,
+        "min_value": null,
+        "max_value": null
+      },
+      {
+        "name": "land_preparation",
+        "dtype": "float",
+        "required": true,
+        "description": "",
+        "unit": "INR/hectare",
+        "min_value": 0,
+        "max_value": null
+      },
+      {
+        "name": "seeds_planting_material",
+        "dtype": "float",
+        "required": true,
+        "description": "",
+        "unit": "INR/hectare",
+        "min_value": 0,
+        "max_value": null
+      },
+      {
+        "name": "fertilizers",
+        "dtype": "float",
+        "required": true,
+        "description": "",
+        "unit": "INR/hectare",
+        "min_value": 0,
+        "max_value": null
+      },
+      {
+        "name": "labour",
+        "dtype": "float",
+        "required": true,
+        "description": "",
+        "unit": "INR/hectare",
+        "min_value": 0,
+        "max_value": null
+      },
+      {
+        "name": "irrigation",
+        "dtype": "float",
+        "required": true,
+        "description": "",
+        "unit": "INR/hectare",
+        "min_value": 0,
+        "max_value": null
+      },
+      {
+        "name": "pest_management",
+        "dtype": "float",
+        "required": true,
+        "description": "",
+        "unit": "INR/hectare",
+        "min_value": 0,
+        "max_value": null
+      },
+      {
+        "name": "harvesting",
+        "dtype": "float",
+        "required": true,
+        "description": "",
+        "unit": "INR/hectare",
+        "min_value": 0,
+        "max_value": null
+      },
+      {
+        "name": "transport",
+        "dtype": "float",
+        "required": true,
+        "description": "",
+        "unit": "INR/hectare",
+        "min_value": 0,
+        "max_value": null
+      },
+      {
+        "name": "other_costs",
+        "dtype": "float",
+        "required": true,
+        "description": "",
+        "unit": "INR/hectare",
+        "min_value": 0,
+        "max_value": null
+      },
+      {
+        "name": "total_cost_per_hectare",
+        "dtype": "float",
+        "required": true,
+        "description": "",
+        "unit": "INR/hectare",
+        "min_value": 0,
+        "max_value": null
+      },
+      {
+        "name": "source",
+        "dtype": "string",
+        "required": false,
+        "description": "Survey source or cost report reference",
+        "unit": null,
+        "min_value": null,
+        "max_value": null
+      }
+    ],
+    "primary_key": [
+      "district",
+      "crop",
+      "year"
+    ],
+    "missing_value_count": 0,
+    "missing_values_by_column": {},
+    "last_updated": "2026-10-25T12:47:31.624224",
+    "raw_path": null,
+    "processed_path": null,
+    "validation_status": "empty_file",
+    "validation_summary": null,
+    "data_quality_limitations": [
+      "Costs are state or agro-zone survey benchmarks and will vary with farmer mechanization and local labor wages."
+    ],
+    "processing_steps": []
+  },
+  "demand": {
+    "dataset_id": "demand",
+    "name": "Market Arrivals and Demand Indicators",
+    "category": "Market arrivals and demand indicators",
+    "description": "Physical commodity quantities arriving in major Kerala wholesale mandis.",
+    "status": "awaiting_upload",
+    "source_info": {
+      "organization": "Agmarknet / Department of Agriculture & Farmers Welfare",
+      "source_url": "https://agmarknet.gov.in/",
+      "download_method": "manual_upload",
+      "api_endpoint": null,
+      "manual_page_url": "https://agmarknet.gov.in/PriceTrends/SA_Pri_Month.aspx",
+      "manual_export_instructions": "Query Agmarknet arrival bulletins by commodity and Kerala markets, export arrivals CSV.",
+      "expected_filename": "demand.csv",
+      "expected_format": "CSV",
+      "license_or_terms": "Open Government Data (OGD) India / Public Educational"
+    },
+    "geographic_coverage": "Kerala, India",
+    "geographic_resolution": "District",
+    "observation_period": "Not recorded",
+    "record_count": 0,
+    "column_count": 7,
+    "columns": [
+      {
+        "name": "date",
+        "dtype": "date",
+        "required": true,
+        "description": "Arrival date (YYYY-MM-DD)",
+        "unit": null,
+        "min_value": null,
+        "max_value": null
+      },
+      {
+        "name": "district",
+        "dtype": "string",
+        "required": true,
+        "description": "District name",
+        "unit": null,
+        "min_value": null,
+        "max_value": null
+      },
+      {
+        "name": "market",
+        "dtype": "string",
+        "required": true,
+        "description": "Market name",
+        "unit": null,
+        "min_value": null,
+        "max_value": null
+      },
+      {
+        "name": "crop",
+        "dtype": "string",
+        "required": true,
+        "description": "Crop name",
+        "unit": null,
+        "min_value": null,
+        "max_value": null
+      },
+      {
+        "name": "arrivals_tonnes",
+        "dtype": "float",
+        "required": true,
+        "description": "",
+        "unit": "tonnes",
+        "min_value": 0,
+        "max_value": null
+      },
+      {
+        "name": "modal_price",
+        "dtype": "float",
+        "required": false,
+        "description": "",
+        "unit": "INR/quintal",
+        "min_value": 0,
+        "max_value": null
+      },
+      {
+        "name": "source",
+        "dtype": "string",
+        "required": false,
+        "description": "Market reporting source",
+        "unit": null,
+        "min_value": null,
+        "max_value": null
+      }
+    ],
+    "primary_key": [
+      "date",
+      "district",
+      "market",
+      "crop"
+    ],
+    "missing_value_count": 0,
+    "missing_values_by_column": {},
+    "last_updated": "2026-10-25T12:47:31.627212",
+    "raw_path": null,
+    "processed_path": null,
+    "validation_status": "empty_file",
+    "validation_summary": null,
+    "data_quality_limitations": [
+      "Covers formal regulated markets only; informal farm-gate and local village trade volumes are unrecorded."
+    ],
+    "processing_steps": []
+  },
+  "crop_calendar": {
+    "dataset_id": "crop_calendar",
+    "name": "Kerala Agricultural Calendar and Constraints",
+    "category": "Planting and harvesting calendar",
+    "description": "Agronomic window for sowing, peak growth, and harvest across seasons.",
+    "status": "not_collected",
+    "source_info": {
+      "organization": "Kerala Agricultural University (KAU) / ICAR",
+      "source_url": "https://kau.in/",
+      "download_method": "manual_upload",
+      "api_endpoint": null,
+      "manual_page_url": "https://celkau.in/",
+      "manual_export_instructions": "Compile crop calendar from KAU Farm Guide or Package of Practices.",
+      "expected_filename": "crop_calendar.csv",
+      "expected_format": "CSV",
+      "license_or_terms": "Open Government Data (OGD) India / Public Educational"
+    },
+    "geographic_coverage": "Kerala, India",
+    "geographic_resolution": "District",
+    "observation_period": "Not recorded",
+    "record_count": 0,
+    "column_count": 9,
+    "columns": [
+      {
+        "name": "district",
+        "dtype": "string",
+        "required": true,
+        "description": "District name",
+        "unit": null,
+        "min_value": null,
+        "max_value": null
+      },
+      {
+        "name": "crop",
+        "dtype": "string",
+        "required": true,
+        "description": "Crop name",
+        "unit": null,
+        "min_value": null,
+        "max_value": null
+      },
+      {
+        "name": "season",
+        "dtype": "string",
+        "required": true,
+        "description": "Season name (Kharif/Virippu, Rabi/Mundakan, Summer/Puncha)",
+        "unit": null,
+        "min_value": null,
+        "max_value": null
+      },
+      {
+        "name": "sowing_start_month",
+        "dtype": "integer",
+        "required": true,
+        "description": "Month 1-12",
+        "unit": null,
+        "min_value": 1,
+        "max_value": 12
+      },
+      {
+        "name": "sowing_end_month",
+        "dtype": "integer",
+        "required": true,
+        "description": "Month 1-12",
+        "unit": null,
+        "min_value": 1,
+        "max_value": 12
+      },
+      {
+        "name": "harvest_start_month",
+        "dtype": "integer",
+        "required": true,
+        "description": "Month 1-12",
+        "unit": null,
+        "min_value": 1,
+        "max_value": 12
+      },
+      {
+        "name": "harvest_end_month",
+        "dtype": "integer",
+        "required": true,
+        "description": "Month 1-12",
+        "unit": null,
+        "min_value": 1,
+        "max_value": 12
+      },
+      {
+        "name": "duration_days",
+        "dtype": "integer",
+        "required": true,
+        "description": "Crop duration",
+        "unit": null,
+        "min_value": 10,
+        "max_value": 3650
+      },
+      {
+        "name": "source",
+        "dtype": "string",
+        "required": false,
+        "description": "KAU / ICAR reference",
+        "unit": null,
+        "min_value": null,
+        "max_value": null
+      }
+    ],
+    "primary_key": [
+      "district",
+      "crop",
+      "season"
+    ],
+    "missing_value_count": 0,
+    "missing_values_by_column": {},
+    "last_updated": "2026-10-25T12:47:31.630544",
+    "raw_path": null,
+    "processed_path": null,
+    "validation_status": "missing_file",
+    "validation_summary": null,
+    "data_quality_limitations": [
+      "Rainfed cropping schedules fluctuate depending on the exact onset of the South-West and North-East monsoons."
+    ],
+    "processing_steps": []
+  },
+  "cultivation_cost_summary": {
+    "dataset_id": "cultivation_cost_summary",
+    "name": "Kerala State-Level Cultivation Cost Summary",
+    "category": "State-level cultivation cost summaries",
+    "description": "Transcribed statewide seasonal and annual input-cost and output-value summary rows.",
+    "status": "partially_available",
+    "source_info": {
+      "organization": "Department of Economics & Statistics, Government of Kerala",
+      "source_url": "https://ecostat.kerala.gov.in/publication-detail/report-on-cost-of-cultivation-of-important-crops-in-kerala-2023-24",
+      "download_method": "manual_upload",
+      "api_endpoint": null,
+      "manual_page_url": "https://www.ecostat.kerala.gov.in/dataset/66",
+      "manual_export_instructions": "Transcribed summary subset supplied in the GROW data enrichment pack; verify against the original reports before production use.",
+      "expected_filename": "kerala_cost_of_cultivation_summary_2022_23_2023_24.csv",
+      "expected_format": "CSV",
+      "license_or_terms": "Open Government Data (OGD) India / Public Educational"
+    },
+    "geographic_coverage": "Kerala, India",
+    "geographic_resolution": "State",
+    "observation_period": "2022-23 to 2023-24",
+    "record_count": 70,
+    "column_count": 11,
+    "columns": [
+      {
+        "name": "agriculture_year",
+        "dtype": "string",
+        "required": true,
+        "description": "Agricultural year",
+        "unit": null,
+        "min_value": null,
+        "max_value": null
+      },
+      {
+        "name": "crop",
+        "dtype": "string",
+        "required": true,
+        "description": "Crop name as reported",
+        "unit": null,
+        "min_value": null,
+        "max_value": null
+      },
+      {
+        "name": "season",
+        "dtype": "string",
+        "required": true,
+        "description": "Season or annual production",
+        "unit": null,
+        "min_value": null,
+        "max_value": null
+      },
+      {
+        "name": "reported_input_cost_rs_per_ha",
+        "dtype": "float",
+        "required": false,
+        "description": "Report-defined input cost; methodology is not inferred",
+        "unit": "INR/hectare",
+        "min_value": 0,
+        "max_value": null
+      },
+      {
+        "name": "reported_value_of_output_rs_per_ha",
+        "dtype": "float",
+        "required": false,
+        "description": "Report-defined value of output",
+        "unit": "INR/hectare",
+        "min_value": 0,
+        "max_value": null
+      },
+      {
+        "name": "currency",
+        "dtype": "string",
+        "required": true,
+        "description": "Reported currency",
+        "unit": null,
+        "min_value": null,
+        "max_value": null
+      },
+      {
+        "name": "area_unit",
+        "dtype": "string",
+        "required": true,
+        "description": "Reported area basis",
+        "unit": null,
+        "min_value": null,
+        "max_value": null
+      },
+      {
+        "name": "source_table_label",
+        "dtype": "string",
+        "required": true,
+        "description": "Table label in source report",
+        "unit": null,
+        "min_value": null,
+        "max_value": null
+      },
+      {
+        "name": "source_url",
+        "dtype": "string",
+        "required": true,
+        "description": "Official report URL",
+        "unit": null,
+        "min_value": null,
+        "max_value": null
+      },
+      {
+        "name": "source_status",
+        "dtype": "string",
+        "required": true,
+        "description": "Transcription and verification status",
+        "unit": null,
+        "min_value": null,
+        "max_value": null
+      },
+      {
+        "name": "notes",
+        "dtype": "string",
+        "required": true,
+        "description": "Coverage and verification caveat",
+        "unit": null,
+        "min_value": null,
+        "max_value": null
+      }
+    ],
+    "primary_key": [
+      "agriculture_year",
+      "crop",
+      "season"
+    ],
+    "missing_value_count": 2,
+    "missing_values_by_column": {
+      "agriculture_year": 0,
+      "crop": 0,
+      "season": 0,
+      "reported_input_cost_rs_per_ha": 1,
+      "reported_value_of_output_rs_per_ha": 1,
+      "currency": 0,
+      "area_unit": 0,
+      "source_table_label": 0,
+      "source_url": 0,
+      "source_status": 0,
+      "notes": 0
+    },
+    "last_updated": "2026-10-25T17:39:49.705526",
+    "raw_path": "data/raw/cultivation_cost/kerala_cost_of_cultivation_summary_2022_23_2023_24.csv",
+    "processed_path": "data/processed/kerala_cost_of_cultivation_summary_2022_23_2023_24.csv",
+    "validation_status": "passed",
+    "validation_summary": {
+      "is_valid": true,
+      "record_count": 70,
+      "column_count": 11,
+      "missing_value_count": 2,
+      "duplicate_record_count": 0,
+      "error_count": 0,
+      "warning_count": 0,
+      "errors": [],
+      "warnings": []
+    },
+    "data_quality_limitations": [
+      "State-level summary only; not district or farm-specific cost data.",
+      "Input cost and value of output retain report-defined meanings and must not be relabeled as full cost, profit, or ROI.",
+      "Values are transcribed from report transcripts and have not been independently verified against the original reports.",
+      "The 2022-23 Beans/Summer summary has no reported cost or output value; those values remain blank."
+    ],
+    "processing_steps": [
+      "Imported the supplied source CSV verbatim to data/raw/cultivation_cost/.",
+      "Validated the 11-column statewide summary schema before publishing canonical copies.",
+      "Kept the state summary separate from district-level itemized cultivation costs.",
+      "Recorded the source transcript verification caveat; no values were inferred or filled.",
+      "Cross-checked report-defined input cost and value of output against the original Kerala DES 2022-23 and 2023-24 report tables; the unreported 2022-23 Beans/Summer values remain blank."
+    ],
+    "data_quality_report": "data/metadata/quality_report_cultivation_cost_summary.md",
+    "source_verification": "Verified 34/34 reported 2022-23 and 35/35 reported 2023-24 input/output rows against original DES reports; zero mismatches.",
+    "source_metadata_path": "data/metadata/kerala_cost_summary_verification.json"
+  },
+  "market_arrivals": {
+    "dataset_id": "market_arrivals",
+    "name": "AGMARKNET Market Arrivals",
+    "category": "Market arrivals",
+    "description": "Market-reported physical commodity arrivals with the source unit retained.",
+    "status": "not_collected",
+    "source_info": {
+      "organization": "Directorate of Marketing & Inspection / AGMARKNET via data.gov.in",
+      "source_url": "https://data.gov.in/resource/variety-wise-daily-market-prices-data-commodity",
+      "download_method": "manual_upload",
+      "api_endpoint": null,
+      "manual_page_url": "https://data.gov.in/resource/variety-wise-daily-market-prices-data-commodity",
+      "manual_export_instructions": "Upload authentic Kerala AGMARKNET arrival records using the market_arrivals template. Keep the source arrival unit unchanged; do not infer a unit or demand from the quantity.",
+      "expected_filename": "market_arrivals.csv",
+      "expected_format": "CSV",
+      "license_or_terms": "Open Government Data (OGD) India / Public Educational"
+    },
+    "geographic_coverage": "Kerala, India",
+    "geographic_resolution": "Market",
+    "observation_period": "Not recorded",
+    "record_count": 0,
+    "column_count": 11,
+    "columns": [
+      {
+        "name": "observation_date",
+        "dtype": "date",
+        "required": true,
+        "description": "Arrival date in YYYY-MM-DD format",
+        "unit": null,
+        "min_value": null,
+        "max_value": null
+      },
+      {
+        "name": "state",
+        "dtype": "string",
+        "required": true,
+        "description": "",
+        "unit": null,
+        "min_value": null,
+        "max_value": null
+      },
+      {
+        "name": "district",
+        "dtype": "string",
+        "required": true,
+        "description": "",
+        "unit": null,
+        "min_value": null,
+        "max_value": null
+      },
+      {
+        "name": "market",
+        "dtype": "string",
+        "required": true,
+        "description": "Reporting market",
+        "unit": null,
+        "min_value": null,
+        "max_value": null
+      },
+      {
+        "name": "commodity",
+        "dtype": "string",
+        "required": true,
+        "description": "Commodity name as reported",
+        "unit": null,
+        "min_value": null,
+        "max_value": null
+      },
+      {
+        "name": "variety",
+        "dtype": "string",
+        "required": false,
+        "description": "Commodity variety when reported",
+        "unit": null,
+        "min_value": null,
+        "max_value": null
+      },
+      {
+        "name": "arrival_quantity",
+        "dtype": "float",
+        "required": true,
+        "description": "Arrival quantity as reported",
+        "unit": null,
+        "min_value": 0,
+        "max_value": null
+      },
+      {
+        "name": "arrival_unit",
+        "dtype": "string",
+        "required": true,
+        "description": "Original unit reported by the source",
+        "unit": null,
+        "min_value": null,
+        "max_value": null
+      },
+      {
+        "name": "source",
+        "dtype": "string",
+        "required": true,
+        "description": "Reporting source",
+        "unit": null,
+        "min_value": null,
+        "max_value": null
+      },
+      {
+        "name": "retrieved_at",
+        "dtype": "string",
+        "required": true,
+        "description": "Retrieval timestamp",
+        "unit": null,
+        "min_value": null,
+        "max_value": null
+      },
+      {
+        "name": "source_record_id",
+        "dtype": "string",
+        "required": false,
+        "description": "Source record identifier when provided",
+        "unit": null,
+        "min_value": null,
+        "max_value": null
+      }
+    ],
+    "primary_key": [
+      "observation_date",
+      "district",
+      "market",
+      "commodity",
+      "variety"
+    ],
+    "missing_value_count": 0,
+    "missing_values_by_column": {},
+    "last_updated": null,
+    "raw_path": null,
+    "processed_path": null,
+    "validation_status": "unvalidated",
+    "validation_summary": null,
+    "data_quality_limitations": [
+      "Arrival quantities are not converted; preserve and inspect each source unit before comparing records.",
+      "Market arrivals are physical quantities and must not be interpreted as consumer demand.",
+      "Only records with verifiable source, retrieval timestamp, and explicit arrival unit should be uploaded."
+    ],
+    "processing_steps": []
+  },
+  "cultivation_cost_a": {
+    "dataset_id": "cultivation_cost_a",
+    "name": "Kerala Statewide Cost A by Crop and Season",
+    "category": "Historical cultivation costs",
+    "description": "Kerala DES reported Cost A per hectare by crop/season and agricultural year.",
+    "status": "partially_available",
+    "source_info": {
+      "organization": "Department of Economics & Statistics, Government of Kerala",
+      "source_url": "https://ecostat.kerala.gov.in/publication-detail/report-on-cost-of-cultivation-of-important-crops-in-kerala-2023-24",
+      "download_method": "direct_download",
+      "api_endpoint": null,
+      "manual_page_url": "https://ecostat.kerala.gov.in/publication-detail/report-on-cost-of-cultivation-of-important-crops-in-kerala-2023-24",
+      "manual_export_instructions": "Official Cost A table A5.1, printed page 264. Statewide Cost A is not district itemized total cost and is not a profitability input.",
+      "expected_filename": "kerala_statewide_cost_a_timeseries_2014_15_to_2023_24.csv",
+      "expected_format": "CSV",
+      "license_or_terms": "Open Government Data (OGD) India / Public Educational"
+    },
+    "geographic_coverage": "Kerala, India",
+    "geographic_resolution": "State",
+    "observation_period": "2014-15 to 2023-24",
+    "record_count": 350,
+    "column_count": 11,
+    "columns": [
+      {
+        "name": "crop",
+        "dtype": "string",
+        "required": true,
+        "description": "Crop name as reported",
+        "unit": null,
+        "min_value": null,
+        "max_value": null
+      },
+      {
+        "name": "season",
+        "dtype": "string",
+        "required": true,
+        "description": "Season or annual crop",
+        "unit": null,
+        "min_value": null,
+        "max_value": null
+      },
+      {
+        "name": "cost_year",
+        "dtype": "string",
+        "required": true,
+        "description": "Agricultural year",
+        "unit": null,
+        "min_value": null,
+        "max_value": null
+      },
+      {
+        "name": "cost_a_rs_per_hectare",
+        "dtype": "float",
+        "required": true,
+        "description": "Kerala DES Cost A as printed in the source report",
+        "unit": "INR/hectare",
+        "min_value": 0,
+        "max_value": null
+      },
+      {
+        "name": "state",
+        "dtype": "string",
+        "required": true,
+        "description": "",
+        "unit": null,
+        "min_value": null,
+        "max_value": null
+      },
+      {
+        "name": "source",
+        "dtype": "string",
+        "required": true,
+        "description": "Official report source",
+        "unit": null,
+        "min_value": null,
+        "max_value": null
+      },
+      {
+        "name": "source_page",
+        "dtype": "string",
+        "required": true,
+        "description": "Printed report table/page reference",
+        "unit": null,
+        "min_value": null,
+        "max_value": null
+      },
+      {
+        "name": "source_url",
+        "dtype": "string",
+        "required": true,
+        "description": "Official report URL",
+        "unit": null,
+        "min_value": null,
+        "max_value": null
+      },
+      {
+        "name": "retrieved_at",
+        "dtype": "string",
+        "required": true,
+        "description": "Source retrieval timestamp",
+        "unit": null,
+        "min_value": null,
+        "max_value": null
+      },
+      {
+        "name": "source_verification_status",
+        "dtype": "string",
+        "required": true,
+        "description": "Indicates direct comparison with the original official report",
+        "unit": null,
+        "min_value": null,
+        "max_value": null
+      },
+      {
+        "name": "notes",
+        "dtype": "string",
+        "required": true,
+        "description": "Interpretation and use limitations",
+        "unit": null,
+        "min_value": null,
+        "max_value": null
+      }
+    ],
+    "primary_key": [
+      "crop",
+      "season",
+      "cost_year"
+    ],
+    "missing_value_count": 0,
+    "missing_values_by_column": {
+      "crop": 0,
+      "season": 0,
+      "cost_year": 0,
+      "cost_a_rs_per_hectare": 0,
+      "state": 0,
+      "source": 0,
+      "source_page": 0,
+      "source_url": 0,
+      "retrieved_at": 0,
+      "source_verification_status": 0,
+      "notes": 0
+    },
+    "last_updated": "2026-10-25T18:05:26.371188",
+    "raw_path": "data/raw/cultivation_cost/kerala_des_cost_of_cultivation_2023_24_report.pdf",
+    "processed_path": "C:/Users/Sidhu/Desktop/new/GROW/data/processed/kerala_statewide_cost_a_timeseries_2014_15_to_2023_24.csv",
+    "validation_status": "passed",
+    "validation_summary": {
+      "is_valid": true,
+      "sha256": "47b09728da432c716a4593e054dc3c1db5b82074e3b30d2388db53c3415513bf",
+      "record_count": 350,
+      "column_count": 11,
+      "missing_value_count": 0,
+      "duplicate_record_count": 0,
+      "quality_report": "data/metadata/quality_report_cultivation_cost_a.md"
+    },
+    "data_quality_limitations": [
+      "Statewide Cost A per hectare only; it is not district-specific, full Cost C, total farmer cost, profit, or ROI.",
+      "All 108 zero values are preserved exactly as printed; they may indicate crops/years not covered or not reported and are not interpreted as zero cost.",
+      "This dataset must not be used to calculate farm or district profitability.",
+      "All 350 crop/season/year values were cross-checked against table A5.1 in the official Kerala DES 2023-24 report."
+    ],
+    "processing_steps": [
+      "Downloaded and preserved the official Kerala DES 2023-24 report PDF.",
+      "Cross-checked all 350 crop/season/year Cost A values against table A5.1.",
+      "Normalized season and crop labels into separate fields; retained statewide resolution and source citation.",
+      "Retained all 108 source zeros as printed; no missing values were inferred or filled.",
+      "Kept Cost A separate from district itemized costs and excluded it from profitability calculations."
+    ],
+    "source_reference_path": "data/reference/kerala_statewide_cost_a_timeseries_2014_15_to_2023_24.csv",
+    "source_metadata_path": "data/raw/cultivation_cost/kerala_des_cost_of_cultivation_2023_24_report.metadata.json",
+    "data_quality_report": "data/metadata/quality_report_cultivation_cost_a.md",
+    "source_verification": "350 of 350 values matched official table A5.1; zero mismatches."
+  }
+};

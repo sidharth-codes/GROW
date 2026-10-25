@@ -1,0 +1,1087 @@
+# GROW — Complete Agricultural Intelligence Platform
+## Full Implementation, Data Collection, Data Enrichment, Machine Learning, and End-to-End Integration
+
+### 1. YOUR MISSION
+
+Act as a senior full-stack developer, agricultural data scientist, machine-learning engineer, data engineer, and QA engineer.
+
+Your responsibility is to finish the existing GROW agricultural intelligence project and make it a genuinely working application.
+
+Do not simply inspect the project, create empty CSV templates, write documentation, or report missing datasets. **Actively obtain, prepare, validate, integrate, and use sufficient data to make the application functional wherever reasonably possible.**
+
+When a required dataset is missing:
+
+1. Search for a reliable data source.
+2. Download or retrieve the data when technically possible.
+3. Parse and clean it.
+4. Validate its schema, units, dates, and geographic coverage.
+5. Save the original source data.
+6. Convert it into the canonical dataset format.
+7. Record its provenance.
+8. Integrate it into the backend.
+9. Connect it to the frontend.
+10. Test the resulting feature.
+
+If the preferred official source is unavailable, investigate alternative authoritative sources, public research datasets, government publications, agricultural universities, and documented research datasets.
+
+If real data cannot be obtained, use a suitable documented fallback where scientifically defensible. Mark its origin and limitations clearly.
+
+Do not stop after discovering that a dataset is missing. Make reasonable efforts to obtain sufficient data and implement a working alternative.
+
+**The final result must be a working application, not a list of unfinished features.**
+
+---
+
+# 2. PRESERVE AND IMPROVE THE EXISTING PROJECT
+
+Inspect the repository before modifying anything.
+
+The existing project uses:
+
+- Python standard-library HTTP server.
+- Static HTML, CSS, and vanilla JavaScript frontend.
+- CSV-based datasets.
+- Existing serialized machine-learning models.
+- Existing API endpoints and ingestion scripts.
+
+Preserve this architecture unless a change is genuinely necessary.
+
+Inspect:
+
+- All backend modules.
+- All frontend pages and scripts.
+- Every relevant dataset.
+- Model-training scripts.
+- Existing machine-learning models.
+- Dataset registry and metadata.
+- API routes.
+- Data ingestion pipelines.
+- Existing tests.
+- Configuration and documentation.
+
+Run the current test suite before making changes.
+
+Back up important production datasets before modifying them.
+
+Do not remove working features simply to make implementation easier.
+
+Do not rewrite the entire application unnecessarily.
+
+---
+
+# 3. CENTRAL FEATURE: ANALYZE MY FARM
+
+Create one complete, integrated agricultural decision workflow.
+
+The farmer must be able to:
+
+1. Select a location.
+2. Enter the available land area.
+3. Enter soil and farm conditions.
+4. Select a crop or ask the system to recommend crops.
+5. Analyze soil suitability.
+6. Analyze weather and seasonal suitability.
+7. Estimate crop yield.
+8. Estimate total production.
+9. Estimate cultivation costs.
+10. Analyze available market prices.
+11. Analyze market demand evidence.
+12. Compare potential selling markets.
+13. Estimate revenue and net profit.
+14. Evaluate agricultural and market risks.
+15. Compare multiple crops.
+16. Compare alternative land allocations.
+17. Receive a clear, evidence-based recommendation.
+
+The results must come from working backend calculations and integrated datasets.
+
+Do not implement a frontend that displays hardcoded example results as if they were live calculations.
+
+---
+
+# 4. DATA ENRICHMENT IS A REQUIRED TASK
+
+## 4.1 General rule
+
+Whenever a feature lacks sufficient data, the agent must investigate and implement a data-enrichment solution.
+
+For every important dataset:
+
+1. Identify the required fields.
+2. Determine the current coverage.
+3. Identify the minimum useful coverage for the feature.
+4. Search for appropriate sources.
+5. Retrieve as much relevant data as possible.
+6. Validate the downloaded data.
+7. Integrate valid records.
+8. Document any remaining gaps.
+9. Make the application handle incomplete coverage correctly.
+
+Do not create empty templates and consider the task finished.
+
+Do not use a dataset merely because it has many rows. Its fields, units, geographic coverage, time period, and quality must match the intended use.
+
+## 4.2 Data-source priority
+
+Use the following source hierarchy:
+
+**Priority 1 — Official and authoritative sources**
+- Kerala government statistical publications.
+- Kerala Department of Economics and Statistics.
+- Kerala Agricultural University.
+- Kerala agricultural and soil-related government departments.
+- AGMARKNET and data.gov.in.
+- India Meteorological Department, where accessible and appropriate.
+- NASA POWER for relevant weather observations.
+- Other relevant Indian government agricultural datasets.
+
+**Priority 2 — Research and institutional sources**
+- Agricultural universities.
+- Government-funded research institutions.
+- Peer-reviewed agricultural studies.
+- Public research repositories.
+- Reputable international agricultural organizations.
+
+**Priority 3 — Documented fallback sources**
+- Publicly accessible agricultural datasets with identifiable provenance.
+- Research datasets covering similar tropical or Indian agricultural conditions.
+- Clearly documented regional estimates when direct Kerala observations are unavailable.
+
+Before using a fallback dataset, check whether its geography, climate, soil conditions, crop varieties, time period, and measurement definitions are appropriate.
+
+Do not automatically transfer a value from another state or country to Kerala.
+
+## 4.3 Use the internet and available tools
+
+Where network access is available, search for and retrieve the actual source data.
+
+Use existing download scripts and API integrations when suitable.
+
+When an API requires credentials:
+
+- Check whether the required environment variable is configured.
+- Use the existing environment securely.
+- Explain how the user can obtain and configure the credential if necessary.
+- Continue with other data sources and implementation tasks while access is unavailable.
+
+Never print API keys, place them in source code, or commit them.
+
+If network access is unavailable in the execution environment, document that limitation, implement the downloader and integration pipeline, and continue using existing verified data and clearly labelled fallbacks.
+
+Do not claim that data has been downloaded when it has not.
+
+---
+
+# 5. REQUIRED DATASETS TO POPULATE
+
+Investigate every dataset below. Populate it with verified data wherever obtainable.
+
+## A. Historical market prices
+
+The current integration has retrieved 123 raw AGMARKNET/data.gov.in records, producing 97 unique canonical observations.
+
+The known limitations are:
+
+- Only one observation date is represented in the current dataset.
+- The source price unit remains unverified.
+- Historical price coverage is insufficient for reliable seasonal price forecasting.
+
+### Required actions
+
+1. Verify the official price unit.
+2. Investigate historical AGMARKNET data.
+3. Check whether pagination, date filters, commodity filters, and geographic filters work.
+4. Use available official downloads or other legitimate access methods if the API is insufficient.
+5. Search for relevant historical market-price publications or datasets.
+6. Retrieve historical observations across multiple dates.
+7. Include multiple commodities and markets where supported.
+8. Normalize market names, dates, commodity names, varieties, grades, and units.
+9. Preserve the raw source records.
+10. Remove only genuine duplicates.
+11. Maintain the original observation date.
+12. Record retrieval timestamps and source URLs.
+13. Validate numeric prices and price ranges.
+14. Document missing dates and markets.
+
+Target the longest reliable historical period that can actually be retrieved.
+
+Prefer multiple years of daily or market-session observations when available, but do not fabricate observations to meet a target.
+
+If price units remain unverified, retain the numeric observations with an explicit unverified-unit status and prevent them from being used for definitive profitability calculations.
+
+The application must still support clearly labelled user-entered price scenarios.
+
+## B. Market arrivals and market activity
+
+Investigate and retrieve market-arrival data where available.
+
+Include:
+
+- Market.
+- District.
+- Commodity.
+- Variety or grade, when supplied.
+- Arrival date.
+- Arrival quantity.
+- Quantity unit.
+- Source.
+- Retrieval timestamp.
+
+Validate quantity units and field definitions before integration.
+
+Market arrivals are not the same as demand.
+
+If historical arrivals are unavailable for a commodity, do not invent them.
+
+Implement the feature so that the system displays the missing evidence while continuing to provide other available analyses.
+
+## C. Crop demand and consumption data
+
+Investigate available evidence for agricultural demand, including:
+
+- Consumption statistics.
+- Wholesale purchase data.
+- Institutional procurement.
+- Public food-distribution statistics, where relevant.
+- Agricultural market studies.
+- Official crop-consumption estimates.
+- Relevant research publications.
+
+Prioritize Kerala-specific information.
+
+Use broader regional evidence only when its limitations are clearly explained.
+
+If direct demand data cannot be obtained, build a transparent market-activity analysis from available price and arrival data.
+
+Do not call this direct demand measurement.
+
+Never invent demand volumes, demand percentages, buyer counts, or demand growth rates.
+
+Display the evidence supporting each market assessment.
+
+## D. Crop calendars and crop requirements
+
+Find and integrate verified information about crop requirements.
+
+Where available, capture:
+
+- Crop.
+- Variety.
+- District or agroclimatic zone.
+- Planting season.
+- Planting window.
+- Crop duration.
+- Harvest period.
+- Soil requirements.
+- Suitable pH range.
+- Temperature requirements.
+- Rainfall requirements.
+- Irrigation requirements.
+- Drainage requirements.
+- Nutrient requirements.
+- Relevant cultivation practices.
+- Source publication and edition.
+- Source date and units.
+
+Use Kerala Agricultural University and other authoritative agricultural sources where appropriate.
+
+Retrieve and parse relevant documents when possible.
+
+If the information exists only in PDFs, extract the relevant tables and validate the resulting records against the source.
+
+Do not blindly convert general text into precise numeric thresholds.
+
+Where verified numeric thresholds are unavailable, use documented qualitative rules instead.
+
+The crop recommendation engine must use these records when making seasonal and suitability decisions.
+
+## E. Soil measurements and soil suitability
+
+Investigate measured soil data for Kerala.
+
+Prioritize:
+
+- Soil pH.
+- Nitrogen.
+- Phosphorus.
+- Potassium.
+- Soil texture.
+- Organic carbon.
+- Electrical conductivity.
+- Other available soil measurements.
+
+Preserve sampling location, date, measurement units, source, and laboratory metadata where available.
+
+Do not treat qualitative district descriptions as measured soil observations.
+
+Implement support for farmers to enter soil-test values manually.
+
+If measured soil data is unavailable for a selected location, provide a clear explanation and allow the analysis to continue using only the evidence that is available.
+
+Do not silently substitute another district's best soil profile.
+
+## F. Cultivation costs
+
+The repository already contains a statewide Cost A time series covering 2014–15 through 2023–24 and a statewide cultivation-cost summary for 2022–23 and 2023–24.
+
+Build on this data rather than discarding it.
+
+Search for additional reliable information on:
+
+- Crop-specific production costs.
+- District-level cultivation costs.
+- Labour costs.
+- Seeds and planting material.
+- Fertilizers.
+- Irrigation.
+- Machinery.
+- Pest and disease management.
+- Harvesting.
+- Transportation.
+- Packaging.
+- Other documented inputs.
+
+Maintain the distinction between different cost-accounting definitions.
+
+Do not equate a source-defined input cost with total cultivation cost or net profit.
+
+Where district-level data cannot be found, use a suitable statewide benchmark if the accounting definition and units are compatible.
+
+Allow users to enter their own cost assumptions and save them for the current analysis.
+
+Clearly label benchmark costs, official observations, and user-entered assumptions.
+
+## G. Historical yield data
+
+Audit the existing yield dataset, which contains approximately 6,422 historical records covering 2001–02 through 2023–24.
+
+Validate:
+
+- Crop names.
+- Districts.
+- Years.
+- Units.
+- Missing observations.
+- Duplicate records.
+- Outliers.
+- Geographic coverage.
+- Consistency across reporting years.
+
+Look for additional official yield data if needed.
+
+Use historical yields as baselines when they are the only available evidence.
+
+Train and validate forecasting models only when the available data supports the task.
+
+Do not invent missing yield observations to improve model performance.
+
+## H. Weather data
+
+The current weather dataset contains approximately 60,329 records for 14 districts, covering 2015-01-01 through 2026-10-20.
+
+The previous ingestion identified 25 precipitation records that require investigation.
+
+### Required actions
+
+1. Inspect the quarantined observations.
+2. Reproduce the original requests.
+3. Compare single-day and multi-day source responses.
+4. Investigate the previously observed discrepancies, including differences of approximately 24 times.
+5. Check source parameter definitions and units.
+6. Correct the parser only when the underlying cause is established.
+7. Reprocess affected records where justified.
+8. Keep unresolved records quarantined.
+9. Add regression tests.
+10. Validate the final dataset.
+11. Update downstream models if corrected data affects them.
+
+Also improve weather coverage where feasible.
+
+Use NASA POWER or other suitable authoritative sources to extend historical coverage or retrieve recent observations.
+
+Do not describe historical observations as future forecasts.
+
+If a real forecast provider is unavailable, show recent conditions and historical seasonal patterns instead.
+
+## I. Agricultural risk data
+
+Investigate reliable sources for:
+
+- Crop-specific pest risks.
+- Disease risks.
+- Rainfall extremes.
+- Flooding.
+- Drought.
+- Temperature stress.
+- Seasonal production risks.
+- Other documented regional agricultural risks.
+
+Prioritize Kerala-specific evidence.
+
+Do not report an active outbreak or disaster without supporting data.
+
+If risk information is incomplete, clearly state what is known and unknown.
+
+---
+
+# 6. WHEN REAL DATA IS NOT AVAILABLE: MAKE A DOCUMENTED FALLBACK
+
+The application must remain usable even when some datasets cannot be retrieved.
+
+However, missing data must not be disguised as verified data.
+
+Implement the following hierarchy for each feature.
+
+### Level 1 — Verified local observations
+
+Use authoritative observations relevant to the selected location, crop, season, and time period.
+
+Label them as observed or official data as appropriate.
+
+### Level 2 — Verified regional or historical data
+
+Use the nearest suitable verified regional data or historical baseline when local observations are unavailable.
+
+Show its actual geographic and temporal coverage.
+
+Do not describe regional data as a measurement of the individual farm.
+
+### Level 3 — Documented estimates
+
+Use a defensible estimate based on published agricultural evidence or a transparent calculation.
+
+Store the assumptions and source.
+
+Label the result as an estimate.
+
+### Level 4 — User-entered assumptions
+
+Allow the farmer to enter missing information, including:
+
+- Selling price.
+- Expected yield.
+- Cultivation costs.
+- Irrigation availability.
+- Soil-test results.
+- Other relevant farm details.
+
+Recalculate the result using the supplied assumptions.
+
+Label these as user-entered values.
+
+### Level 5 — Insufficient evidence
+
+If none of the above supports a responsible estimate, return an explicit unavailable or insufficient-evidence result.
+
+Explain which missing input prevents the calculation.
+
+Do not fabricate a value simply to fill a chart or dashboard card.
+
+## Important: Synthetic data policy
+
+Synthetic data may be used for:
+
+- Unit tests.
+- Development fixtures.
+- Demonstration mode.
+- UI testing.
+- Testing edge cases.
+
+It must not be silently inserted into production datasets as real observations.
+
+If a synthetic dataset is necessary for a demonstration, isolate it, label it prominently, and prevent it from being used for real farmer recommendations unless the user explicitly enables a separate demonstration mode.
+
+Do not train a production recommendation or forecasting model on fabricated observations and present the results as validated agricultural intelligence.
+
+---
+
+# 7. DATA QUALITY AND CONFIDENCE
+
+Implement a consistent data-quality system.
+
+For every major analysis, track:
+
+- Source reliability.
+- Geographic relevance.
+- Temporal relevance.
+- Observation count.
+- Missing values.
+- Unit verification.
+- Data freshness.
+- Validation status.
+- Model performance, where applicable.
+
+Return a clear evidence status, such as:
+
+- Verified local data.
+- Verified regional data.
+- Historical baseline.
+- Estimated result.
+- User-defined scenario.
+- Insufficient evidence.
+
+If a numerical confidence score is used, define and validate its calculation.
+
+Do not invent confidence percentages.
+
+Do not confuse data completeness with prediction accuracy.
+
+Do not claim that a model is highly confident merely because all input fields have values.
+
+The user must be able to understand the reliability of every major output.
+
+---
+
+# 8. IMPLEMENT THE COMPLETE AREA-BASED CROP ANALYSIS
+
+## A. Location and land area
+
+Support:
+
+- Kerala districts.
+- Optional taluk, block, or panchayat when verified data exists.
+- Farm area in acres, hectares, or cents.
+- Total farm area.
+- Area already occupied.
+- Area available for planting.
+- Multiple crop allocations.
+
+Conversions:
+
+- 1 acre = 100 cents.
+- 1 hectare = approximately 2.4710538147 acres.
+- 1 hectare = approximately 247.10538147 cents.
+
+Validate all inputs.
+
+Do not allow total crop allocation to exceed available land.
+
+## B. Crop selection
+
+Provide:
+
+- Select a specific crop.
+- Find the best suitable crops.
+- Compare several crops.
+- Analyze multiple crops across different portions of the farm.
+
+Rank crops based on available evidence for:
+
+- Soil suitability.
+- Weather suitability.
+- Seasonal suitability.
+- Water requirements.
+- Yield.
+- Cultivation cost.
+- Revenue.
+- Net profit.
+- Market evidence.
+- Risk.
+- Data quality.
+
+Do not let profitability alone override severe agronomic incompatibility.
+
+## C. Yield and production
+
+Calculate:
+
+Total production = yield per unit area × farm area in the matching unit.
+
+For each result, identify:
+
+- Unit.
+- Crop.
+- Location.
+- Time period.
+- Source or model.
+- Whether it is an observation, baseline, prediction, or estimate.
+
+## D. Costs and profit
+
+Calculate:
+
+Gross revenue = saleable production × selling price per matching unit.
+
+Net profit = gross revenue − applicable costs.
+
+Profit per acre = net profit ÷ farm area in acres.
+
+Profit per hectare = net profit ÷ farm area in hectares.
+
+Break-even selling price = applicable total costs ÷ saleable production.
+
+Break-even yield = applicable total costs ÷ selling price per production unit.
+
+Handle missing values and incompatible units safely.
+
+Convert kilograms and quintals correctly:
+
+1 quintal = 100 kilograms.
+
+Do not calculate definitive profitability from unverified price units.
+
+If only part of the cultivation cost is known, label the result as partial or provisional and explain what is excluded.
+
+## E. Demand and market comparison
+
+Display:
+
+- Latest available price.
+- Price date.
+- Unit.
+- Market.
+- Commodity and variety.
+- Market-arrival evidence.
+- Historical trend, when sufficient observations exist.
+- Demand evidence, when available.
+- Data coverage.
+- Distance, only when verified coordinates are available.
+- Selling and transportation costs, where available.
+
+Do not equate high price with high demand.
+
+Do not equate market arrivals with demand.
+
+When demand data is unavailable, report the available market evidence without inventing a demand score.
+
+## F. Risk and recommendation
+
+Show:
+
+- Agronomic suitability.
+- Weather risks.
+- Water-related risks.
+- Yield uncertainty.
+- Price uncertainty.
+- Cost uncertainty.
+- Market-data gaps.
+- Suggested next steps.
+
+The final recommendation must explain why the selected crop is suitable, profitable or potentially profitable, and what uncertainties remain.
+
+## G. Crop comparison
+
+Compare crops using a consistent table:
+
+- Suitability.
+- Expected yield.
+- Total production.
+- Estimated cultivation cost.
+- Expected revenue.
+- Estimated net profit.
+- Profit per acre.
+- Market evidence.
+- Crop duration.
+- Risk.
+- Data quality.
+
+Allow the farmer to compare alternative assumptions.
+
+Do not display unsupported values merely to make the table complete.
+
+---
+
+# 9. BACKEND INTEGRATION
+
+Reuse existing APIs wherever possible.
+
+Add or modify the necessary endpoints for:
+
+- Districts.
+- Crops.
+- Markets.
+- Dataset status.
+- Soil.
+- Weather.
+- Yield.
+- Market prices.
+- Market arrivals.
+- Cultivation costs.
+- Crop recommendations.
+- Complete crop analysis.
+- Crop comparison.
+- Profitability scenarios.
+- Land-allocation analysis.
+
+A suitable primary endpoint is:
+
+POST /api/crop-analysis
+
+It should accept:
+
+- Location.
+- Farm area and unit.
+- Selected crop or crop-discovery mode.
+- Optional soil measurements.
+- Water and irrigation information.
+- Planting season.
+- Cost assumptions.
+- Selling-market preference.
+- Optional scenario price with an explicit unit.
+- Optional risk preference.
+
+It should return structured results containing:
+
+- Farm information.
+- Crop suitability.
+- Weather evidence.
+- Yield estimate.
+- Production estimate.
+- Cost breakdown.
+- Revenue.
+- Profitability.
+- Demand evidence.
+- Market comparison.
+- Risk.
+- Final recommendation.
+- Data quality.
+- Missing information.
+- Source and model metadata.
+
+The backend must perform the calculations.
+
+The frontend must not independently reimplement formulas in a way that produces conflicting results.
+
+Handle missing datasets without crashing the application.
+
+Return clear errors when required inputs are invalid.
+
+Return an explicit insufficient-evidence response when a calculation cannot responsibly be completed.
+
+---
+
+# 10. FRONTEND: MAKE THE ENTIRE APPLICATION WORK
+
+Use the existing frontend architecture unless a change is necessary.
+
+Build a complete, responsive farmer-facing workflow.
+
+Provide a prominent **Analyze My Farm** action.
+
+The user journey must be:
+
+1. Select district.
+2. Enter farm area.
+3. Provide available farm conditions.
+4. Select a crop or request recommendations.
+5. Run the analysis.
+6. View soil and weather suitability.
+7. View yield and total production.
+8. View cultivation costs.
+9. View revenue and profit, when supportable.
+10. View market and demand evidence.
+11. View risks.
+12. Compare alternative crops.
+13. Adjust assumptions.
+14. Recalculate.
+15. Export or print the report.
+
+Connect the interface to real backend endpoints.
+
+Implement:
+
+- Input validation.
+- Loading states.
+- Empty states.
+- Error messages.
+- Missing-data notices.
+- Unit labels.
+- Source dates.
+- Data-quality badges.
+- Responsive tables.
+- Charts where enough observations exist.
+- Printable analysis reports.
+
+Do not use hardcoded values as if they were live API results.
+
+If the dataset is unavailable, show an actionable message and continue with other available parts of the analysis.
+
+Do not leave buttons that appear functional but do nothing.
+
+---
+
+# 11. AUTOMATE DATA REFRESH WHERE POSSIBLE
+
+For sources that support repeatable retrieval, implement reusable ingestion scripts.
+
+Each pipeline should:
+
+1. Retrieve data.
+2. Save raw responses.
+3. Validate source responses.
+4. Normalize the data.
+5. Validate the normalized dataset.
+6. Detect duplicates.
+7. Record rejected rows.
+8. Generate provenance metadata.
+9. Stage the update.
+10. Promote validated data safely.
+11. Report the results.
+
+Include:
+
+- Timeouts.
+- Retries.
+- Pagination.
+- Rate-limit handling.
+- Useful logs.
+- API-key protection.
+- Incremental updates.
+- Duplicate prevention.
+- Safe recovery from partial failures.
+
+Never replace a valid production dataset with an empty or incomplete result because an upstream request failed.
+
+Do not run uncontrolled repeated requests against public services.
+
+Document how the farmer or developer can refresh each dataset.
+
+---
+
+# 12. MACHINE-LEARNING REQUIREMENTS
+
+Inspect and validate the existing models.
+
+## Crop recommendation
+
+Ensure recommendations use relevant, supported features.
+
+Document the algorithm and explain its outputs.
+
+Distinguish heuristic rules from trained models.
+
+## Yield prediction
+
+Check whether the existing API returns a genuine prediction or a historical average.
+
+Use the correct label for each.
+
+Validate using chronological splits and report real metrics, including MAE and RMSE where appropriate.
+
+Compare the model against simple baselines.
+
+## Market-price prediction
+
+First obtain sufficient verified historical data.
+
+Do not produce a forecasting model from one observation date.
+
+When adequate data exists, validate chronologically and compare against a baseline.
+
+## Clustering and classification
+
+Validate feature encoding, scaling, class balance, and evaluation methods.
+
+Do not use arbitrary numerical encodings of categorical variables as meaningful distances without justification.
+
+Do not report model accuracy unless it has actually been measured.
+
+If a model cannot be validated due to missing data, implement a transparent baseline where appropriate and document the limitation.
+
+---
+
+# 13. SECURITY AND PRODUCTION DATA SAFETY
+
+Inspect and fix:
+
+- API-key leakage.
+- Unsafe uploads.
+- Path traversal.
+- Arbitrary file writes.
+- Malformed CSV data.
+- Invalid JSON.
+- Oversized requests.
+- NaN and infinity.
+- Negative or incompatible numeric values.
+- Incorrect integer validation.
+- Duplicate records.
+- Registry corruption.
+- Partial dataset writes.
+- Unhandled API exceptions.
+- Unsafe frontend rendering.
+
+Requirements:
+
+- Never print secrets in logs.
+- Never hardcode credentials.
+- Validate every dataset before production use.
+- Preserve raw data.
+- Quarantine invalid records.
+- Keep backups of important datasets.
+- Use atomic updates where practical.
+- Protect the registry from incomplete overwrites.
+- Keep test fixtures separate from production observations.
+
+---
+
+# 14. TEST THE ACTUAL APPLICATION
+
+Run the existing tests first and record the baseline.
+
+Add tests for:
+
+- Area conversion.
+- Invalid area.
+- Crop and district selection.
+- Missing soil data.
+- Soil suitability.
+- Weather anomalies.
+- Yield calculation.
+- Yield-to-production conversion.
+- Cultivation-cost estimation.
+- Price-unit validation.
+- Revenue.
+- Net profit.
+- Profit per acre.
+- Break-even price.
+- Break-even yield.
+- Missing market prices.
+- Demand versus market-arrival semantics.
+- Crop ranking.
+- Crop comparison.
+- Multiple crop allocations.
+- Scenario analysis.
+- Dataset validation.
+- Ingestion failures.
+- Duplicate records.
+- API error handling.
+- Frontend integration.
+- Empty states.
+- Loading states.
+- Missing-data behavior.
+
+Use test fixtures only for testing.
+
+Run:
+
+1. Focused tests.
+2. Full test suite.
+3. Dataset validation.
+4. API smoke tests.
+5. Frontend syntax/build checks.
+6. `git diff --check`.
+7. End-to-end verification of the primary farm-analysis journey.
+
+Fix failures introduced by your changes.
+
+Do not claim a test passed unless it was executed.
+
+---
+
+# 15. IMPLEMENTATION PRIORITIES
+
+Work through the following phases.
+
+## Phase 1 — Baseline and critical data integrity
+
+- Inspect the project.
+- Run the current tests.
+- Audit all datasets.
+- Investigate the quarantined weather anomalies.
+- Verify market-price units.
+- Preserve valid production data.
+
+## Phase 2 — Actively obtain missing data
+
+- Retrieve additional historical prices.
+- Investigate market arrivals.
+- Find crop calendars and crop requirements.
+- Search for measured soil data.
+- Expand cultivation-cost coverage.
+- Investigate demand-related sources.
+- Improve agricultural risk data where feasible.
+- Document every unresolved source limitation.
+
+Do not stop at creating templates.
+
+## Phase 3 — Implement unified calculation services
+
+- Farm-area conversion.
+- Soil suitability.
+- Weather and seasonal suitability.
+- Yield estimation.
+- Cost estimation.
+- Revenue and profitability.
+- Market analysis.
+- Risk assessment.
+- Crop ranking.
+- Crop comparison.
+- Land allocation.
+
+## Phase 4 — Connect the complete backend workflow
+
+Implement the combined crop-analysis API and reuse existing endpoints.
+
+## Phase 5 — Connect the frontend
+
+Complete the Analyze My Farm workflow and make every visible action functional.
+
+## Phase 6 — Validate models
+
+Correct mislabeled predictions, improve model validation, and train only when the data supports it.
+
+## Phase 7 — Security and testing
+
+Complete integration tests, data validation, security checks, documentation, and end-to-end verification.
+
+Continue independent tasks when one source is blocked by credentials, access restrictions, or unavailable data.
+
+---
+
+# 16. DEFINITION OF DONE
+
+The project is not complete merely because:
+
+- A page exists.
+- A button is visible.
+- A CSV template exists.
+- An API returns HTTP 200.
+- A model has been trained.
+- A dashboard displays numerical values.
+
+The project is complete only when the main workflow works end to end.
+
+A farmer must be able to enter a location and area, select a crop or request recommendations, receive a combined suitability and yield analysis, review costs and available market evidence, calculate profitability when the necessary inputs are valid, compare alternatives, and understand the limitations of the results.
+
+All displayed calculations must be traceable to actual inputs, verified observations, documented estimates, or explicit user-entered scenarios.
+
+The application must remain usable when optional data is unavailable.
+
+Where data is missing, the agent must make reasonable efforts to obtain and integrate suitable data, implement a documented fallback where appropriate, or clearly identify the remaining blocker.
+
+**Do not fabricate agricultural facts or disguise synthetic data as real data.**
+
+---
+
+# 17. FINAL REPORT REQUIRED FROM THE AGENT
+
+After implementation, report:
+
+1. Features completed.
+2. Features that are still incomplete.
+3. Datasets successfully downloaded.
+4. Datasets updated.
+5. Number of raw, accepted, rejected, and duplicate records for each ingestion.
+6. Actual data coverage by date, district, crop, and market.
+7. Sources used.
+8. Fields or units that remain unverified.
+9. Fallbacks implemented.
+10. Calculations implemented.
+11. Models trained or validated.
+12. Actual model metrics.
+13. Tests executed and their results.
+14. End-to-end workflow verification.
+15. Files changed.
+16. Commands to run the application.
+17. External credentials or manual steps still required.
+18. Specific remaining blockers.
+
+For any incomplete task, explain what was attempted, why it remains incomplete, and the next practical action.
+
+Do not claim successful data retrieval or working functionality without verification.
+
+## FINAL OBJECTIVE
+
+Turn GROW into a fully integrated, data-enriched agricultural intelligence application that helps farmers make informed crop-selection and profitability decisions.
+
+**Actively find and integrate missing data wherever possible, use transparent fallbacks where appropriate, implement the complete workflow, and verify that the actual application works.**

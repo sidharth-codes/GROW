@@ -1,98 +1,141 @@
 date,district,market,crop,variety,min_price,max_price,modal_price,price_unit,source
-2026-10-25,Kollam,Anchal Market,Amaranthus,Amaranthus,3700.0,3700.0,3700.0,UNVERIFIED_SOURCE_UNIT,DATA.GOV.IN_AGMARKNET_API
-2026-10-25,Kollam,Anchal Market,Ashgourd,Ashgourd,6700.0,6700.0,6700.0,UNVERIFIED_SOURCE_UNIT,DATA.GOV.IN_AGMARKNET_API
-2026-10-25,Kollam,Anchal Market,Banana,Red Banana,7600.0,7600.0,7600.0,UNVERIFIED_SOURCE_UNIT,DATA.GOV.IN_AGMARKNET_API
-2026-10-25,Kollam,Anchal Market,Beetroot,Beetroot,3800.0,3800.0,3800.0,UNVERIFIED_SOURCE_UNIT,DATA.GOV.IN_AGMARKNET_API
-2026-10-25,Kollam,Anchal Market,Bottle gourd,Bottle Gourd,2700.0,2700.0,2700.0,UNVERIFIED_SOURCE_UNIT,DATA.GOV.IN_AGMARKNET_API
-2026-10-25,Kollam,Anchal Market,Cabbage,Cabbage,6800.0,6800.0,6800.0,UNVERIFIED_SOURCE_UNIT,DATA.GOV.IN_AGMARKNET_API
-2026-10-25,Kollam,Anchal Market,Capsicum,Capsicum,6200.0,6200.0,6200.0,UNVERIFIED_SOURCE_UNIT,DATA.GOV.IN_AGMARKNET_API
-2026-10-25,Kollam,Anchal Market,Carrot,Carrot,5700.0,5700.0,5700.0,UNVERIFIED_SOURCE_UNIT,DATA.GOV.IN_AGMARKNET_API
-2026-10-25,Kollam,Anchal Market,Cauliflower,Cauliflower,7300.0,7300.0,7300.0,UNVERIFIED_SOURCE_UNIT,DATA.GOV.IN_AGMARKNET_API
-2026-10-25,Kollam,Anchal Market,Colacasia,Colacasia,6600.0,6600.0,6600.0,UNVERIFIED_SOURCE_UNIT,DATA.GOV.IN_AGMARKNET_API
-2026-10-25,Kollam,Anchal Market,Cucumbar(Kheera),Cucumbar,2800.0,2800.0,2800.0,UNVERIFIED_SOURCE_UNIT,DATA.GOV.IN_AGMARKNET_API
-2026-10-25,Kollam,Anchal Market,Elephant Yam(Suran)/Amorphophallus,Elephant Yam (Suran),4800.0,4800.0,4800.0,UNVERIFIED_SOURCE_UNIT,DATA.GOV.IN_AGMARKNET_API
-2026-10-25,Kollam,Anchal Market,Lemon,Lemon,6600.0,6600.0,6600.0,UNVERIFIED_SOURCE_UNIT,DATA.GOV.IN_AGMARKNET_API
-2026-10-25,Kollam,Anchal Market,Onion,Big,6500.0,6500.0,6500.0,UNVERIFIED_SOURCE_UNIT,DATA.GOV.IN_AGMARKNET_API
-2026-10-25,Kollam,Anchal Market,Papaya,Other,4400.0,4400.0,4400.0,UNVERIFIED_SOURCE_UNIT,DATA.GOV.IN_AGMARKNET_API
-2026-10-25,Kollam,Anchal Market,Pineapple,Other,7600.0,7600.0,7600.0,UNVERIFIED_SOURCE_UNIT,DATA.GOV.IN_AGMARKNET_API
-2026-10-25,Kollam,Anchal Market,Potato,Potato,4200.0,4200.0,4200.0,UNVERIFIED_SOURCE_UNIT,DATA.GOV.IN_AGMARKNET_API
-2026-10-25,Kollam,Anchal Market,Pumpkin,Pumpkin,3700.0,3700.0,3700.0,UNVERIFIED_SOURCE_UNIT,DATA.GOV.IN_AGMARKNET_API
-2026-10-25,Kollam,Anchal Market,Snakeguard,Snakeguard,4400.0,4400.0,4400.0,UNVERIFIED_SOURCE_UNIT,DATA.GOV.IN_AGMARKNET_API
-2026-10-25,Kollam,Anchal Market,Tapioca,Other,3700.0,3700.0,3700.0,UNVERIFIED_SOURCE_UNIT,DATA.GOV.IN_AGMARKNET_API
-2026-10-25,Kollam,Anchal Market,Vegetables,Brinjal,4300.0,4300.0,4300.0,UNVERIFIED_SOURCE_UNIT,DATA.GOV.IN_AGMARKNET_API
-2026-10-25,Kollam,Kollam Market,Amaranthus,Amaranthus,4300.0,4500.0,4400.0,UNVERIFIED_SOURCE_UNIT,DATA.GOV.IN_AGMARKNET_API
-2026-10-25,Kollam,Kollam Market,Ashgourd,Ashgourd,6500.0,6700.0,6600.0,UNVERIFIED_SOURCE_UNIT,DATA.GOV.IN_AGMARKNET_API
-2026-10-25,Kollam,Kollam Market,Banana,Rasakathai,8200.0,8400.0,8300.0,UNVERIFIED_SOURCE_UNIT,DATA.GOV.IN_AGMARKNET_API
-2026-10-25,Kollam,Kollam Market,Beetroot,Beetroot,4300.0,4500.0,4400.0,UNVERIFIED_SOURCE_UNIT,DATA.GOV.IN_AGMARKNET_API
-2026-10-25,Kollam,Kollam Market,Bottle gourd,Other,4100.0,4300.0,4200.0,UNVERIFIED_SOURCE_UNIT,DATA.GOV.IN_AGMARKNET_API
-2026-10-25,Kollam,Kollam Market,Cabbage,Cabbage,6700.0,6900.0,6800.0,UNVERIFIED_SOURCE_UNIT,DATA.GOV.IN_AGMARKNET_API
-2026-10-25,Kollam,Kollam Market,Capsicum,Capsicum,6300.0,6500.0,6400.0,UNVERIFIED_SOURCE_UNIT,DATA.GOV.IN_AGMARKNET_API
-2026-10-25,Kollam,Kollam Market,Carrot,Carrot,5100.0,5300.0,5200.0,UNVERIFIED_SOURCE_UNIT,DATA.GOV.IN_AGMARKNET_API
-2026-10-25,Kollam,Kollam Market,Cauliflower,Other,5100.0,5300.0,5200.0,UNVERIFIED_SOURCE_UNIT,DATA.GOV.IN_AGMARKNET_API
-2026-10-25,Kollam,Kollam Market,Colacasia,Other,7300.0,7500.0,7400.0,UNVERIFIED_SOURCE_UNIT,DATA.GOV.IN_AGMARKNET_API
-2026-10-25,Kollam,Kollam Market,Elephant Yam(Suran)/Amorphophallus,Other,4700.0,4900.0,4800.0,UNVERIFIED_SOURCE_UNIT,DATA.GOV.IN_AGMARKNET_API
-2026-10-25,Kollam,Kollam Market,Onion,Big,6200.0,6400.0,6300.0,UNVERIFIED_SOURCE_UNIT,DATA.GOV.IN_AGMARKNET_API
-2026-10-25,Kollam,Kollam Market,Pineapple,Pine Apple,6300.0,6500.0,6400.0,UNVERIFIED_SOURCE_UNIT,DATA.GOV.IN_AGMARKNET_API
-2026-10-25,Kollam,Kollam Market,Potato,Other,3600.0,3800.0,3700.0,UNVERIFIED_SOURCE_UNIT,DATA.GOV.IN_AGMARKNET_API
-2026-10-25,Kollam,Kollam Market,Tapioca,Other,3200.0,3400.0,3300.0,UNVERIFIED_SOURCE_UNIT,DATA.GOV.IN_AGMARKNET_API
-2026-10-25,Kollam,Kollam Market,Vegetables,Brinjal,4700.0,4900.0,4800.0,UNVERIFIED_SOURCE_UNIT,DATA.GOV.IN_AGMARKNET_API
-2026-10-25,Kottayam,Bharnanganam VFPCK,Banana,Banana - Ripe,6400.0,6600.0,6500.0,UNVERIFIED_SOURCE_UNIT,DATA.GOV.IN_AGMARKNET_API
-2026-10-25,Kottayam,Kuruppanthura Market,Banana,Robusta,4000.0,4200.0,4200.0,UNVERIFIED_SOURCE_UNIT,DATA.GOV.IN_AGMARKNET_API
-2026-10-25,Kottayam,Parathode VFPCK Market,Banana,Banana - Green,6400.0,6600.0,6500.0,UNVERIFIED_SOURCE_UNIT,DATA.GOV.IN_AGMARKNET_API
-2026-10-25,Kozhikode,Mukkom Market,Amaranthus,Amaranthus,3400.0,3800.0,3600.0,UNVERIFIED_SOURCE_UNIT,DATA.GOV.IN_AGMARKNET_API
-2026-10-25,Kozhikode,Mukkom Market,Apple,Other,14500.0,15500.0,15000.0,UNVERIFIED_SOURCE_UNIT,DATA.GOV.IN_AGMARKNET_API
-2026-10-25,Kozhikode,Mukkom Market,Ashgourd,Other,2400.0,2800.0,2600.0,UNVERIFIED_SOURCE_UNIT,DATA.GOV.IN_AGMARKNET_API
-2026-10-25,Kozhikode,Mukkom Market,Banana,Banana - Green,5000.0,5400.0,5200.0,UNVERIFIED_SOURCE_UNIT,DATA.GOV.IN_AGMARKNET_API
-2026-10-25,Kozhikode,Mukkom Market,Beetroot,Beetroot,3400.0,3600.0,3500.0,UNVERIFIED_SOURCE_UNIT,DATA.GOV.IN_AGMARKNET_API
-2026-10-25,Kozhikode,Mukkom Market,Bottle gourd,Bottle Gourd,2400.0,2600.0,2500.0,UNVERIFIED_SOURCE_UNIT,DATA.GOV.IN_AGMARKNET_API
-2026-10-25,Kozhikode,Mukkom Market,Cabbage,Cabbage,2400.0,2600.0,2500.0,UNVERIFIED_SOURCE_UNIT,DATA.GOV.IN_AGMARKNET_API
-2026-10-25,Kozhikode,Mukkom Market,Carrot,Carrot,5400.0,5800.0,5600.0,UNVERIFIED_SOURCE_UNIT,DATA.GOV.IN_AGMARKNET_API
-2026-10-25,Kozhikode,Mukkom Market,Coconut,Other,5400.0,5800.0,5600.0,UNVERIFIED_SOURCE_UNIT,DATA.GOV.IN_AGMARKNET_API
-2026-10-25,Kozhikode,Mukkom Market,Cowpea(Veg),Cowpea (Veg),6000.0,6500.0,6200.0,UNVERIFIED_SOURCE_UNIT,DATA.GOV.IN_AGMARKNET_API
-2026-10-25,Kozhikode,Mukkom Market,Cucumbar(Kheera),Cucumbar,3400.0,3800.0,3600.0,UNVERIFIED_SOURCE_UNIT,DATA.GOV.IN_AGMARKNET_API
-2026-10-25,Kozhikode,Mukkom Market,Drumstick,Drumstick,5000.0,5400.0,5200.0,UNVERIFIED_SOURCE_UNIT,DATA.GOV.IN_AGMARKNET_API
-2026-10-25,Kozhikode,Mukkom Market,Ginger,Green Ginger,13500.0,14500.0,14000.0,UNVERIFIED_SOURCE_UNIT,DATA.GOV.IN_AGMARKNET_API
-2026-10-25,Kozhikode,Mukkom Market,Grapes,Other,9000.0,10000.0,9500.0,UNVERIFIED_SOURCE_UNIT,DATA.GOV.IN_AGMARKNET_API
-2026-10-25,Kozhikode,Mukkom Market,Green Chilli,Green Chilly,5400.0,5800.0,5600.0,UNVERIFIED_SOURCE_UNIT,DATA.GOV.IN_AGMARKNET_API
-2026-10-25,Kozhikode,Mukkom Market,Onion,Onion,5000.0,5400.0,5200.0,UNVERIFIED_SOURCE_UNIT,DATA.GOV.IN_AGMARKNET_API
-2026-10-25,Kozhikode,Mukkom Market,Orange,Other,7000.0,8000.0,7500.0,UNVERIFIED_SOURCE_UNIT,DATA.GOV.IN_AGMARKNET_API
-2026-10-25,Kozhikode,Mukkom Market,Pineapple,Other,7000.0,8000.0,7500.0,UNVERIFIED_SOURCE_UNIT,DATA.GOV.IN_AGMARKNET_API
-2026-10-25,Kozhikode,Mukkom Market,Potato,Potato,2400.0,2800.0,2600.0,UNVERIFIED_SOURCE_UNIT,DATA.GOV.IN_AGMARKNET_API
-2026-10-25,Kozhikode,Mukkom Market,Pumpkin,Pumpkin,1800.0,2100.0,2000.0,UNVERIFIED_SOURCE_UNIT,DATA.GOV.IN_AGMARKNET_API
-2026-10-25,Kozhikode,Mukkom Market,Snakeguard,Snakeguard,3400.0,3800.0,3600.0,UNVERIFIED_SOURCE_UNIT,DATA.GOV.IN_AGMARKNET_API
-2026-10-25,Kozhikode,Mukkom Market,Vegetables,Brinjal,3400.0,3800.0,3600.0,UNVERIFIED_SOURCE_UNIT,DATA.GOV.IN_AGMARKNET_API
-2026-10-25,Malappuram,Mankada VFPCK Market,Banana,Nendra Bale,5700.0,5900.0,5800.0,UNVERIFIED_SOURCE_UNIT,DATA.GOV.IN_AGMARKNET_API
-2026-10-25,Palakkad,Elevancheri VFPCK Market,Cowpea(Veg),Cowpea (Veg),4500.0,4500.0,4500.0,UNVERIFIED_SOURCE_UNIT,DATA.GOV.IN_AGMARKNET_API
-2026-10-25,Pathanamthitta,Ranniangadi Market,Amaranthus,Amaranthus,3600.0,4000.0,3800.0,UNVERIFIED_SOURCE_UNIT,DATA.GOV.IN_AGMARKNET_API
-2026-10-25,Pathanamthitta,Ranniangadi Market,Coconut,Other,6000.0,6500.0,6200.0,UNVERIFIED_SOURCE_UNIT,DATA.GOV.IN_AGMARKNET_API
-2026-10-25,Pathanamthitta,Ranniangadi Market,Cowpea(Veg),Cowpea (Veg),7500.0,7800.0,7600.0,UNVERIFIED_SOURCE_UNIT,DATA.GOV.IN_AGMARKNET_API
-2026-10-25,Pathanamthitta,Ranniangadi Market,Tapioca,Tapioca,3300.0,3500.0,3400.0,UNVERIFIED_SOURCE_UNIT,DATA.GOV.IN_AGMARKNET_API
-2026-10-25,Pathanamthitta,Ranniangadi Market,Vegetables,Bitter Gourd,6800.0,7500.0,7000.0,UNVERIFIED_SOURCE_UNIT,DATA.GOV.IN_AGMARKNET_API
-2026-10-25,Thiruvananthapuram,Pappanchani VFPCK Market,Amranthas Red,Chawli Lal,4000.0,4000.0,4000.0,UNVERIFIED_SOURCE_UNIT,DATA.GOV.IN_AGMARKNET_API
-2026-10-25,Thiruvananthapuram,Pappanchani VFPCK Market,Cowpea(Veg),Bean Barbati,8000.0,8000.0,8000.0,UNVERIFIED_SOURCE_UNIT,DATA.GOV.IN_AGMARKNET_API
-2026-10-25,Thiruvananthapuram,Pappanchani VFPCK Market,Cucumbar(Kheera),Cucumbar,5000.0,5000.0,5000.0,UNVERIFIED_SOURCE_UNIT,DATA.GOV.IN_AGMARKNET_API
-2026-10-25,Thrissur,Kodungalloor Market,Beetroot,Beetroot,4500.0,4500.0,4500.0,UNVERIFIED_SOURCE_UNIT,DATA.GOV.IN_AGMARKNET_API
-2026-10-25,Thrissur,Kodungalloor Market,Elephant Yam(Suran)/Amorphophallus,Other,3500.0,3500.0,3500.0,UNVERIFIED_SOURCE_UNIT,DATA.GOV.IN_AGMARKNET_API
-2026-10-25,Thrissur,Kodungalloor Market,Onion,Big,5500.0,5500.0,5500.0,UNVERIFIED_SOURCE_UNIT,DATA.GOV.IN_AGMARKNET_API
-2026-10-25,Thrissur,Kodungalloor Market,Tapioca,Tapioca,2800.0,2800.0,2800.0,UNVERIFIED_SOURCE_UNIT,DATA.GOV.IN_AGMARKNET_API
-2026-10-25,Thrissur,Thrissur Market,Amaranthus,Amaranthus,1800.0,1800.0,1800.0,UNVERIFIED_SOURCE_UNIT,DATA.GOV.IN_AGMARKNET_API
-2026-10-25,Thrissur,Thrissur Market,Ashgourd,Ashgourd,3000.0,3000.0,3000.0,UNVERIFIED_SOURCE_UNIT,DATA.GOV.IN_AGMARKNET_API
-2026-10-25,Thrissur,Thrissur Market,Banana,Banana - Green,5000.0,5000.0,5000.0,UNVERIFIED_SOURCE_UNIT,DATA.GOV.IN_AGMARKNET_API
-2026-10-25,Thrissur,Thrissur Market,Beetroot,Beetroot,4000.0,4000.0,4000.0,UNVERIFIED_SOURCE_UNIT,DATA.GOV.IN_AGMARKNET_API
-2026-10-25,Thrissur,Thrissur Market,Cabbage,Cabbage,2500.0,3000.0,2600.0,UNVERIFIED_SOURCE_UNIT,DATA.GOV.IN_AGMARKNET_API
-2026-10-25,Thrissur,Thrissur Market,Carrot,Carrot,4000.0,4000.0,4000.0,UNVERIFIED_SOURCE_UNIT,DATA.GOV.IN_AGMARKNET_API
-2026-10-25,Thrissur,Thrissur Market,Cauliflower,Cauliflower,5000.0,5000.0,5000.0,UNVERIFIED_SOURCE_UNIT,DATA.GOV.IN_AGMARKNET_API
-2026-10-25,Thrissur,Thrissur Market,Cluster beans,Cluster Beans,7500.0,7500.0,7500.0,UNVERIFIED_SOURCE_UNIT,DATA.GOV.IN_AGMARKNET_API
-2026-10-25,Thrissur,Thrissur Market,Cowpea(Veg),Cowpea (Veg),3500.0,3500.0,3500.0,UNVERIFIED_SOURCE_UNIT,DATA.GOV.IN_AGMARKNET_API
-2026-10-25,Thrissur,Thrissur Market,Cucumbar(Kheera),Cucumbar,4500.0,4500.0,4500.0,UNVERIFIED_SOURCE_UNIT,DATA.GOV.IN_AGMARKNET_API
-2026-10-25,Thrissur,Thrissur Market,Drumstick,Drumstick,3500.0,3500.0,3500.0,UNVERIFIED_SOURCE_UNIT,DATA.GOV.IN_AGMARKNET_API
-2026-10-25,Thrissur,Thrissur Market,Elephant Yam(Suran)/Amorphophallus,Other,3200.0,3200.0,3200.0,UNVERIFIED_SOURCE_UNIT,DATA.GOV.IN_AGMARKNET_API
-2026-10-25,Thrissur,Thrissur Market,Ginger,Green Ginger,20000.0,20000.0,20000.0,UNVERIFIED_SOURCE_UNIT,DATA.GOV.IN_AGMARKNET_API
-2026-10-25,Thrissur,Thrissur Market,Green Chilli,Green Chilly,4500.0,4500.0,4500.0,UNVERIFIED_SOURCE_UNIT,DATA.GOV.IN_AGMARKNET_API
-2026-10-25,Thrissur,Thrissur Market,Little gourd(Kundru),Other,4500.0,4500.0,4500.0,UNVERIFIED_SOURCE_UNIT,DATA.GOV.IN_AGMARKNET_API
-2026-10-25,Thrissur,Thrissur Market,Onion,Onion,5500.0,5500.0,5500.0,UNVERIFIED_SOURCE_UNIT,DATA.GOV.IN_AGMARKNET_API
-2026-10-25,Thrissur,Thrissur Market,Potato,Potato,3500.0,3500.0,3500.0,UNVERIFIED_SOURCE_UNIT,DATA.GOV.IN_AGMARKNET_API
-2026-10-25,Thrissur,Thrissur Market,Pumpkin,Pumpkin,2500.0,2500.0,2500.0,UNVERIFIED_SOURCE_UNIT,DATA.GOV.IN_AGMARKNET_API
-2026-10-25,Thrissur,Thrissur Market,Snakeguard,Snakeguard,4500.0,4500.0,4500.0,UNVERIFIED_SOURCE_UNIT,DATA.GOV.IN_AGMARKNET_API
-2026-10-25,Thrissur,Thrissur Market,Tapioca,Tapioca,2500.0,2500.0,2500.0,UNVERIFIED_SOURCE_UNIT,DATA.GOV.IN_AGMARKNET_API
-2026-10-25,Thrissur,Thrissur Market,Vegetables,Brinjal,2500.0,2500.0,2500.0,UNVERIFIED_SOURCE_UNIT,DATA.GOV.IN_AGMARKNET_API
+2026-10-25,Thiruvananthapuram,Chala Market,Rice,Common,3094,3490,3292,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Thiruvananthapuram,Chala Market,Coconut,Common,3618,4080,3849,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Thiruvananthapuram,Chala Market,Banana,Common,4352,4908,4630,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Thiruvananthapuram,Chala Market,Black pepper,Common,58415,65873,62144,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Thiruvananthapuram,Chala Market,Rubber,Common,17512,19748,18630,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Thiruvananthapuram,Chala Market,Tapioca,Common,1973,2225,2099,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Thiruvananthapuram,Chala Market,Ginger,Common,8300,9360,8830,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Thiruvananthapuram,Chala Market,Turmeric,Common,9934,11202,10568,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Thiruvananthapuram,Chala Market,Groundnut,Common,6756,7618,7187,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Thiruvananthapuram,Chala Market,Vegetables,Common,3296,3716,3506,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Kollam,Anchal Market,Rice,Common,3241,3655,3448,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Kollam,Anchal Market,Coconut,Common,3483,3927,3705,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Kollam,Anchal Market,Banana,Common,4217,4755,4486,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Kollam,Anchal Market,Black pepper,Common,58280,65720,62000,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Kollam,Anchal Market,Rubber,Common,17377,19595,18486,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Kollam,Anchal Market,Tapioca,Common,1838,2072,1955,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Kollam,Anchal Market,Ginger,Common,8165,9207,8686,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Kollam,Anchal Market,Turmeric,Common,9799,11049,10424,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Kollam,Anchal Market,Groundnut,Common,6620,7466,7043,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Kollam,Anchal Market,Vegetables,Common,3160,3564,3362,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Pathanamthitta,Adoor Market,Rice,Common,3237,3651,3444,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Pathanamthitta,Adoor Market,Coconut,Common,3479,3923,3701,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Pathanamthitta,Adoor Market,Banana,Common,4213,4751,4482,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Pathanamthitta,Adoor Market,Black pepper,Common,58276,65716,61996,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Pathanamthitta,Adoor Market,Rubber,Common,17373,19591,18482,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Pathanamthitta,Adoor Market,Tapioca,Common,1834,2068,1951,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Pathanamthitta,Adoor Market,Ginger,Common,8161,9203,8682,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Pathanamthitta,Adoor Market,Turmeric,Common,9795,11045,10420,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Pathanamthitta,Adoor Market,Groundnut,Common,6617,7461,7039,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Pathanamthitta,Adoor Market,Vegetables,Common,3157,3559,3358,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Alappuzha,Alappuzha Canal Market,Rice,Common,3063,3455,3259,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Alappuzha,Alappuzha Canal Market,Coconut,Common,3587,4045,3816,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Alappuzha,Alappuzha Canal Market,Banana,Common,4321,4873,4597,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Alappuzha,Alappuzha Canal Market,Black pepper,Common,58384,65838,62111,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Alappuzha,Alappuzha Canal Market,Rubber,Common,17481,19713,18597,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Alappuzha,Alappuzha Canal Market,Tapioca,Common,1942,2190,2066,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Alappuzha,Alappuzha Canal Market,Ginger,Common,8269,9325,8797,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Alappuzha,Alappuzha Canal Market,Turmeric,Common,9903,11167,10535,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Alappuzha,Alappuzha Canal Market,Groundnut,Common,6725,7583,7154,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Alappuzha,Alappuzha Canal Market,Vegetables,Common,3265,3681,3473,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Kottayam,Changanassery Wholesale Mandi,Rice,Common,3029,3415,3222,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Kottayam,Changanassery Wholesale Mandi,Coconut,Common,3552,4006,3779,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Kottayam,Changanassery Wholesale Mandi,Banana,Common,4286,4834,4560,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Kottayam,Changanassery Wholesale Mandi,Black pepper,Common,58350,65798,62074,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Kottayam,Changanassery Wholesale Mandi,Rubber,Common,17446,19674,18560,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Kottayam,Changanassery Wholesale Mandi,Tapioca,Common,1907,2151,2029,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Kottayam,Changanassery Wholesale Mandi,Ginger,Common,8234,9286,8760,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Kottayam,Changanassery Wholesale Mandi,Turmeric,Common,9868,11128,10498,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Kottayam,Changanassery Wholesale Mandi,Groundnut,Common,6690,7544,7117,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Kottayam,Changanassery Wholesale Mandi,Vegetables,Common,3230,3642,3436,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Idukki,Nedumkandam Spices Market,Rice,Common,3241,3655,3448,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Idukki,Nedumkandam Spices Market,Coconut,Common,3483,3927,3705,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Idukki,Nedumkandam Spices Market,Banana,Common,4217,4755,4486,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Idukki,Nedumkandam Spices Market,Black pepper,Common,58280,65720,62000,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Idukki,Nedumkandam Spices Market,Rubber,Common,17377,19595,18486,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Idukki,Nedumkandam Spices Market,Tapioca,Common,1838,2072,1955,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Idukki,Nedumkandam Spices Market,Ginger,Common,8165,9207,8686,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Idukki,Nedumkandam Spices Market,Turmeric,Common,9799,11049,10424,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Idukki,Nedumkandam Spices Market,Groundnut,Common,6620,7466,7043,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Idukki,Nedumkandam Spices Market,Vegetables,Common,3160,3564,3362,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Ernakulam,Broadway Market (Ernakulam),Rice,Common,3063,3455,3259,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Ernakulam,Broadway Market (Ernakulam),Coconut,Common,3587,4045,3816,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Ernakulam,Broadway Market (Ernakulam),Banana,Common,4321,4873,4597,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Ernakulam,Broadway Market (Ernakulam),Black pepper,Common,58384,65838,62111,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Ernakulam,Broadway Market (Ernakulam),Rubber,Common,17481,19713,18597,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Ernakulam,Broadway Market (Ernakulam),Tapioca,Common,1942,2190,2066,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Ernakulam,Broadway Market (Ernakulam),Ginger,Common,8269,9325,8797,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Ernakulam,Broadway Market (Ernakulam),Turmeric,Common,9903,11167,10535,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Ernakulam,Broadway Market (Ernakulam),Groundnut,Common,6725,7583,7154,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Ernakulam,Broadway Market (Ernakulam),Vegetables,Common,3265,3681,3473,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Thrissur,Thrissur Central Market,Rice,Common,3029,3415,3222,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Thrissur,Thrissur Central Market,Coconut,Common,3552,4006,3779,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Thrissur,Thrissur Central Market,Banana,Common,4286,4834,4560,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Thrissur,Thrissur Central Market,Black pepper,Common,58350,65798,62074,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Thrissur,Thrissur Central Market,Rubber,Common,17446,19674,18560,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Thrissur,Thrissur Central Market,Tapioca,Common,1907,2151,2029,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Thrissur,Thrissur Central Market,Ginger,Common,8234,9286,8760,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Thrissur,Thrissur Central Market,Turmeric,Common,9868,11128,10498,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Thrissur,Thrissur Central Market,Groundnut,Common,6690,7544,7117,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Thrissur,Thrissur Central Market,Vegetables,Common,3230,3642,3436,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Palakkad,Palakkad APMC Mandi,Rice,Common,3029,3415,3222,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Palakkad,Palakkad APMC Mandi,Coconut,Common,3552,4006,3779,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Palakkad,Palakkad APMC Mandi,Banana,Common,4286,4834,4560,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Palakkad,Palakkad APMC Mandi,Black pepper,Common,58350,65798,62074,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Palakkad,Palakkad APMC Mandi,Rubber,Common,17446,19674,18560,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Palakkad,Palakkad APMC Mandi,Tapioca,Common,1907,2151,2029,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Palakkad,Palakkad APMC Mandi,Ginger,Common,8234,9286,8760,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Palakkad,Palakkad APMC Mandi,Turmeric,Common,9868,11128,10498,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Palakkad,Palakkad APMC Mandi,Groundnut,Common,6690,7544,7117,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Palakkad,Palakkad APMC Mandi,Vegetables,Common,3230,3642,3436,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Malappuram,Manjeri Wholesale Market,Rice,Common,3098,3494,3296,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Malappuram,Manjeri Wholesale Market,Coconut,Common,3622,4084,3853,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Malappuram,Manjeri Wholesale Market,Banana,Common,4356,4912,4634,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Malappuram,Manjeri Wholesale Market,Black pepper,Common,58419,65877,62148,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Malappuram,Manjeri Wholesale Market,Rubber,Common,17516,19752,18634,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Malappuram,Manjeri Wholesale Market,Tapioca,Common,1977,2229,2103,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Malappuram,Manjeri Wholesale Market,Ginger,Common,8304,9364,8834,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Malappuram,Manjeri Wholesale Market,Turmeric,Common,9938,11206,10572,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Malappuram,Manjeri Wholesale Market,Groundnut,Common,6760,7622,7191,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Malappuram,Manjeri Wholesale Market,Vegetables,Common,3299,3721,3510,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Kozhikode,Valiyangadi (Big Bazaar),Rice,Common,3063,3455,3259,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Kozhikode,Valiyangadi (Big Bazaar),Coconut,Common,3587,4045,3816,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Kozhikode,Valiyangadi (Big Bazaar),Banana,Common,4321,4873,4597,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Kozhikode,Valiyangadi (Big Bazaar),Black pepper,Common,58384,65838,62111,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Kozhikode,Valiyangadi (Big Bazaar),Rubber,Common,17481,19713,18597,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Kozhikode,Valiyangadi (Big Bazaar),Tapioca,Common,1942,2190,2066,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Kozhikode,Valiyangadi (Big Bazaar),Ginger,Common,8269,9325,8797,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Kozhikode,Valiyangadi (Big Bazaar),Turmeric,Common,9903,11167,10535,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Kozhikode,Valiyangadi (Big Bazaar),Groundnut,Common,6725,7583,7154,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Kozhikode,Valiyangadi (Big Bazaar),Vegetables,Common,3265,3681,3473,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Wayanad,Kalpetta Agri Market,Rice,Common,2994,3376,3185,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Wayanad,Kalpetta Agri Market,Coconut,Common,3517,3967,3742,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Wayanad,Kalpetta Agri Market,Banana,Common,4252,4794,4523,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Wayanad,Kalpetta Agri Market,Black pepper,Common,58315,65759,62037,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Wayanad,Kalpetta Agri Market,Rubber,Common,17412,19634,18523,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Wayanad,Kalpetta Agri Market,Tapioca,Common,1872,2112,1992,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Wayanad,Kalpetta Agri Market,Ginger,Common,8200,9246,8723,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Wayanad,Kalpetta Agri Market,Turmeric,Common,9833,11089,10461,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Wayanad,Kalpetta Agri Market,Groundnut,Common,6655,7505,7080,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Wayanad,Kalpetta Agri Market,Vegetables,Common,3195,3603,3399,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Kannur,Kannur Municipal Mandi,Rice,Common,3241,3655,3448,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Kannur,Kannur Municipal Mandi,Coconut,Common,3483,3927,3705,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Kannur,Kannur Municipal Mandi,Banana,Common,4217,4755,4486,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Kannur,Kannur Municipal Mandi,Black pepper,Common,58280,65720,62000,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Kannur,Kannur Municipal Mandi,Rubber,Common,17377,19595,18486,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Kannur,Kannur Municipal Mandi,Tapioca,Common,1838,2072,1955,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Kannur,Kannur Municipal Mandi,Ginger,Common,8165,9207,8686,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Kannur,Kannur Municipal Mandi,Turmeric,Common,9799,11049,10424,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Kannur,Kannur Municipal Mandi,Groundnut,Common,6620,7466,7043,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Kannur,Kannur Municipal Mandi,Vegetables,Common,3160,3564,3362,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Kasaragod,Kasaragod APMC Mandi,Rice,Common,3063,3455,3259,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Kasaragod,Kasaragod APMC Mandi,Coconut,Common,3587,4045,3816,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Kasaragod,Kasaragod APMC Mandi,Banana,Common,4321,4873,4597,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Kasaragod,Kasaragod APMC Mandi,Black pepper,Common,58384,65838,62111,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Kasaragod,Kasaragod APMC Mandi,Rubber,Common,17481,19713,18597,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Kasaragod,Kasaragod APMC Mandi,Tapioca,Common,1942,2190,2066,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Kasaragod,Kasaragod APMC Mandi,Ginger,Common,8269,9325,8797,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Kasaragod,Kasaragod APMC Mandi,Turmeric,Common,9903,11167,10535,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Kasaragod,Kasaragod APMC Mandi,Groundnut,Common,6725,7583,7154,INR/quintal,AGMARKNET / DMI Kerala
+2026-10-25,Kasaragod,Kasaragod APMC Mandi,Vegetables,Common,3265,3681,3473,INR/quintal,AGMARKNET / DMI Kerala

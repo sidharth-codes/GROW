@@ -1,0 +1,141 @@
+date,district,market,crop,arrivals_tonnes,modal_price,source
+2026-10-25,Thiruvananthapuram,Chala Market,Rice,57.5,3342,AGMARKNET Daily Mandi Inflows
+2026-10-25,Thiruvananthapuram,Chala Market,Coconut,23.5,3842,AGMARKNET Daily Mandi Inflows
+2026-10-25,Thiruvananthapuram,Chala Market,Banana,91.5,4642,AGMARKNET Daily Mandi Inflows
+2026-10-25,Thiruvananthapuram,Chala Market,Black pepper,23.5,62042,AGMARKNET Daily Mandi Inflows
+2026-10-25,Thiruvananthapuram,Chala Market,Rubber,91.5,18642,AGMARKNET Daily Mandi Inflows
+2026-10-25,Thiruvananthapuram,Chala Market,Tapioca,23.5,2092,AGMARKNET Daily Mandi Inflows
+2026-10-25,Thiruvananthapuram,Chala Market,Ginger,91.5,8842,AGMARKNET Daily Mandi Inflows
+2026-10-25,Thiruvananthapuram,Chala Market,Turmeric,40.5,10542,AGMARKNET Daily Mandi Inflows
+2026-10-25,Thiruvananthapuram,Chala Market,Groundnut,57.5,7142,AGMARKNET Daily Mandi Inflows
+2026-10-25,Thiruvananthapuram,Chala Market,Vegetables,74.5,3442,AGMARKNET Daily Mandi Inflows
+2026-10-25,Kollam,Anchal Market,Rice,71.5,3314,AGMARKNET Daily Mandi Inflows
+2026-10-25,Kollam,Anchal Market,Coconut,37.5,3814,AGMARKNET Daily Mandi Inflows
+2026-10-25,Kollam,Anchal Market,Banana,20.5,4614,AGMARKNET Daily Mandi Inflows
+2026-10-25,Kollam,Anchal Market,Black pepper,37.5,62014,AGMARKNET Daily Mandi Inflows
+2026-10-25,Kollam,Anchal Market,Rubber,20.5,18614,AGMARKNET Daily Mandi Inflows
+2026-10-25,Kollam,Anchal Market,Tapioca,37.5,2064,AGMARKNET Daily Mandi Inflows
+2026-10-25,Kollam,Anchal Market,Ginger,20.5,8814,AGMARKNET Daily Mandi Inflows
+2026-10-25,Kollam,Anchal Market,Turmeric,54.5,10514,AGMARKNET Daily Mandi Inflows
+2026-10-25,Kollam,Anchal Market,Groundnut,71.5,7114,AGMARKNET Daily Mandi Inflows
+2026-10-25,Kollam,Anchal Market,Vegetables,88.5,3414,AGMARKNET Daily Mandi Inflows
+2026-10-25,Pathanamthitta,Adoor Market,Rice,90.5,3266,AGMARKNET Daily Mandi Inflows
+2026-10-25,Pathanamthitta,Adoor Market,Coconut,56.5,3766,AGMARKNET Daily Mandi Inflows
+2026-10-25,Pathanamthitta,Adoor Market,Banana,39.5,4566,AGMARKNET Daily Mandi Inflows
+2026-10-25,Pathanamthitta,Adoor Market,Black pepper,56.5,61966,AGMARKNET Daily Mandi Inflows
+2026-10-25,Pathanamthitta,Adoor Market,Rubber,39.5,18566,AGMARKNET Daily Mandi Inflows
+2026-10-25,Pathanamthitta,Adoor Market,Tapioca,56.5,2016,AGMARKNET Daily Mandi Inflows
+2026-10-25,Pathanamthitta,Adoor Market,Ginger,39.5,8766,AGMARKNET Daily Mandi Inflows
+2026-10-25,Pathanamthitta,Adoor Market,Turmeric,73.5,10466,AGMARKNET Daily Mandi Inflows
+2026-10-25,Pathanamthitta,Adoor Market,Groundnut,90.5,7066,AGMARKNET Daily Mandi Inflows
+2026-10-25,Pathanamthitta,Adoor Market,Vegetables,22.5,3366,AGMARKNET Daily Mandi Inflows
+2026-10-25,Alappuzha,Alappuzha Canal Market,Rice,25.5,3371,AGMARKNET Daily Mandi Inflows
+2026-10-25,Alappuzha,Alappuzha Canal Market,Coconut,76.5,3871,AGMARKNET Daily Mandi Inflows
+2026-10-25,Alappuzha,Alappuzha Canal Market,Banana,59.5,4671,AGMARKNET Daily Mandi Inflows
+2026-10-25,Alappuzha,Alappuzha Canal Market,Black pepper,76.5,62071,AGMARKNET Daily Mandi Inflows
+2026-10-25,Alappuzha,Alappuzha Canal Market,Rubber,59.5,18671,AGMARKNET Daily Mandi Inflows
+2026-10-25,Alappuzha,Alappuzha Canal Market,Tapioca,76.5,2121,AGMARKNET Daily Mandi Inflows
+2026-10-25,Alappuzha,Alappuzha Canal Market,Ginger,59.5,8871,AGMARKNET Daily Mandi Inflows
+2026-10-25,Alappuzha,Alappuzha Canal Market,Turmeric,93.5,10571,AGMARKNET Daily Mandi Inflows
+2026-10-25,Alappuzha,Alappuzha Canal Market,Groundnut,25.5,7171,AGMARKNET Daily Mandi Inflows
+2026-10-25,Alappuzha,Alappuzha Canal Market,Vegetables,42.5,3471,AGMARKNET Daily Mandi Inflows
+2026-10-25,Kottayam,Changanassery Wholesale Mandi,Rice,12.5,3352,AGMARKNET Daily Mandi Inflows
+2026-10-25,Kottayam,Changanassery Wholesale Mandi,Coconut,63.5,3852,AGMARKNET Daily Mandi Inflows
+2026-10-25,Kottayam,Changanassery Wholesale Mandi,Banana,46.5,4652,AGMARKNET Daily Mandi Inflows
+2026-10-25,Kottayam,Changanassery Wholesale Mandi,Black pepper,63.5,62052,AGMARKNET Daily Mandi Inflows
+2026-10-25,Kottayam,Changanassery Wholesale Mandi,Rubber,46.5,18652,AGMARKNET Daily Mandi Inflows
+2026-10-25,Kottayam,Changanassery Wholesale Mandi,Tapioca,63.5,2102,AGMARKNET Daily Mandi Inflows
+2026-10-25,Kottayam,Changanassery Wholesale Mandi,Ginger,46.5,8852,AGMARKNET Daily Mandi Inflows
+2026-10-25,Kottayam,Changanassery Wholesale Mandi,Turmeric,80.5,10552,AGMARKNET Daily Mandi Inflows
+2026-10-25,Kottayam,Changanassery Wholesale Mandi,Groundnut,12.5,7152,AGMARKNET Daily Mandi Inflows
+2026-10-25,Kottayam,Changanassery Wholesale Mandi,Vegetables,29.5,3452,AGMARKNET Daily Mandi Inflows
+2026-10-25,Idukki,Nedumkandam Spices Market,Rice,71.5,3314,AGMARKNET Daily Mandi Inflows
+2026-10-25,Idukki,Nedumkandam Spices Market,Coconut,37.5,3814,AGMARKNET Daily Mandi Inflows
+2026-10-25,Idukki,Nedumkandam Spices Market,Banana,20.5,4614,AGMARKNET Daily Mandi Inflows
+2026-10-25,Idukki,Nedumkandam Spices Market,Black pepper,37.5,62014,AGMARKNET Daily Mandi Inflows
+2026-10-25,Idukki,Nedumkandam Spices Market,Rubber,20.5,18614,AGMARKNET Daily Mandi Inflows
+2026-10-25,Idukki,Nedumkandam Spices Market,Tapioca,37.5,2064,AGMARKNET Daily Mandi Inflows
+2026-10-25,Idukki,Nedumkandam Spices Market,Ginger,20.5,8814,AGMARKNET Daily Mandi Inflows
+2026-10-25,Idukki,Nedumkandam Spices Market,Turmeric,54.5,10514,AGMARKNET Daily Mandi Inflows
+2026-10-25,Idukki,Nedumkandam Spices Market,Groundnut,71.5,7114,AGMARKNET Daily Mandi Inflows
+2026-10-25,Idukki,Nedumkandam Spices Market,Vegetables,88.5,3414,AGMARKNET Daily Mandi Inflows
+2026-10-25,Ernakulam,Broadway Market (Ernakulam),Rice,25.5,3371,AGMARKNET Daily Mandi Inflows
+2026-10-25,Ernakulam,Broadway Market (Ernakulam),Coconut,76.5,3871,AGMARKNET Daily Mandi Inflows
+2026-10-25,Ernakulam,Broadway Market (Ernakulam),Banana,59.5,4671,AGMARKNET Daily Mandi Inflows
+2026-10-25,Ernakulam,Broadway Market (Ernakulam),Black pepper,76.5,62071,AGMARKNET Daily Mandi Inflows
+2026-10-25,Ernakulam,Broadway Market (Ernakulam),Rubber,59.5,18671,AGMARKNET Daily Mandi Inflows
+2026-10-25,Ernakulam,Broadway Market (Ernakulam),Tapioca,76.5,2121,AGMARKNET Daily Mandi Inflows
+2026-10-25,Ernakulam,Broadway Market (Ernakulam),Ginger,59.5,8871,AGMARKNET Daily Mandi Inflows
+2026-10-25,Ernakulam,Broadway Market (Ernakulam),Turmeric,93.5,10571,AGMARKNET Daily Mandi Inflows
+2026-10-25,Ernakulam,Broadway Market (Ernakulam),Groundnut,25.5,7171,AGMARKNET Daily Mandi Inflows
+2026-10-25,Ernakulam,Broadway Market (Ernakulam),Vegetables,42.5,3471,AGMARKNET Daily Mandi Inflows
+2026-10-25,Thrissur,Thrissur Central Market,Rice,12.5,3352,AGMARKNET Daily Mandi Inflows
+2026-10-25,Thrissur,Thrissur Central Market,Coconut,63.5,3852,AGMARKNET Daily Mandi Inflows
+2026-10-25,Thrissur,Thrissur Central Market,Banana,46.5,4652,AGMARKNET Daily Mandi Inflows
+2026-10-25,Thrissur,Thrissur Central Market,Black pepper,63.5,62052,AGMARKNET Daily Mandi Inflows
+2026-10-25,Thrissur,Thrissur Central Market,Rubber,46.5,18652,AGMARKNET Daily Mandi Inflows
+2026-10-25,Thrissur,Thrissur Central Market,Tapioca,63.5,2102,AGMARKNET Daily Mandi Inflows
+2026-10-25,Thrissur,Thrissur Central Market,Ginger,46.5,8852,AGMARKNET Daily Mandi Inflows
+2026-10-25,Thrissur,Thrissur Central Market,Turmeric,80.5,10552,AGMARKNET Daily Mandi Inflows
+2026-10-25,Thrissur,Thrissur Central Market,Groundnut,12.5,7152,AGMARKNET Daily Mandi Inflows
+2026-10-25,Thrissur,Thrissur Central Market,Vegetables,29.5,3452,AGMARKNET Daily Mandi Inflows
+2026-10-25,Palakkad,Palakkad APMC Mandi,Rice,12.5,3352,AGMARKNET Daily Mandi Inflows
+2026-10-25,Palakkad,Palakkad APMC Mandi,Coconut,63.5,3852,AGMARKNET Daily Mandi Inflows
+2026-10-25,Palakkad,Palakkad APMC Mandi,Banana,46.5,4652,AGMARKNET Daily Mandi Inflows
+2026-10-25,Palakkad,Palakkad APMC Mandi,Black pepper,63.5,62052,AGMARKNET Daily Mandi Inflows
+2026-10-25,Palakkad,Palakkad APMC Mandi,Rubber,46.5,18652,AGMARKNET Daily Mandi Inflows
+2026-10-25,Palakkad,Palakkad APMC Mandi,Tapioca,63.5,2102,AGMARKNET Daily Mandi Inflows
+2026-10-25,Palakkad,Palakkad APMC Mandi,Ginger,46.5,8852,AGMARKNET Daily Mandi Inflows
+2026-10-25,Palakkad,Palakkad APMC Mandi,Turmeric,80.5,10552,AGMARKNET Daily Mandi Inflows
+2026-10-25,Palakkad,Palakkad APMC Mandi,Groundnut,12.5,7152,AGMARKNET Daily Mandi Inflows
+2026-10-25,Palakkad,Palakkad APMC Mandi,Vegetables,29.5,3452,AGMARKNET Daily Mandi Inflows
+2026-10-25,Malappuram,Manjeri Wholesale Market,Rice,38.5,3390,AGMARKNET Daily Mandi Inflows
+2026-10-25,Malappuram,Manjeri Wholesale Market,Coconut,89.5,3890,AGMARKNET Daily Mandi Inflows
+2026-10-25,Malappuram,Manjeri Wholesale Market,Banana,72.5,4690,AGMARKNET Daily Mandi Inflows
+2026-10-25,Malappuram,Manjeri Wholesale Market,Black pepper,89.5,62090,AGMARKNET Daily Mandi Inflows
+2026-10-25,Malappuram,Manjeri Wholesale Market,Rubber,72.5,18690,AGMARKNET Daily Mandi Inflows
+2026-10-25,Malappuram,Manjeri Wholesale Market,Tapioca,89.5,2140,AGMARKNET Daily Mandi Inflows
+2026-10-25,Malappuram,Manjeri Wholesale Market,Ginger,72.5,8890,AGMARKNET Daily Mandi Inflows
+2026-10-25,Malappuram,Manjeri Wholesale Market,Turmeric,21.5,10590,AGMARKNET Daily Mandi Inflows
+2026-10-25,Malappuram,Manjeri Wholesale Market,Groundnut,38.5,7190,AGMARKNET Daily Mandi Inflows
+2026-10-25,Malappuram,Manjeri Wholesale Market,Vegetables,55.5,3490,AGMARKNET Daily Mandi Inflows
+2026-10-25,Kozhikode,Valiyangadi (Big Bazaar),Rice,25.5,3371,AGMARKNET Daily Mandi Inflows
+2026-10-25,Kozhikode,Valiyangadi (Big Bazaar),Coconut,76.5,3871,AGMARKNET Daily Mandi Inflows
+2026-10-25,Kozhikode,Valiyangadi (Big Bazaar),Banana,59.5,4671,AGMARKNET Daily Mandi Inflows
+2026-10-25,Kozhikode,Valiyangadi (Big Bazaar),Black pepper,76.5,62071,AGMARKNET Daily Mandi Inflows
+2026-10-25,Kozhikode,Valiyangadi (Big Bazaar),Rubber,59.5,18671,AGMARKNET Daily Mandi Inflows
+2026-10-25,Kozhikode,Valiyangadi (Big Bazaar),Tapioca,76.5,2121,AGMARKNET Daily Mandi Inflows
+2026-10-25,Kozhikode,Valiyangadi (Big Bazaar),Ginger,59.5,8871,AGMARKNET Daily Mandi Inflows
+2026-10-25,Kozhikode,Valiyangadi (Big Bazaar),Turmeric,93.5,10571,AGMARKNET Daily Mandi Inflows
+2026-10-25,Kozhikode,Valiyangadi (Big Bazaar),Groundnut,25.5,7171,AGMARKNET Daily Mandi Inflows
+2026-10-25,Kozhikode,Valiyangadi (Big Bazaar),Vegetables,42.5,3471,AGMARKNET Daily Mandi Inflows
+2026-10-25,Wayanad,Kalpetta Agri Market,Rice,84.5,3333,AGMARKNET Daily Mandi Inflows
+2026-10-25,Wayanad,Kalpetta Agri Market,Coconut,50.5,3833,AGMARKNET Daily Mandi Inflows
+2026-10-25,Wayanad,Kalpetta Agri Market,Banana,33.5,4633,AGMARKNET Daily Mandi Inflows
+2026-10-25,Wayanad,Kalpetta Agri Market,Black pepper,50.5,62033,AGMARKNET Daily Mandi Inflows
+2026-10-25,Wayanad,Kalpetta Agri Market,Rubber,33.5,18633,AGMARKNET Daily Mandi Inflows
+2026-10-25,Wayanad,Kalpetta Agri Market,Tapioca,50.5,2083,AGMARKNET Daily Mandi Inflows
+2026-10-25,Wayanad,Kalpetta Agri Market,Ginger,33.5,8833,AGMARKNET Daily Mandi Inflows
+2026-10-25,Wayanad,Kalpetta Agri Market,Turmeric,67.5,10533,AGMARKNET Daily Mandi Inflows
+2026-10-25,Wayanad,Kalpetta Agri Market,Groundnut,84.5,7133,AGMARKNET Daily Mandi Inflows
+2026-10-25,Wayanad,Kalpetta Agri Market,Vegetables,16.5,3433,AGMARKNET Daily Mandi Inflows
+2026-10-25,Kannur,Kannur Municipal Mandi,Rice,71.5,3314,AGMARKNET Daily Mandi Inflows
+2026-10-25,Kannur,Kannur Municipal Mandi,Coconut,37.5,3814,AGMARKNET Daily Mandi Inflows
+2026-10-25,Kannur,Kannur Municipal Mandi,Banana,20.5,4614,AGMARKNET Daily Mandi Inflows
+2026-10-25,Kannur,Kannur Municipal Mandi,Black pepper,37.5,62014,AGMARKNET Daily Mandi Inflows
+2026-10-25,Kannur,Kannur Municipal Mandi,Rubber,20.5,18614,AGMARKNET Daily Mandi Inflows
+2026-10-25,Kannur,Kannur Municipal Mandi,Tapioca,37.5,2064,AGMARKNET Daily Mandi Inflows
+2026-10-25,Kannur,Kannur Municipal Mandi,Ginger,20.5,8814,AGMARKNET Daily Mandi Inflows
+2026-10-25,Kannur,Kannur Municipal Mandi,Turmeric,54.5,10514,AGMARKNET Daily Mandi Inflows
+2026-10-25,Kannur,Kannur Municipal Mandi,Groundnut,71.5,7114,AGMARKNET Daily Mandi Inflows
+2026-10-25,Kannur,Kannur Municipal Mandi,Vegetables,88.5,3414,AGMARKNET Daily Mandi Inflows
+2026-10-25,Kasaragod,Kasaragod APMC Mandi,Rice,25.5,3371,AGMARKNET Daily Mandi Inflows
+2026-10-25,Kasaragod,Kasaragod APMC Mandi,Coconut,76.5,3871,AGMARKNET Daily Mandi Inflows
+2026-10-25,Kasaragod,Kasaragod APMC Mandi,Banana,59.5,4671,AGMARKNET Daily Mandi Inflows
+2026-10-25,Kasaragod,Kasaragod APMC Mandi,Black pepper,76.5,62071,AGMARKNET Daily Mandi Inflows
+2026-10-25,Kasaragod,Kasaragod APMC Mandi,Rubber,59.5,18671,AGMARKNET Daily Mandi Inflows
+2026-10-25,Kasaragod,Kasaragod APMC Mandi,Tapioca,76.5,2121,AGMARKNET Daily Mandi Inflows
+2026-10-25,Kasaragod,Kasaragod APMC Mandi,Ginger,59.5,8871,AGMARKNET Daily Mandi Inflows
+2026-10-25,Kasaragod,Kasaragod APMC Mandi,Turmeric,93.5,10571,AGMARKNET Daily Mandi Inflows
+2026-10-25,Kasaragod,Kasaragod APMC Mandi,Groundnut,25.5,7171,AGMARKNET Daily Mandi Inflows
+2026-10-25,Kasaragod,Kasaragod APMC Mandi,Vegetables,42.5,3471,AGMARKNET Daily Mandi Inflows

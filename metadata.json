@@ -1,0 +1,8 @@
+{
+  "name": "GROW - Kerala Agricultural Intelligence",
+  "description": "Comprehensive agricultural intelligence platform for Kerala covering crop suitability, soil characteristics, weather history, observed yield, wholesale prices, and dataset management.",
+  "permissions": [],
+  "capabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

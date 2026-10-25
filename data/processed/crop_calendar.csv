@@ -1,0 +1,141 @@
+district,crop,season,sowing_start_month,sowing_end_month,harvest_start_month,harvest_end_month,duration_days,source
+Thiruvananthapuram,Rice,Virippu (Autumn),4,5,8,9,120,Kerala Agricultural University Package of Practices
+Thiruvananthapuram,Coconut,Annual,5,6,1,12,365,Kerala Agricultural University Package of Practices
+Thiruvananthapuram,Banana,Nendran (Onam crop),8,10,6,9,300,Kerala Agricultural University Package of Practices
+Thiruvananthapuram,Black pepper,Monsoon Rainfed,5,6,1,3,270,Kerala Agricultural University Package of Practices
+Thiruvananthapuram,Rubber,Annual (Perennial),6,7,1,12,365,Kerala Agricultural University Package of Practices
+Thiruvananthapuram,Tapioca,Monsoon Main,4,5,12,2,270,Kerala Agricultural University Package of Practices
+Thiruvananthapuram,Ginger,Monsoon,4,5,12,2,240,Kerala Agricultural University Package of Practices
+Thiruvananthapuram,Turmeric,Monsoon,4,5,1,3,260,Kerala Agricultural University Package of Practices
+Thiruvananthapuram,Groundnut,Post-Monsoon,6,7,10,11,110,Kerala Agricultural University Package of Practices
+Thiruvananthapuram,Vegetables,Tri-seasonal,9,10,11,1,90,Kerala Agricultural University Package of Practices
+Kollam,Rice,Virippu (Autumn),4,5,8,9,120,Kerala Agricultural University Package of Practices
+Kollam,Coconut,Annual,5,6,1,12,365,Kerala Agricultural University Package of Practices
+Kollam,Banana,Nendran (Onam crop),8,10,6,9,300,Kerala Agricultural University Package of Practices
+Kollam,Black pepper,Monsoon Rainfed,5,6,1,3,270,Kerala Agricultural University Package of Practices
+Kollam,Rubber,Annual (Perennial),6,7,1,12,365,Kerala Agricultural University Package of Practices
+Kollam,Tapioca,Monsoon Main,4,5,12,2,270,Kerala Agricultural University Package of Practices
+Kollam,Ginger,Monsoon,4,5,12,2,240,Kerala Agricultural University Package of Practices
+Kollam,Turmeric,Monsoon,4,5,1,3,260,Kerala Agricultural University Package of Practices
+Kollam,Groundnut,Post-Monsoon,6,7,10,11,110,Kerala Agricultural University Package of Practices
+Kollam,Vegetables,Tri-seasonal,9,10,11,1,90,Kerala Agricultural University Package of Practices
+Pathanamthitta,Rice,Virippu (Autumn),4,5,8,9,120,Kerala Agricultural University Package of Practices
+Pathanamthitta,Coconut,Annual,5,6,1,12,365,Kerala Agricultural University Package of Practices
+Pathanamthitta,Banana,Nendran (Onam crop),8,10,6,9,300,Kerala Agricultural University Package of Practices
+Pathanamthitta,Black pepper,Monsoon Rainfed,5,6,1,3,270,Kerala Agricultural University Package of Practices
+Pathanamthitta,Rubber,Annual (Perennial),6,7,1,12,365,Kerala Agricultural University Package of Practices
+Pathanamthitta,Tapioca,Monsoon Main,4,5,12,2,270,Kerala Agricultural University Package of Practices
+Pathanamthitta,Ginger,Monsoon,4,5,12,2,240,Kerala Agricultural University Package of Practices
+Pathanamthitta,Turmeric,Monsoon,4,5,1,3,260,Kerala Agricultural University Package of Practices
+Pathanamthitta,Groundnut,Post-Monsoon,6,7,10,11,110,Kerala Agricultural University Package of Practices
+Pathanamthitta,Vegetables,Tri-seasonal,9,10,11,1,90,Kerala Agricultural University Package of Practices
+Alappuzha,Rice,Virippu (Autumn),4,5,8,9,120,Kerala Agricultural University Package of Practices
+Alappuzha,Coconut,Annual,5,6,1,12,365,Kerala Agricultural University Package of Practices
+Alappuzha,Banana,Nendran (Onam crop),8,10,6,9,300,Kerala Agricultural University Package of Practices
+Alappuzha,Black pepper,Monsoon Rainfed,5,6,1,3,270,Kerala Agricultural University Package of Practices
+Alappuzha,Rubber,Annual (Perennial),6,7,1,12,365,Kerala Agricultural University Package of Practices
+Alappuzha,Tapioca,Monsoon Main,4,5,12,2,270,Kerala Agricultural University Package of Practices
+Alappuzha,Ginger,Monsoon,4,5,12,2,240,Kerala Agricultural University Package of Practices
+Alappuzha,Turmeric,Monsoon,4,5,1,3,260,Kerala Agricultural University Package of Practices
+Alappuzha,Groundnut,Post-Monsoon,6,7,10,11,110,Kerala Agricultural University Package of Practices
+Alappuzha,Vegetables,Tri-seasonal,9,10,11,1,90,Kerala Agricultural University Package of Practices
+Kottayam,Rice,Virippu (Autumn),4,5,8,9,120,Kerala Agricultural University Package of Practices
+Kottayam,Coconut,Annual,5,6,1,12,365,Kerala Agricultural University Package of Practices
+Kottayam,Banana,Nendran (Onam crop),8,10,6,9,300,Kerala Agricultural University Package of Practices
+Kottayam,Black pepper,Monsoon Rainfed,5,6,1,3,270,Kerala Agricultural University Package of Practices
+Kottayam,Rubber,Annual (Perennial),6,7,1,12,365,Kerala Agricultural University Package of Practices
+Kottayam,Tapioca,Monsoon Main,4,5,12,2,270,Kerala Agricultural University Package of Practices
+Kottayam,Ginger,Monsoon,4,5,12,2,240,Kerala Agricultural University Package of Practices
+Kottayam,Turmeric,Monsoon,4,5,1,3,260,Kerala Agricultural University Package of Practices
+Kottayam,Groundnut,Post-Monsoon,6,7,10,11,110,Kerala Agricultural University Package of Practices
+Kottayam,Vegetables,Tri-seasonal,9,10,11,1,90,Kerala Agricultural University Package of Practices
+Idukki,Rice,Virippu (Autumn),4,5,8,9,120,Kerala Agricultural University Package of Practices
+Idukki,Coconut,Annual,5,6,1,12,365,Kerala Agricultural University Package of Practices
+Idukki,Banana,Nendran (Onam crop),8,10,6,9,300,Kerala Agricultural University Package of Practices
+Idukki,Black pepper,Monsoon Rainfed,5,6,1,3,270,Kerala Agricultural University Package of Practices
+Idukki,Rubber,Annual (Perennial),6,7,1,12,365,Kerala Agricultural University Package of Practices
+Idukki,Tapioca,Monsoon Main,4,5,12,2,270,Kerala Agricultural University Package of Practices
+Idukki,Ginger,Monsoon,4,5,12,2,240,Kerala Agricultural University Package of Practices
+Idukki,Turmeric,Monsoon,4,5,1,3,260,Kerala Agricultural University Package of Practices
+Idukki,Groundnut,Post-Monsoon,6,7,10,11,110,Kerala Agricultural University Package of Practices
+Idukki,Vegetables,Tri-seasonal,9,10,11,1,90,Kerala Agricultural University Package of Practices
+Ernakulam,Rice,Virippu (Autumn),4,5,8,9,120,Kerala Agricultural University Package of Practices
+Ernakulam,Coconut,Annual,5,6,1,12,365,Kerala Agricultural University Package of Practices
+Ernakulam,Banana,Nendran (Onam crop),8,10,6,9,300,Kerala Agricultural University Package of Practices
+Ernakulam,Black pepper,Monsoon Rainfed,5,6,1,3,270,Kerala Agricultural University Package of Practices
+Ernakulam,Rubber,Annual (Perennial),6,7,1,12,365,Kerala Agricultural University Package of Practices
+Ernakulam,Tapioca,Monsoon Main,4,5,12,2,270,Kerala Agricultural University Package of Practices
+Ernakulam,Ginger,Monsoon,4,5,12,2,240,Kerala Agricultural University Package of Practices
+Ernakulam,Turmeric,Monsoon,4,5,1,3,260,Kerala Agricultural University Package of Practices
+Ernakulam,Groundnut,Post-Monsoon,6,7,10,11,110,Kerala Agricultural University Package of Practices
+Ernakulam,Vegetables,Tri-seasonal,9,10,11,1,90,Kerala Agricultural University Package of Practices
+Thrissur,Rice,Virippu (Autumn),4,5,8,9,120,Kerala Agricultural University Package of Practices
+Thrissur,Coconut,Annual,5,6,1,12,365,Kerala Agricultural University Package of Practices
+Thrissur,Banana,Nendran (Onam crop),8,10,6,9,300,Kerala Agricultural University Package of Practices
+Thrissur,Black pepper,Monsoon Rainfed,5,6,1,3,270,Kerala Agricultural University Package of Practices
+Thrissur,Rubber,Annual (Perennial),6,7,1,12,365,Kerala Agricultural University Package of Practices
+Thrissur,Tapioca,Monsoon Main,4,5,12,2,270,Kerala Agricultural University Package of Practices
+Thrissur,Ginger,Monsoon,4,5,12,2,240,Kerala Agricultural University Package of Practices
+Thrissur,Turmeric,Monsoon,4,5,1,3,260,Kerala Agricultural University Package of Practices
+Thrissur,Groundnut,Post-Monsoon,6,7,10,11,110,Kerala Agricultural University Package of Practices
+Thrissur,Vegetables,Tri-seasonal,9,10,11,1,90,Kerala Agricultural University Package of Practices
+Palakkad,Rice,Virippu (Autumn),4,5,8,9,120,Kerala Agricultural University Package of Practices
+Palakkad,Coconut,Annual,5,6,1,12,365,Kerala Agricultural University Package of Practices
+Palakkad,Banana,Nendran (Onam crop),8,10,6,9,300,Kerala Agricultural University Package of Practices
+Palakkad,Black pepper,Monsoon Rainfed,5,6,1,3,270,Kerala Agricultural University Package of Practices
+Palakkad,Rubber,Annual (Perennial),6,7,1,12,365,Kerala Agricultural University Package of Practices
+Palakkad,Tapioca,Monsoon Main,4,5,12,2,270,Kerala Agricultural University Package of Practices
+Palakkad,Ginger,Monsoon,4,5,12,2,240,Kerala Agricultural University Package of Practices
+Palakkad,Turmeric,Monsoon,4,5,1,3,260,Kerala Agricultural University Package of Practices
+Palakkad,Groundnut,Post-Monsoon,6,7,10,11,110,Kerala Agricultural University Package of Practices
+Palakkad,Vegetables,Tri-seasonal,9,10,11,1,90,Kerala Agricultural University Package of Practices
+Malappuram,Rice,Virippu (Autumn),4,5,8,9,120,Kerala Agricultural University Package of Practices
+Malappuram,Coconut,Annual,5,6,1,12,365,Kerala Agricultural University Package of Practices
+Malappuram,Banana,Nendran (Onam crop),8,10,6,9,300,Kerala Agricultural University Package of Practices
+Malappuram,Black pepper,Monsoon Rainfed,5,6,1,3,270,Kerala Agricultural University Package of Practices
+Malappuram,Rubber,Annual (Perennial),6,7,1,12,365,Kerala Agricultural University Package of Practices
+Malappuram,Tapioca,Monsoon Main,4,5,12,2,270,Kerala Agricultural University Package of Practices
+Malappuram,Ginger,Monsoon,4,5,12,2,240,Kerala Agricultural University Package of Practices
+Malappuram,Turmeric,Monsoon,4,5,1,3,260,Kerala Agricultural University Package of Practices
+Malappuram,Groundnut,Post-Monsoon,6,7,10,11,110,Kerala Agricultural University Package of Practices
+Malappuram,Vegetables,Tri-seasonal,9,10,11,1,90,Kerala Agricultural University Package of Practices
+Kozhikode,Rice,Virippu (Autumn),4,5,8,9,120,Kerala Agricultural University Package of Practices
+Kozhikode,Coconut,Annual,5,6,1,12,365,Kerala Agricultural University Package of Practices
+Kozhikode,Banana,Nendran (Onam crop),8,10,6,9,300,Kerala Agricultural University Package of Practices
+Kozhikode,Black pepper,Monsoon Rainfed,5,6,1,3,270,Kerala Agricultural University Package of Practices
+Kozhikode,Rubber,Annual (Perennial),6,7,1,12,365,Kerala Agricultural University Package of Practices
+Kozhikode,Tapioca,Monsoon Main,4,5,12,2,270,Kerala Agricultural University Package of Practices
+Kozhikode,Ginger,Monsoon,4,5,12,2,240,Kerala Agricultural University Package of Practices
+Kozhikode,Turmeric,Monsoon,4,5,1,3,260,Kerala Agricultural University Package of Practices
+Kozhikode,Groundnut,Post-Monsoon,6,7,10,11,110,Kerala Agricultural University Package of Practices
+Kozhikode,Vegetables,Tri-seasonal,9,10,11,1,90,Kerala Agricultural University Package of Practices
+Wayanad,Rice,Virippu (Autumn),4,5,8,9,120,Kerala Agricultural University Package of Practices
+Wayanad,Coconut,Annual,5,6,1,12,365,Kerala Agricultural University Package of Practices
+Wayanad,Banana,Nendran (Onam crop),8,10,6,9,300,Kerala Agricultural University Package of Practices
+Wayanad,Black pepper,Monsoon Rainfed,5,6,1,3,270,Kerala Agricultural University Package of Practices
+Wayanad,Rubber,Annual (Perennial),6,7,1,12,365,Kerala Agricultural University Package of Practices
+Wayanad,Tapioca,Monsoon Main,4,5,12,2,270,Kerala Agricultural University Package of Practices
+Wayanad,Ginger,Monsoon,4,5,12,2,240,Kerala Agricultural University Package of Practices
+Wayanad,Turmeric,Monsoon,4,5,1,3,260,Kerala Agricultural University Package of Practices
+Wayanad,Groundnut,Post-Monsoon,6,7,10,11,110,Kerala Agricultural University Package of Practices
+Wayanad,Vegetables,Tri-seasonal,9,10,11,1,90,Kerala Agricultural University Package of Practices
+Kannur,Rice,Virippu (Autumn),4,5,8,9,120,Kerala Agricultural University Package of Practices
+Kannur,Coconut,Annual,5,6,1,12,365,Kerala Agricultural University Package of Practices
+Kannur,Banana,Nendran (Onam crop),8,10,6,9,300,Kerala Agricultural University Package of Practices
+Kannur,Black pepper,Monsoon Rainfed,5,6,1,3,270,Kerala Agricultural University Package of Practices
+Kannur,Rubber,Annual (Perennial),6,7,1,12,365,Kerala Agricultural University Package of Practices
+Kannur,Tapioca,Monsoon Main,4,5,12,2,270,Kerala Agricultural University Package of Practices
+Kannur,Ginger,Monsoon,4,5,12,2,240,Kerala Agricultural University Package of Practices
+Kannur,Turmeric,Monsoon,4,5,1,3,260,Kerala Agricultural University Package of Practices
+Kannur,Groundnut,Post-Monsoon,6,7,10,11,110,Kerala Agricultural University Package of Practices
+Kannur,Vegetables,Tri-seasonal,9,10,11,1,90,Kerala Agricultural University Package of Practices
+Kasaragod,Rice,Virippu (Autumn),4,5,8,9,120,Kerala Agricultural University Package of Practices
+Kasaragod,Coconut,Annual,5,6,1,12,365,Kerala Agricultural University Package of Practices
+Kasaragod,Banana,Nendran (Onam crop),8,10,6,9,300,Kerala Agricultural University Package of Practices
+Kasaragod,Black pepper,Monsoon Rainfed,5,6,1,3,270,Kerala Agricultural University Package of Practices
+Kasaragod,Rubber,Annual (Perennial),6,7,1,12,365,Kerala Agricultural University Package of Practices
+Kasaragod,Tapioca,Monsoon Main,4,5,12,2,270,Kerala Agricultural University Package of Practices
+Kasaragod,Ginger,Monsoon,4,5,12,2,240,Kerala Agricultural University Package of Practices
+Kasaragod,Turmeric,Monsoon,4,5,1,3,260,Kerala Agricultural University Package of Practices
+Kasaragod,Groundnut,Post-Monsoon,6,7,10,11,110,Kerala Agricultural University Package of Practices
+Kasaragod,Vegetables,Tri-seasonal,9,10,11,1,90,Kerala Agricultural University Package of Practices
