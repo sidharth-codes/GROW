@@ -391,7 +391,7 @@
     "name": "Historical Meteorological Observations",
     "category": "Historical weather",
     "description": "Daily rainfall, temperature min/max, and relative humidity for Kerala districts.",
-    "status": "validation_failed",
+    "status": "ready_for_analysis",
     "source_info": {
       "organization": "NASA Prediction Of Worldwide Energy Resources (POWER)",
       "source_url": "https://power.larc.nasa.gov/",
@@ -403,10 +403,10 @@
       "expected_format": "CSV",
       "license_or_terms": "Open Government Data (OGD) India / Public Educational"
     },
-    "geographic_coverage": "Kerala, India",
-    "geographic_resolution": "District",
-    "observation_period": "Not recorded",
-    "record_count": 0,
+    "geographic_coverage": "Kerala, India (14 districts)",
+    "geographic_resolution": "0.5 x 0.5 degree gridded point reanalysis",
+    "observation_period": "2015-01-01 to 2025-12-31",
+    "record_count": 56252,
     "column_count": 6,
     "columns": [
       {
@@ -475,29 +475,33 @@
       "rainfall_mm": 0,
       "temperature_min_c": 0,
       "temperature_max_c": 0,
-      "humidity_percent": 0
+      "humidity_percent": 0,
+      "latitude": 0,
+      "longitude": 0,
+      "source": 0
     },
-    "last_updated": "2026-10-25T12:47:31.613821",
+    "last_updated": "2026-10-25T12:55:16.572360",
     "raw_path": null,
-    "processed_path": "data/weather.csv",
-    "validation_status": "failed",
+    "processed_path": "data/processed/weather.csv",
+    "validation_status": "passed",
     "validation_summary": {
-      "is_valid": false,
-      "record_count": 0,
-      "column_count": 6,
+      "is_valid": true,
+      "record_count": 56252,
+      "column_count": 9,
       "missing_value_count": 0,
       "duplicate_record_count": 0,
-      "error_count": 1,
-      "warning_count": 0,
-      "errors": [
-        "Dataset has headers but 0 data records."
-      ],
-      "warnings": []
+      "districts_collected": 14,
+      "districts_failed": 0
     },
     "data_quality_limitations": [
       "Gridded satellite-reanalysis estimates (~0.5 deg resolution); not direct ground weather-station observations."
     ],
-    "processing_steps": []
+    "processing_steps": [
+      "Ingested from NASA POWER daily point API (AG community) on 2026-10-25 12:55:16",
+      "Raw responses archived in data/raw/weather/*.json",
+      "Aggregated 56,252 daily observations across 14 Kerala districts",
+      "Verified 0 negative precipitation values, bounded RH to [0, 100]%, and validated temperature ranges"
+    ]
   },
   "crop_yield": {
     "dataset_id": "crop_yield",

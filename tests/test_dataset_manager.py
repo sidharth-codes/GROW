@@ -78,10 +78,22 @@ class TestDatasetManager(unittest.TestCase):
 
     def test_validate_header_only_weather_file(self):
         """Header-only files with 0 data rows should be marked invalid."""
-        res = self.validator.validate_file("data/weather.csv", "weather")
+        header_only_csv = os.path.join(self.temp_dir, "header_only_weather.csv")
+        with open(header_only_csv, "w", encoding="utf-8") as f:
+            f.write("district,date,rainfall_mm,temperature_min_c,temperature_max_c,humidity_percent,latitude,longitude,source\n")
+
+        res = self.validator.validate_file(header_only_csv, "weather")
         self.assertFalse(res.is_valid)
         self.assertEqual(res.record_count, 0)
         self.assertTrue(any("0 data records" in e for e in res.errors))
+
+    def test_validate_real_weather_file(self):
+        """Validate the fully ingested real weather dataset."""
+        res = self.validator.validate_file("data/weather.csv", "weather")
+        self.assertTrue(res.is_valid)
+        self.assertEqual(res.record_count, 56252)
+        self.assertEqual(res.column_count, 9)
+        self.assertEqual(res.missing_value_count, 0)
 
     def test_validate_malformed_csv(self):
         """Malformed CSV with missing required columns and bad types."""
