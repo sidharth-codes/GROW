@@ -1,0 +1,231 @@
+district,soil_type,crop,texture_score,drainage_score,suitability_score
+Thiruvananthapuram,Red soil,Rice,40,20,30.0
+Thiruvananthapuram,Red soil,Coconut,70,100,85.0
+Thiruvananthapuram,Red soil,Banana,80,100,90.0
+Thiruvananthapuram,Red soil,Black pepper,80,100,90.0
+Thiruvananthapuram,Red soil,Rubber,80,100,90.0
+Thiruvananthapuram,Red soil,Tapioca,70,100,85.0
+Thiruvananthapuram,Red soil,Ginger,80,100,90.0
+Thiruvananthapuram,Red soil,Turmeric,80,100,90.0
+Thiruvananthapuram,Red soil,Groundnut,70,100,85.0
+Thiruvananthapuram,Red soil,Vegetables,80,100,90.0
+Thiruvananthapuram,Gravelly laterite,Rice,40,20,30.0
+Thiruvananthapuram,Gravelly laterite,Coconut,40,100,70.0
+Thiruvananthapuram,Gravelly laterite,Banana,40,100,70.0
+Thiruvananthapuram,Gravelly laterite,Black pepper,40,100,70.0
+Thiruvananthapuram,Gravelly laterite,Rubber,40,100,70.0
+Thiruvananthapuram,Gravelly laterite,Tapioca,40,100,70.0
+Thiruvananthapuram,Gravelly laterite,Ginger,40,100,70.0
+Thiruvananthapuram,Gravelly laterite,Turmeric,40,100,70.0
+Thiruvananthapuram,Gravelly laterite,Groundnut,40,100,70.0
+Thiruvananthapuram,Gravelly laterite,Vegetables,40,100,70.0
+Kollam,Onattukara sandy soil,Rice,40,20,30.0
+Kollam,Onattukara sandy soil,Coconut,80,100,90.0
+Kollam,Onattukara sandy soil,Banana,40,100,70.0
+Kollam,Onattukara sandy soil,Black pepper,40,100,70.0
+Kollam,Onattukara sandy soil,Rubber,40,100,70.0
+Kollam,Onattukara sandy soil,Tapioca,80,100,90.0
+Kollam,Onattukara sandy soil,Ginger,40,100,70.0
+Kollam,Onattukara sandy soil,Turmeric,40,100,70.0
+Kollam,Onattukara sandy soil,Groundnut,80,100,90.0
+Kollam,Onattukara sandy soil,Vegetables,40,100,70.0
+Kollam,Coastal sandy soil,Rice,40,20,30.0
+Kollam,Coastal sandy soil,Coconut,80,100,90.0
+Kollam,Coastal sandy soil,Banana,40,100,70.0
+Kollam,Coastal sandy soil,Black pepper,40,100,70.0
+Kollam,Coastal sandy soil,Rubber,40,100,70.0
+Kollam,Coastal sandy soil,Tapioca,80,100,90.0
+Kollam,Coastal sandy soil,Ginger,40,100,70.0
+Kollam,Coastal sandy soil,Turmeric,40,100,70.0
+Kollam,Coastal sandy soil,Groundnut,80,100,90.0
+Kollam,Coastal sandy soil,Vegetables,40,100,70.0
+Alappuzha,Kuttanad soil,Rice,100,100,100.0
+Alappuzha,Kuttanad soil,Coconut,80,20,50.0
+Alappuzha,Kuttanad soil,Banana,40,20,30.0
+Alappuzha,Kuttanad soil,Black pepper,40,20,30.0
+Alappuzha,Kuttanad soil,Rubber,40,20,30.0
+Alappuzha,Kuttanad soil,Tapioca,40,20,30.0
+Alappuzha,Kuttanad soil,Ginger,40,20,30.0
+Alappuzha,Kuttanad soil,Turmeric,40,20,30.0
+Alappuzha,Kuttanad soil,Groundnut,40,20,30.0
+Alappuzha,Kuttanad soil,Vegetables,40,20,30.0
+Alappuzha,Pokkali soil,Rice,100,100,100.0
+Alappuzha,Pokkali soil,Coconut,80,20,50.0
+Alappuzha,Pokkali soil,Banana,40,20,30.0
+Alappuzha,Pokkali soil,Black pepper,40,20,30.0
+Alappuzha,Pokkali soil,Rubber,40,20,30.0
+Alappuzha,Pokkali soil,Tapioca,40,20,30.0
+Alappuzha,Pokkali soil,Ginger,40,20,30.0
+Alappuzha,Pokkali soil,Turmeric,40,20,30.0
+Alappuzha,Pokkali soil,Groundnut,40,20,30.0
+Alappuzha,Pokkali soil,Vegetables,40,20,30.0
+Kottayam,Brown hydromorphic soil,Rice,100,100,100.0
+Kottayam,Brown hydromorphic soil,Coconut,80,20,50.0
+Kottayam,Brown hydromorphic soil,Banana,40,20,30.0
+Kottayam,Brown hydromorphic soil,Black pepper,40,20,30.0
+Kottayam,Brown hydromorphic soil,Rubber,40,20,30.0
+Kottayam,Brown hydromorphic soil,Tapioca,40,20,30.0
+Kottayam,Brown hydromorphic soil,Ginger,40,20,30.0
+Kottayam,Brown hydromorphic soil,Turmeric,40,20,30.0
+Kottayam,Brown hydromorphic soil,Groundnut,40,20,30.0
+Kottayam,Brown hydromorphic soil,Vegetables,40,20,30.0
+Idukki,Forest soil,Rice,100,20,60.0
+Idukki,Forest soil,Coconut,80,100,90.0
+Idukki,Forest soil,Banana,40,100,70.0
+Idukki,Forest soil,Black pepper,40,100,70.0
+Idukki,Forest soil,Rubber,40,100,70.0
+Idukki,Forest soil,Tapioca,40,100,70.0
+Idukki,Forest soil,Ginger,40,100,70.0
+Idukki,Forest soil,Turmeric,40,100,70.0
+Idukki,Forest soil,Groundnut,40,100,70.0
+Idukki,Forest soil,Vegetables,40,100,70.0
+Idukki,Marayoor soil,Rice,40,20,30.0
+Idukki,Marayoor soil,Coconut,80,100,90.0
+Idukki,Marayoor soil,Banana,100,100,100.0
+Idukki,Marayoor soil,Black pepper,100,100,100.0
+Idukki,Marayoor soil,Rubber,100,100,100.0
+Idukki,Marayoor soil,Tapioca,80,100,90.0
+Idukki,Marayoor soil,Ginger,100,100,100.0
+Idukki,Marayoor soil,Turmeric,100,100,100.0
+Idukki,Marayoor soil,Groundnut,80,100,90.0
+Idukki,Marayoor soil,Vegetables,100,100,100.0
+Ernakulam,Pokkali soil,Rice,100,100,100.0
+Ernakulam,Pokkali soil,Coconut,80,20,50.0
+Ernakulam,Pokkali soil,Banana,40,20,30.0
+Ernakulam,Pokkali soil,Black pepper,40,20,30.0
+Ernakulam,Pokkali soil,Rubber,40,20,30.0
+Ernakulam,Pokkali soil,Tapioca,40,20,30.0
+Ernakulam,Pokkali soil,Ginger,40,20,30.0
+Ernakulam,Pokkali soil,Turmeric,40,20,30.0
+Ernakulam,Pokkali soil,Groundnut,40,20,30.0
+Ernakulam,Pokkali soil,Vegetables,40,20,30.0
+Ernakulam,Riverine alluvium,Rice,80,20,50.0
+Ernakulam,Riverine alluvium,Coconut,100,100,100.0
+Ernakulam,Riverine alluvium,Banana,80,100,90.0
+Ernakulam,Riverine alluvium,Black pepper,80,100,90.0
+Ernakulam,Riverine alluvium,Rubber,80,100,90.0
+Ernakulam,Riverine alluvium,Tapioca,80,100,90.0
+Ernakulam,Riverine alluvium,Ginger,80,100,90.0
+Ernakulam,Riverine alluvium,Turmeric,80,100,90.0
+Ernakulam,Riverine alluvium,Groundnut,80,100,90.0
+Ernakulam,Riverine alluvium,Vegetables,80,100,90.0
+Thrissur,Kole soil,Rice,100,100,100.0
+Thrissur,Kole soil,Coconut,80,20,50.0
+Thrissur,Kole soil,Banana,40,20,30.0
+Thrissur,Kole soil,Black pepper,40,20,30.0
+Thrissur,Kole soil,Rubber,40,20,30.0
+Thrissur,Kole soil,Tapioca,40,20,30.0
+Thrissur,Kole soil,Ginger,40,20,30.0
+Thrissur,Kole soil,Turmeric,40,20,30.0
+Thrissur,Kole soil,Groundnut,40,20,30.0
+Thrissur,Kole soil,Vegetables,40,20,30.0
+Thrissur,Riverine alluvium,Rice,80,20,50.0
+Thrissur,Riverine alluvium,Coconut,100,100,100.0
+Thrissur,Riverine alluvium,Banana,80,100,90.0
+Thrissur,Riverine alluvium,Black pepper,80,100,90.0
+Thrissur,Riverine alluvium,Rubber,80,100,90.0
+Thrissur,Riverine alluvium,Tapioca,80,100,90.0
+Thrissur,Riverine alluvium,Ginger,80,100,90.0
+Thrissur,Riverine alluvium,Turmeric,80,100,90.0
+Thrissur,Riverine alluvium,Groundnut,80,100,90.0
+Thrissur,Riverine alluvium,Vegetables,80,100,90.0
+Palakkad,Black soil,Rice,100,50,75.0
+Palakkad,Black soil,Coconut,80,50,65.0
+Palakkad,Black soil,Banana,40,50,45.0
+Palakkad,Black soil,Black pepper,40,50,45.0
+Palakkad,Black soil,Rubber,40,50,45.0
+Palakkad,Black soil,Tapioca,40,50,45.0
+Palakkad,Black soil,Ginger,40,50,45.0
+Palakkad,Black soil,Turmeric,40,50,45.0
+Palakkad,Black soil,Groundnut,40,50,45.0
+Palakkad,Black soil,Vegetables,40,50,45.0
+Palakkad,Red loam soil,Rice,80,20,50.0
+Palakkad,Red loam soil,Coconut,80,100,90.0
+Palakkad,Red loam soil,Banana,80,100,90.0
+Palakkad,Red loam soil,Black pepper,80,100,90.0
+Palakkad,Red loam soil,Rubber,80,100,90.0
+Palakkad,Red loam soil,Tapioca,70,100,85.0
+Palakkad,Red loam soil,Ginger,80,100,90.0
+Palakkad,Red loam soil,Turmeric,80,100,90.0
+Palakkad,Red loam soil,Groundnut,70,100,85.0
+Palakkad,Red loam soil,Vegetables,80,100,90.0
+Palakkad,Poonthalpadam soil,Rice,40,100,70.0
+Palakkad,Poonthalpadam soil,Coconut,40,20,30.0
+Palakkad,Poonthalpadam soil,Banana,40,20,30.0
+Palakkad,Poonthalpadam soil,Black pepper,40,20,30.0
+Palakkad,Poonthalpadam soil,Rubber,40,20,30.0
+Palakkad,Poonthalpadam soil,Tapioca,40,20,30.0
+Palakkad,Poonthalpadam soil,Ginger,40,20,30.0
+Palakkad,Poonthalpadam soil,Turmeric,40,20,30.0
+Palakkad,Poonthalpadam soil,Groundnut,40,20,30.0
+Palakkad,Poonthalpadam soil,Vegetables,40,20,30.0
+Malappuram,Kole soil,Rice,100,100,100.0
+Malappuram,Kole soil,Coconut,80,20,50.0
+Malappuram,Kole soil,Banana,40,20,30.0
+Malappuram,Kole soil,Black pepper,40,20,30.0
+Malappuram,Kole soil,Rubber,40,20,30.0
+Malappuram,Kole soil,Tapioca,40,20,30.0
+Malappuram,Kole soil,Ginger,40,20,30.0
+Malappuram,Kole soil,Turmeric,40,20,30.0
+Malappuram,Kole soil,Groundnut,40,20,30.0
+Malappuram,Kole soil,Vegetables,40,20,30.0
+Malappuram,Gravelly laterite,Rice,40,20,30.0
+Malappuram,Gravelly laterite,Coconut,40,100,70.0
+Malappuram,Gravelly laterite,Banana,40,100,70.0
+Malappuram,Gravelly laterite,Black pepper,40,100,70.0
+Malappuram,Gravelly laterite,Rubber,40,100,70.0
+Malappuram,Gravelly laterite,Tapioca,40,100,70.0
+Malappuram,Gravelly laterite,Ginger,40,100,70.0
+Malappuram,Gravelly laterite,Turmeric,40,100,70.0
+Malappuram,Gravelly laterite,Groundnut,40,100,70.0
+Malappuram,Gravelly laterite,Vegetables,40,100,70.0
+Kozhikode,Gravelly laterite,Rice,40,20,30.0
+Kozhikode,Gravelly laterite,Coconut,40,100,70.0
+Kozhikode,Gravelly laterite,Banana,40,100,70.0
+Kozhikode,Gravelly laterite,Black pepper,40,100,70.0
+Kozhikode,Gravelly laterite,Rubber,40,100,70.0
+Kozhikode,Gravelly laterite,Tapioca,40,100,70.0
+Kozhikode,Gravelly laterite,Ginger,40,100,70.0
+Kozhikode,Gravelly laterite,Turmeric,40,100,70.0
+Kozhikode,Gravelly laterite,Groundnut,40,100,70.0
+Kozhikode,Gravelly laterite,Vegetables,40,100,70.0
+Wayanad,Forest soil,Rice,100,20,60.0
+Wayanad,Forest soil,Coconut,80,100,90.0
+Wayanad,Forest soil,Banana,40,100,70.0
+Wayanad,Forest soil,Black pepper,40,100,70.0
+Wayanad,Forest soil,Rubber,40,100,70.0
+Wayanad,Forest soil,Tapioca,40,100,70.0
+Wayanad,Forest soil,Ginger,40,100,70.0
+Wayanad,Forest soil,Turmeric,40,100,70.0
+Wayanad,Forest soil,Groundnut,40,100,70.0
+Wayanad,Forest soil,Vegetables,40,100,70.0
+Kannur,Kaipad soil,Rice,40,50,45.0
+Kannur,Kaipad soil,Coconut,40,20,30.0
+Kannur,Kaipad soil,Banana,40,20,30.0
+Kannur,Kaipad soil,Black pepper,40,20,30.0
+Kannur,Kaipad soil,Rubber,40,20,30.0
+Kannur,Kaipad soil,Tapioca,40,20,30.0
+Kannur,Kaipad soil,Ginger,40,20,30.0
+Kannur,Kaipad soil,Turmeric,40,20,30.0
+Kannur,Kaipad soil,Groundnut,40,20,30.0
+Kannur,Kaipad soil,Vegetables,40,20,30.0
+Kannur,Gravelly laterite,Rice,40,20,30.0
+Kannur,Gravelly laterite,Coconut,40,100,70.0
+Kannur,Gravelly laterite,Banana,40,100,70.0
+Kannur,Gravelly laterite,Black pepper,40,100,70.0
+Kannur,Gravelly laterite,Rubber,40,100,70.0
+Kannur,Gravelly laterite,Tapioca,40,100,70.0
+Kannur,Gravelly laterite,Ginger,40,100,70.0
+Kannur,Gravelly laterite,Turmeric,40,100,70.0
+Kannur,Gravelly laterite,Groundnut,40,100,70.0
+Kannur,Gravelly laterite,Vegetables,40,100,70.0
+Kasaragod,Gravelly laterite,Rice,40,20,30.0
+Kasaragod,Gravelly laterite,Coconut,40,100,70.0
+Kasaragod,Gravelly laterite,Banana,40,100,70.0
+Kasaragod,Gravelly laterite,Black pepper,40,100,70.0
+Kasaragod,Gravelly laterite,Rubber,40,100,70.0
+Kasaragod,Gravelly laterite,Tapioca,40,100,70.0
+Kasaragod,Gravelly laterite,Ginger,40,100,70.0
+Kasaragod,Gravelly laterite,Turmeric,40,100,70.0
+Kasaragod,Gravelly laterite,Groundnut,40,100,70.0
+Kasaragod,Gravelly laterite,Vegetables,40,100,70.0

@@ -1,0 +1,24 @@
+district,soil_type,soil_texture,drainage,soil_depth,ph_category,organic_matter_category,fertility_category
+Thiruvananthapuram,Red soil,Red loam,Well drained,Deep,Slightly acidic to neutral,Low,Low
+Thiruvananthapuram,Gravelly laterite,Gravelly,Well drained,Deep,Strongly acidic,Low,Low
+Kollam,Onattukara sandy soil,Sandy,Well drained,Very deep,Strongly acidic,Moderate,Low
+Kollam,Coastal sandy soil,Sandy,Well drained,Very deep,Strongly acidic,Low,Low
+Alappuzha,Kuttanad soil,Clay,Poorly drained,Deep,Strongly acidic,High,High
+Alappuzha,Pokkali soil,Clay,Poorly drained,Deep,Acidic,High,High
+Kottayam,Brown hydromorphic soil,Clay,Poorly drained,Very deep,Strongly acidic,Moderate,Medium
+Idukki,Forest soil,Clay,Well drained,Deep,Strongly acidic,High,Medium
+Idukki,Marayoor soil,Loam,Well drained,Moderately deep to deep,Near neutral,High,High
+Ernakulam,Pokkali soil,Clay,Poorly drained,Deep,Acidic-saline,High,High
+Ernakulam,Riverine alluvium,Sandy loam to clay loam,Well drained,Very deep,Acidic,Medium,Medium
+Thrissur,Kole soil,Clay,Poorly drained,Deep,Strongly acidic,High,High
+Thrissur,Riverine alluvium,Sandy loam to clay loam,Well drained,Very deep,Acidic,Medium,Medium
+Palakkad,Black soil,Clay,Moderately drained,Deep to very deep,Alkaline,Medium,High
+Palakkad,Red loam soil,Loam to clay,Well drained,Deep,Near neutral,High,High
+Palakkad,Poonthalpadam soil,Slushy,Poorly drained,Deep,Not specified,High,High
+Malappuram,Kole soil,Clay,Poorly drained,Deep,Strongly acidic,High,High
+Malappuram,Gravelly laterite,Gravelly,Well drained,Deep,Strongly acidic,Low,Low
+Kozhikode,Gravelly laterite,Gravelly,Well drained,Deep,Strongly acidic,Low,Low
+Wayanad,Forest soil,Clay,Well drained,Deep,Strongly acidic,High,Medium
+Kannur,Kaipad soil,Hydromorphic,Very poorly drained,Deep,Very strongly acidic,High,Medium
+Kannur,Gravelly laterite,Gravelly,Well drained,Deep,Strongly acidic,Low,Low
+Kasaragod,Gravelly laterite,Gravelly,Well drained,Deep,Strongly acidic,Low,Low

@@ -1,0 +1,20 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Node
+node_modules/
+dist/
+build/
+.npm/
+
+# Backups and temporary files
+data_backup/
+*.tmp
+*.log
+.DS_Store
+Thumbs.db

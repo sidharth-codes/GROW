@@ -1,0 +1,231 @@
+district,soil_type,crop,texture_score,drainage_score,estimated_ph_score,suitability_score,ph_status,score_method
+Thiruvananthapuram,Red soil,Rice,40,40,66.67,48.89,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Thiruvananthapuram,Red soil,Coconut,70,100,100.0,90.0,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Thiruvananthapuram,Red soil,Banana,100,100,100.0,100.0,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Thiruvananthapuram,Red soil,Black pepper,100,100,66.67,88.89,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Thiruvananthapuram,Red soil,Rubber,100,100,33.33,77.78,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Thiruvananthapuram,Red soil,Tapioca,70,100,100.0,90.0,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Thiruvananthapuram,Red soil,Ginger,100,100,66.67,88.89,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Thiruvananthapuram,Red soil,Turmeric,100,100,100.0,100.0,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Thiruvananthapuram,Red soil,Groundnut,70,100,100.0,90.0,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Thiruvananthapuram,Red soil,Vegetables,100,100,100.0,100.0,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Thiruvananthapuram,Gravelly laterite,Rice,40,40,0.0,26.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Thiruvananthapuram,Gravelly laterite,Coconut,40,100,0.0,46.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Thiruvananthapuram,Gravelly laterite,Banana,40,100,0.0,46.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Thiruvananthapuram,Gravelly laterite,Black pepper,40,100,0.0,46.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Thiruvananthapuram,Gravelly laterite,Rubber,40,100,50.0,63.33,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Thiruvananthapuram,Gravelly laterite,Tapioca,40,100,0.0,46.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Thiruvananthapuram,Gravelly laterite,Ginger,40,100,0.0,46.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Thiruvananthapuram,Gravelly laterite,Turmeric,40,100,0.0,46.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Thiruvananthapuram,Gravelly laterite,Groundnut,40,100,0.0,46.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Thiruvananthapuram,Gravelly laterite,Vegetables,40,100,0.0,46.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Kollam,Onattukara sandy soil,Rice,40,40,0.0,26.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Kollam,Onattukara sandy soil,Coconut,100,100,0.0,66.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Kollam,Onattukara sandy soil,Banana,40,100,0.0,46.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Kollam,Onattukara sandy soil,Black pepper,40,100,0.0,46.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Kollam,Onattukara sandy soil,Rubber,40,100,50.0,63.33,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Kollam,Onattukara sandy soil,Tapioca,100,100,0.0,66.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Kollam,Onattukara sandy soil,Ginger,40,100,0.0,46.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Kollam,Onattukara sandy soil,Turmeric,40,100,0.0,46.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Kollam,Onattukara sandy soil,Groundnut,100,100,0.0,66.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Kollam,Onattukara sandy soil,Vegetables,40,100,0.0,46.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Kollam,Coastal sandy soil,Rice,40,40,0.0,26.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Kollam,Coastal sandy soil,Coconut,100,100,0.0,66.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Kollam,Coastal sandy soil,Banana,40,100,0.0,46.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Kollam,Coastal sandy soil,Black pepper,40,100,0.0,46.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Kollam,Coastal sandy soil,Rubber,40,100,50.0,63.33,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Kollam,Coastal sandy soil,Tapioca,100,100,0.0,66.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Kollam,Coastal sandy soil,Ginger,40,100,0.0,46.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Kollam,Coastal sandy soil,Turmeric,40,100,0.0,46.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Kollam,Coastal sandy soil,Groundnut,100,100,0.0,66.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Kollam,Coastal sandy soil,Vegetables,40,100,0.0,46.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Alappuzha,Kuttanad soil,Rice,100,100,0.0,66.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Alappuzha,Kuttanad soil,Coconut,100,40,0.0,46.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Alappuzha,Kuttanad soil,Banana,40,40,0.0,26.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Alappuzha,Kuttanad soil,Black pepper,40,40,0.0,26.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Alappuzha,Kuttanad soil,Rubber,40,40,50.0,43.33,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Alappuzha,Kuttanad soil,Tapioca,40,40,0.0,26.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Alappuzha,Kuttanad soil,Ginger,40,40,0.0,26.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Alappuzha,Kuttanad soil,Turmeric,40,40,0.0,26.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Alappuzha,Kuttanad soil,Groundnut,40,40,0.0,26.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Alappuzha,Kuttanad soil,Vegetables,40,40,0.0,26.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Alappuzha,Pokkali soil,Rice,100,100,,100.0,Unknown soil pH category,Texture + drainage only; pH unavailable
+Alappuzha,Pokkali soil,Coconut,100,40,,70.0,Unknown soil pH category,Texture + drainage only; pH unavailable
+Alappuzha,Pokkali soil,Banana,40,40,,40.0,Unknown soil pH category,Texture + drainage only; pH unavailable
+Alappuzha,Pokkali soil,Black pepper,40,40,,40.0,Unknown soil pH category,Texture + drainage only; pH unavailable
+Alappuzha,Pokkali soil,Rubber,40,40,,40.0,Unknown soil pH category,Texture + drainage only; pH unavailable
+Alappuzha,Pokkali soil,Tapioca,40,40,,40.0,Unknown soil pH category,Texture + drainage only; pH unavailable
+Alappuzha,Pokkali soil,Ginger,40,40,,40.0,Unknown soil pH category,Texture + drainage only; pH unavailable
+Alappuzha,Pokkali soil,Turmeric,40,40,,40.0,Unknown soil pH category,Texture + drainage only; pH unavailable
+Alappuzha,Pokkali soil,Groundnut,40,40,,40.0,Unknown soil pH category,Texture + drainage only; pH unavailable
+Alappuzha,Pokkali soil,Vegetables,40,40,,40.0,Unknown soil pH category,Texture + drainage only; pH unavailable
+Kottayam,Brown hydromorphic soil,Rice,100,100,0.0,66.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Kottayam,Brown hydromorphic soil,Coconut,100,40,0.0,46.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Kottayam,Brown hydromorphic soil,Banana,40,40,0.0,26.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Kottayam,Brown hydromorphic soil,Black pepper,40,40,0.0,26.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Kottayam,Brown hydromorphic soil,Rubber,40,40,50.0,43.33,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Kottayam,Brown hydromorphic soil,Tapioca,40,40,0.0,26.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Kottayam,Brown hydromorphic soil,Ginger,40,40,0.0,26.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Kottayam,Brown hydromorphic soil,Turmeric,40,40,0.0,26.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Kottayam,Brown hydromorphic soil,Groundnut,40,40,0.0,26.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Kottayam,Brown hydromorphic soil,Vegetables,40,40,0.0,26.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Idukki,Forest soil,Rice,100,40,0.0,46.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Idukki,Forest soil,Coconut,100,100,0.0,66.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Idukki,Forest soil,Banana,40,100,0.0,46.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Idukki,Forest soil,Black pepper,40,100,0.0,46.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Idukki,Forest soil,Rubber,40,100,50.0,63.33,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Idukki,Forest soil,Tapioca,40,100,0.0,46.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Idukki,Forest soil,Ginger,40,100,0.0,46.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Idukki,Forest soil,Turmeric,40,100,0.0,46.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Idukki,Forest soil,Groundnut,40,100,0.0,46.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Idukki,Forest soil,Vegetables,40,100,0.0,46.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Idukki,Marayoor soil,Rice,40,40,33.33,37.78,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Idukki,Marayoor soil,Coconut,100,100,100.0,100.0,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Idukki,Marayoor soil,Banana,100,100,66.67,88.89,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Idukki,Marayoor soil,Black pepper,100,100,33.33,77.78,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Idukki,Marayoor soil,Rubber,100,100,0.0,66.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Idukki,Marayoor soil,Tapioca,100,100,66.67,88.89,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Idukki,Marayoor soil,Ginger,100,100,33.33,77.78,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Idukki,Marayoor soil,Turmeric,100,100,100.0,100.0,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Idukki,Marayoor soil,Groundnut,100,100,66.67,88.89,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Idukki,Marayoor soil,Vegetables,100,100,66.67,88.89,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Ernakulam,Pokkali soil,Rice,100,100,,100.0,Unknown soil pH category,Texture + drainage only; pH unavailable
+Ernakulam,Pokkali soil,Coconut,100,40,,70.0,Unknown soil pH category,Texture + drainage only; pH unavailable
+Ernakulam,Pokkali soil,Banana,40,40,,40.0,Unknown soil pH category,Texture + drainage only; pH unavailable
+Ernakulam,Pokkali soil,Black pepper,40,40,,40.0,Unknown soil pH category,Texture + drainage only; pH unavailable
+Ernakulam,Pokkali soil,Rubber,40,40,,40.0,Unknown soil pH category,Texture + drainage only; pH unavailable
+Ernakulam,Pokkali soil,Tapioca,40,40,,40.0,Unknown soil pH category,Texture + drainage only; pH unavailable
+Ernakulam,Pokkali soil,Ginger,40,40,,40.0,Unknown soil pH category,Texture + drainage only; pH unavailable
+Ernakulam,Pokkali soil,Turmeric,40,40,,40.0,Unknown soil pH category,Texture + drainage only; pH unavailable
+Ernakulam,Pokkali soil,Groundnut,40,40,,40.0,Unknown soil pH category,Texture + drainage only; pH unavailable
+Ernakulam,Pokkali soil,Vegetables,40,40,,40.0,Unknown soil pH category,Texture + drainage only; pH unavailable
+Ernakulam,Riverine alluvium,Rice,100,40,,70.0,Unknown soil pH category,Texture + drainage only; pH unavailable
+Ernakulam,Riverine alluvium,Coconut,100,100,,100.0,Unknown soil pH category,Texture + drainage only; pH unavailable
+Ernakulam,Riverine alluvium,Banana,100,100,,100.0,Unknown soil pH category,Texture + drainage only; pH unavailable
+Ernakulam,Riverine alluvium,Black pepper,100,100,,100.0,Unknown soil pH category,Texture + drainage only; pH unavailable
+Ernakulam,Riverine alluvium,Rubber,100,100,,100.0,Unknown soil pH category,Texture + drainage only; pH unavailable
+Ernakulam,Riverine alluvium,Tapioca,100,100,,100.0,Unknown soil pH category,Texture + drainage only; pH unavailable
+Ernakulam,Riverine alluvium,Ginger,100,100,,100.0,Unknown soil pH category,Texture + drainage only; pH unavailable
+Ernakulam,Riverine alluvium,Turmeric,100,100,,100.0,Unknown soil pH category,Texture + drainage only; pH unavailable
+Ernakulam,Riverine alluvium,Groundnut,100,100,,100.0,Unknown soil pH category,Texture + drainage only; pH unavailable
+Ernakulam,Riverine alluvium,Vegetables,100,100,,100.0,Unknown soil pH category,Texture + drainage only; pH unavailable
+Thrissur,Kole soil,Rice,100,100,0.0,66.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Thrissur,Kole soil,Coconut,100,40,0.0,46.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Thrissur,Kole soil,Banana,40,40,0.0,26.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Thrissur,Kole soil,Black pepper,40,40,0.0,26.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Thrissur,Kole soil,Rubber,40,40,50.0,43.33,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Thrissur,Kole soil,Tapioca,40,40,0.0,26.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Thrissur,Kole soil,Ginger,40,40,0.0,26.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Thrissur,Kole soil,Turmeric,40,40,0.0,26.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Thrissur,Kole soil,Groundnut,40,40,0.0,26.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Thrissur,Kole soil,Vegetables,40,40,0.0,26.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Thrissur,Riverine alluvium,Rice,100,40,,70.0,Unknown soil pH category,Texture + drainage only; pH unavailable
+Thrissur,Riverine alluvium,Coconut,100,100,,100.0,Unknown soil pH category,Texture + drainage only; pH unavailable
+Thrissur,Riverine alluvium,Banana,100,100,,100.0,Unknown soil pH category,Texture + drainage only; pH unavailable
+Thrissur,Riverine alluvium,Black pepper,100,100,,100.0,Unknown soil pH category,Texture + drainage only; pH unavailable
+Thrissur,Riverine alluvium,Rubber,100,100,,100.0,Unknown soil pH category,Texture + drainage only; pH unavailable
+Thrissur,Riverine alluvium,Tapioca,100,100,,100.0,Unknown soil pH category,Texture + drainage only; pH unavailable
+Thrissur,Riverine alluvium,Ginger,100,100,,100.0,Unknown soil pH category,Texture + drainage only; pH unavailable
+Thrissur,Riverine alluvium,Turmeric,100,100,,100.0,Unknown soil pH category,Texture + drainage only; pH unavailable
+Thrissur,Riverine alluvium,Groundnut,100,100,,100.0,Unknown soil pH category,Texture + drainage only; pH unavailable
+Thrissur,Riverine alluvium,Vegetables,100,100,,100.0,Unknown soil pH category,Texture + drainage only; pH unavailable
+Palakkad,Black soil,Rice,100,40,0.0,46.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Palakkad,Black soil,Coconut,100,40,50.0,63.33,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Palakkad,Black soil,Banana,40,40,0.0,26.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Palakkad,Black soil,Black pepper,40,40,0.0,26.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Palakkad,Black soil,Rubber,40,40,0.0,26.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Palakkad,Black soil,Tapioca,40,40,0.0,26.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Palakkad,Black soil,Ginger,40,40,0.0,26.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Palakkad,Black soil,Turmeric,40,40,0.0,26.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Palakkad,Black soil,Groundnut,40,40,0.0,26.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Palakkad,Black soil,Vegetables,40,40,0.0,26.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Palakkad,Red loam soil,Rice,100,40,33.33,57.78,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Palakkad,Red loam soil,Coconut,100,100,100.0,100.0,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Palakkad,Red loam soil,Banana,100,100,66.67,88.89,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Palakkad,Red loam soil,Black pepper,100,100,33.33,77.78,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Palakkad,Red loam soil,Rubber,100,100,0.0,66.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Palakkad,Red loam soil,Tapioca,70,100,66.67,78.89,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Palakkad,Red loam soil,Ginger,100,100,33.33,77.78,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Palakkad,Red loam soil,Turmeric,100,100,100.0,100.0,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Palakkad,Red loam soil,Groundnut,70,100,66.67,78.89,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Palakkad,Red loam soil,Vegetables,100,100,66.67,88.89,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Palakkad,Poonthalpadam soil,Rice,40,100,,70.0,Unknown soil pH category,Texture + drainage only; pH unavailable
+Palakkad,Poonthalpadam soil,Coconut,40,40,,40.0,Unknown soil pH category,Texture + drainage only; pH unavailable
+Palakkad,Poonthalpadam soil,Banana,40,40,,40.0,Unknown soil pH category,Texture + drainage only; pH unavailable
+Palakkad,Poonthalpadam soil,Black pepper,40,40,,40.0,Unknown soil pH category,Texture + drainage only; pH unavailable
+Palakkad,Poonthalpadam soil,Rubber,40,40,,40.0,Unknown soil pH category,Texture + drainage only; pH unavailable
+Palakkad,Poonthalpadam soil,Tapioca,40,40,,40.0,Unknown soil pH category,Texture + drainage only; pH unavailable
+Palakkad,Poonthalpadam soil,Ginger,40,40,,40.0,Unknown soil pH category,Texture + drainage only; pH unavailable
+Palakkad,Poonthalpadam soil,Turmeric,40,40,,40.0,Unknown soil pH category,Texture + drainage only; pH unavailable
+Palakkad,Poonthalpadam soil,Groundnut,40,40,,40.0,Unknown soil pH category,Texture + drainage only; pH unavailable
+Palakkad,Poonthalpadam soil,Vegetables,40,40,,40.0,Unknown soil pH category,Texture + drainage only; pH unavailable
+Malappuram,Kole soil,Rice,100,100,0.0,66.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Malappuram,Kole soil,Coconut,100,40,0.0,46.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Malappuram,Kole soil,Banana,40,40,0.0,26.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Malappuram,Kole soil,Black pepper,40,40,0.0,26.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Malappuram,Kole soil,Rubber,40,40,50.0,43.33,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Malappuram,Kole soil,Tapioca,40,40,0.0,26.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Malappuram,Kole soil,Ginger,40,40,0.0,26.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Malappuram,Kole soil,Turmeric,40,40,0.0,26.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Malappuram,Kole soil,Groundnut,40,40,0.0,26.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Malappuram,Kole soil,Vegetables,40,40,0.0,26.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Malappuram,Gravelly laterite,Rice,40,40,0.0,26.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Malappuram,Gravelly laterite,Coconut,40,100,0.0,46.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Malappuram,Gravelly laterite,Banana,40,100,0.0,46.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Malappuram,Gravelly laterite,Black pepper,40,100,0.0,46.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Malappuram,Gravelly laterite,Rubber,40,100,50.0,63.33,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Malappuram,Gravelly laterite,Tapioca,40,100,0.0,46.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Malappuram,Gravelly laterite,Ginger,40,100,0.0,46.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Malappuram,Gravelly laterite,Turmeric,40,100,0.0,46.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Malappuram,Gravelly laterite,Groundnut,40,100,0.0,46.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Malappuram,Gravelly laterite,Vegetables,40,100,0.0,46.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Kozhikode,Gravelly laterite,Rice,40,40,0.0,26.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Kozhikode,Gravelly laterite,Coconut,40,100,0.0,46.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Kozhikode,Gravelly laterite,Banana,40,100,0.0,46.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Kozhikode,Gravelly laterite,Black pepper,40,100,0.0,46.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Kozhikode,Gravelly laterite,Rubber,40,100,50.0,63.33,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Kozhikode,Gravelly laterite,Tapioca,40,100,0.0,46.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Kozhikode,Gravelly laterite,Ginger,40,100,0.0,46.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Kozhikode,Gravelly laterite,Turmeric,40,100,0.0,46.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Kozhikode,Gravelly laterite,Groundnut,40,100,0.0,46.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Kozhikode,Gravelly laterite,Vegetables,40,100,0.0,46.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Wayanad,Forest soil,Rice,100,40,0.0,46.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Wayanad,Forest soil,Coconut,100,100,0.0,66.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Wayanad,Forest soil,Banana,40,100,0.0,46.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Wayanad,Forest soil,Black pepper,40,100,0.0,46.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Wayanad,Forest soil,Rubber,40,100,50.0,63.33,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Wayanad,Forest soil,Tapioca,40,100,0.0,46.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Wayanad,Forest soil,Ginger,40,100,0.0,46.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Wayanad,Forest soil,Turmeric,40,100,0.0,46.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Wayanad,Forest soil,Groundnut,40,100,0.0,46.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Wayanad,Forest soil,Vegetables,40,100,0.0,46.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Kannur,Kaipad soil,Rice,40,40,0.0,26.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Kannur,Kaipad soil,Coconut,40,40,0.0,26.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Kannur,Kaipad soil,Banana,40,40,0.0,26.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Kannur,Kaipad soil,Black pepper,40,40,0.0,26.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Kannur,Kaipad soil,Rubber,40,40,0.0,26.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Kannur,Kaipad soil,Tapioca,40,40,0.0,26.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Kannur,Kaipad soil,Ginger,40,40,0.0,26.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Kannur,Kaipad soil,Turmeric,40,40,0.0,26.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Kannur,Kaipad soil,Groundnut,40,40,0.0,26.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Kannur,Kaipad soil,Vegetables,40,40,0.0,26.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Kannur,Gravelly laterite,Rice,40,40,0.0,26.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Kannur,Gravelly laterite,Coconut,40,100,0.0,46.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Kannur,Gravelly laterite,Banana,40,100,0.0,46.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Kannur,Gravelly laterite,Black pepper,40,100,0.0,46.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Kannur,Gravelly laterite,Rubber,40,100,50.0,63.33,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Kannur,Gravelly laterite,Tapioca,40,100,0.0,46.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Kannur,Gravelly laterite,Ginger,40,100,0.0,46.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Kannur,Gravelly laterite,Turmeric,40,100,0.0,46.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Kannur,Gravelly laterite,Groundnut,40,100,0.0,46.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Kannur,Gravelly laterite,Vegetables,40,100,0.0,46.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Kasaragod,Gravelly laterite,Rice,40,40,0.0,26.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Kasaragod,Gravelly laterite,Coconut,40,100,0.0,46.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Kasaragod,Gravelly laterite,Banana,40,100,0.0,46.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Kasaragod,Gravelly laterite,Black pepper,40,100,0.0,46.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Kasaragod,Gravelly laterite,Rubber,40,100,50.0,63.33,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Kasaragod,Gravelly laterite,Tapioca,40,100,0.0,46.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Kasaragod,Gravelly laterite,Ginger,40,100,0.0,46.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Kasaragod,Gravelly laterite,Turmeric,40,100,0.0,46.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Kasaragod,Gravelly laterite,Groundnut,40,100,0.0,46.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
+Kasaragod,Gravelly laterite,Vegetables,40,100,0.0,46.67,Estimated from qualitative pH category,Equal-weight heuristic; pH estimated
