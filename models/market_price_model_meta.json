@@ -1,0 +1,19 @@
+{
+  "task": "market_price_forecasting",
+  "status": "deferred_insufficient_data",
+  "data_available": false,
+  "record_count": 0,
+  "reason": "market_prices.csv does not exist or is empty.",
+  "threshold_records": 500,
+  "threshold_months": 24,
+  "planned_validation": "walk_forward_expanding_window",
+  "planned_baseline": "seasonal_naive_lag12",
+  "planned_models": [
+    "Ridge",
+    "GradientBoostedTrees"
+  ],
+  "error_unit": "INR/quintal",
+  "data_source_url": "https://agmarknet.gov.in/PriceTrends/SA_Pri_Month.aspx",
+  "upload_path": "data/raw/market_prices/",
+  "template_path": "data/raw/market_prices/market_prices_template.csv"
+}
