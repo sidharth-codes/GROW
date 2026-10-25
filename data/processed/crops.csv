@@ -1,0 +1,11 @@
+crop,preferred_soil_texture,preferred_drainage,preferred_ph_range,water_requirement,growing_season
+Rice,Clay,Poorly drained,5.0-6.5,High,Monsoon
+Coconut,Sandy loam to clay loam,Well drained,5.0-8.0,Medium,Year round
+Banana,Loam,Well drained,5.5-7.0,High,Year round
+Black pepper,Loam,Well drained,5.0-6.5,Medium,Monsoon
+Rubber,Loam,Well drained,4.5-6.0,High,Monsoon
+Tapioca,Sandy loam,Well drained,5.0-7.0,Medium,Monsoon
+Ginger,Loam,Well drained,5.5-6.5,Medium,Monsoon
+Turmeric,Loam,Well drained,5.0-7.5,Medium,Monsoon
+Groundnut,Sandy loam,Well drained,5.5-7.0,Low,Post-monsoon
+Vegetables,Loam,Well drained,5.5-7.0,Medium,Season dependent
